@@ -637,6 +637,19 @@
       "changes": "기관 공식 웹용 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "검은 그림자를 감싼 밝은 고리 위로 굽은 선"
+    },
+    {
+      "file": "https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014146/BH_accretion_disk_viz_desktop_print.jpg",
+      "kind": "illustration",
+      "caption": "NASA의 블랙홀 시뮬레이션이에요. 강한 중력이 빛의 길을 휘게 해서, 뒤쪽의 뜨거운 가스 원반도 위아래로 보일 수 있어요. 원리를 보여 주는 일반 모형이에요.",
+      "credit": "NASA's Goddard Space Flight Center/Jeremy Schnittman",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/14146/",
+      "originalUrl": "https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014146/BH_accretion_disk_viz_desktop.png",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "NASA가 제공하는 1024×576 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "검은 그림자 위아래로 휘어 보이는 주황빛 가스 원반의 시뮬레이션"
     }
   ],
   "m87-star": [
@@ -652,6 +665,19 @@
       "changes": "기관 공식 웹용 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "검은 그림자 둘레에서 한쪽이 더 밝은 고리 위에 겹친 굽은 선"
+    },
+    {
+      "file": "https://cdn.eso.org/images/screen/eso1907c.jpg",
+      "kind": "illustration",
+      "caption": "M87* 주변의 뜨거운 물질과 멀리 뻗는 제트를 그린 유럽남방천문대 상상도예요.",
+      "credit": "ESO/M. Kornmesser",
+      "sourceUrl": "https://www.eso.org/public/images/eso1907c/",
+      "originalUrl": "https://cdn.eso.org/images/original/eso1907c.tif",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "유럽남방천문대가 제공하는 웹용 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "M87* 주변에서 밝게 빛나는 가스 원반과 멀리 뻗는 제트의 상상도"
     }
   ],
   "orion-nebula": [
