@@ -57,6 +57,19 @@
       "changes": "NASA가 제공한 1024px JPEG 사용",
       "checkedAt": "2026-11-15",
       "alt": "어두운 대륙과 해안 곳곳에 반짝이는 도시 불빛"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/09/1102_h2_1.jpg",
+      "kind": "photo",
+      "caption": "루나 오비터 1호가 달 가까이서 본 지구",
+      "credit": "NASA",
+      "sourceUrl": "https://science.nasa.gov/resource/earthrise/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/09/1102_h2_1.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "왼쪽의 회색 달 지평선과 오른쪽의 밝은 지구"
     }
   ],
   "mars": [
@@ -72,6 +85,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "화성 표면을 길게 가로지르는 서로 이어진 골짜기"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00300/PIA00300.jpg",
+      "kind": "processed",
+      "caption": "바이킹 1호가 촬영한 올림푸스산 · 사진 합성",
+      "credit": "NASA/JPL/USGS",
+      "sourceUrl": "https://science.nasa.gov/photojournal/olympus-mons/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00300/PIA00300.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "커다란 화산 정상의 움푹 팬 곳과 주변으로 퍼진 줄무늬 지형"
     }
   ],
   "jupiter": [
@@ -87,6 +113,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "붉은 타원형 폭풍 주위로 소용돌이치는 목성 구름"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21641/PIA21641.jpg",
+      "kind": "processed",
+      "caption": "주노가 관측한 목성 남극의 폭풍 · 여러 장을 합치고 색을 강조했어요",
+      "credit": "Enhanced image by Betsy Asher Hall and Gervasio Robles based on images provided courtesy of NASA/JPL-Caltech/SwRI/MSSS",
+      "sourceUrl": "https://science.nasa.gov/photojournal/southern-storms-2/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21641/PIA21641.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "목성의 파란 남극 주변에 흩어진 타원 모양의 소용돌이"
     }
   ],
   "saturn": [
@@ -102,6 +141,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "밝은 띠 사이에 좁고 어두운 틈이 여러 개 보이는 토성 고리"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia14/pia14646/PIA14646.jpg",
+      "kind": "photo",
+      "caption": "카시니가 근적외선으로 촬영한 토성 북극의 육각형과 고리",
+      "credit": "NASA/JPL-Caltech/Space Science Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/hexagon-and-rings/",
+      "originalUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia14/pia14646/PIA14646.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "토성 북극을 둘러싼 육각형 구름 띠와 바깥쪽 고리"
     }
   ],
   "uranus": [
@@ -162,6 +214,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "평평한 지형 옆으로 울퉁불퉁하게 솟아 있는 산들"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia19/pia19964/jpeg/PIA19964.jpg",
+      "kind": "processed",
+      "caption": "뉴호라이즌스가 관측한 명왕성의 푸른 안개층 · 가시광선과 근적외선 자료 합성",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/plutos-blue-sky/",
+      "originalUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia19/pia19964/jpeg/PIA19964.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "검은 명왕성 가장자리를 얇고 파랗게 둘러싼 안개층"
     }
   ],
   "haumea": [
@@ -177,6 +242,18 @@
       "changes": "파일 제공처의 960px 크기 조정본 사용",
       "checkedAt": "2026-11-15",
       "alt": "옆으로 길쭉한 하우메아와 그 둘레의 얇은 고리"
+    },
+    {
+      "file": "assets/objects/haumea-ai.webp",
+      "kind": "ai-illustration",
+      "caption": "AI 상상도 · 관측을 바탕으로 길쭉한 몸과 얇은 고리를 그렸어요. 표면의 세부 모습은 상상한 것이에요.",
+      "credit": "OpenAI ImageGen · 우주 아틀라스",
+      "license": "우주 아틀라스용 AI 생성 이미지",
+      "changes": "크기 조정 및 WebP 변환",
+      "checkedAt": "2026-11-15",
+      "alt": "길쭉하고 밝은 하우메아의 가운데를 감싸는 얇은 고리를 그린 AI 상상도",
+      "generator": "OpenAI ImageGen",
+      "generationPrompt": "Create a single wide 3:2 scientific artist's impression for a children's astronomy atlas of the dwarf planet Haumea. One elongated triaxial ellipsoid with rounded ends, bright neutral pale icy surface with extremely subtle low-contrast texture only, and a single thin faint gray ring centered around its equator. Show the equatorial ring tilted so its elliptical projection and narrowness are easy to see. Dark nearly black background, soft sunlight, ample margin on all sides. No additional bodies, no atmosphere, no manufactured structures, no labels, no text. The exact surface appearance is unknown; this is a restrained interpretation, not a simulation or photograph."
     }
   ],
   "makemake": [
@@ -222,6 +299,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "달 표면의 회색 지평선 너머로 떠오르는 파란 지구"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/l/lro_farside.jpg",
+      "kind": "processed",
+      "caption": "달 정찰 궤도선 관측으로 만든 달 뒷면 사진",
+      "credit": "NASA/Goddard Space Flight Center/Arizona State University",
+      "sourceUrl": "https://science.nasa.gov/resource/lunar-far-side/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/l/lro_farside.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "달 뒷면을 빼곡히 덮고 있는 둥근 충돌구들"
     }
   ],
   "phobos": [
@@ -267,6 +357,19 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "밝은 얼음 표면에서 교차하는 긴 띠"
+    },
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia25/pia25330/PIA25330.jpg",
+      "kind": "processed",
+      "caption": "주노가 가까이서 촬영한 유로파 얼음 지형 · 전체 사진에서 일부를 잘라 보여 줘요",
+      "credit": "NASA/JPL-Caltech/SWRI/MSSS",
+      "sourceUrl": "https://science.nasa.gov/photojournal/first-image-of-europa-from-junos-close-flyby/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia25/pia25330/PIA25330.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관이 제공한 파일 사용 · 앱에서 추가 편집 없음",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 곳과 어두운 곳의 경계에 굽어진 능선과 골짜기가 보이는 유로파 얼음 지형"
     }
   ],
   "titan": [
@@ -342,6 +445,18 @@
       "changes": "변경 없이 NASA Science 다운로드 파일 사용",
       "checkedAt": "2026-11-15",
       "alt": "납작한 두 덩어리가 좁은 목으로 연결된 아로코트"
+    },
+    {
+      "file": "assets/objects/arrokoth-ai.webp",
+      "kind": "ai-illustration",
+      "caption": "AI 상상도 · 뉴호라이즌스 관측을 바탕으로 납작한 두 덩어리와 좁은 연결부를 그렸어요. 표면의 세부 모습은 상상한 것이에요.",
+      "credit": "OpenAI ImageGen · 우주 아틀라스",
+      "license": "우주 아틀라스용 AI 생성 이미지",
+      "changes": "크기 조정 및 WebP 변환",
+      "checkedAt": "2026-11-15",
+      "alt": "붉은 갈색의 납작한 두 덩어리가 좁고 밝은 부분에서 이어진 아로코트 AI 상상도",
+      "generator": "OpenAI ImageGen",
+      "generationPrompt": "Create a single wide 3:2 scientific artist's impression for a children's astronomy atlas of Kuiper Belt object Arrokoth, informed by NASA New Horizons imaging: two joined reddish-brown flattened lobes, the larger noticeably wider and more flattened, the smaller a rounded flattened lobe, joined at one narrow lighter neck. Oblique viewing angle makes the flattening recognizable. Muted red-brown with subdued, softly lit, broadly smooth terrain and subtle tonal variation, no invented prominent canyons, no sharp jagged peaks, no octopus-like features. Isolated against a near-black background with comfortable margins. No labels, text, spacecraft, ring, atmosphere or moons. A restrained artist's reconstruction, not a photograph."
     }
   ],
   "halley": [
