@@ -140,7 +140,7 @@ h1, h2, h3 { line-height: 1.23; letter-spacing: -.055em; }
 .category-intro { display: grid; grid-template-columns: minmax(0, 2fr) minmax(13rem, 1fr); align-items: center; gap: 1rem; }
 .category-feature { display: block; position: relative; overflow: hidden; border-radius: .35rem; }
 .category-feature .object-visual { aspect-ratio: 1.75; }
-.traits { display: flex; flex-wrap: wrap; gap: .5rem 1.8rem; margin: .8rem 0 0; padding-left: 1.25rem; font-size: 1rem; }
+.traits { display: grid; gap: .5rem; margin: .8rem 0 0; padding-left: 1.25rem; font-size: 1rem; }
 .filter-chips { display: flex; flex-wrap: wrap; gap: .45rem; padding-block: .6rem 1rem; border-bottom: 1px solid var(--line); }
 .filter-chip { display: inline-flex; align-items: center; min-height: 2.75rem; padding: .24rem .78rem; border: 1px solid #d6caba; border-radius: 2rem; background: var(--panel); color: var(--purple); font-weight: 700; font-size: .95rem; }
 .filter-chip:is(:hover, [aria-current]) { background: var(--purple); color: #fffaf1; border-color: var(--purple); }
