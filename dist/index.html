@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="태양계를 탐험하고 사진으로 천체를 만나는 어린이 우주 도감.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>우주 아틀라스 · Space Atlas</title>
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="frame header-inner">
+      <a href="#home" class="brand" aria-label="우주 아틀라스 홈">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>우주 아틀라스<small>SPACE ATLAS</small></span>
+      </a>
+      <nav class="site-nav" aria-label="주 메뉴">
+        <a href="#solar" data-nav="solar">태양계</a>
+        <a href="#catalog" data-nav="catalog">천체 도감</a>
+        <a href="#favorites" data-nav="favorites"><span aria-hidden="true">♡</span> 즐겨찾기</a>
+      </nav>
+      <form class="header-search" id="site-search" role="search">
+        <label class="visually-hidden" for="site-query">천체 이름 검색</label>
+        <input type="search" id="site-query" name="q" placeholder="천체 이름 검색" autocomplete="off">
+        <button type="submit" aria-label="검색"><span class="search-icon" aria-hidden="true"></span></button>
+      </form>
+    </div>
+  </header>
+  <main id="main-content" class="frame" tabindex="-1">
+    <p class="loading" role="status">우주 도감을 불러오는 중이에요.</p>
+  </main>
+  <footer class="site-footer">
+    <div class="frame footer-inner">
+      <a href="#home" class="footer-name">우주 아틀라스</a>
+      <div class="footer-links">
+        <span class="offline-status" id="offline-status" role="status" hidden></span>
+        <a href="#about">설치 · 사진과 자료 안내</a>
+      </div>
+    </div>
+  </footer>
+  <p class="visually-hidden" role="status" id="announcement"></p>
+  <script type="module" src="./app.js"></script>
+  <script src="./pwa.js" defer></script>
+</body>
+</html>

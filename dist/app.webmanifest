@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "우주 아틀라스",
+  "short_name": "우주 아틀라스",
+  "description": "사진과 천체 사이의 관계를 따라 탐험하는 어린이 우주 도감",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#101827",
+  "background_color": "#101827",
+  "categories": ["education", "kids"],
+  "icons": [
+    { "src": "./assets/icons/atlas-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./assets/icons/atlas-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

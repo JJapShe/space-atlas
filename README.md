@@ -12,7 +12,9 @@ Python 3이 있는 Windows에서 `start-space-atlas.cmd`를 실행하거나 Powe
 
 기본 주소는 `http://127.0.0.1:8767/`입니다. 포트가 이미 사용 중이면 `-Port 8768`을 전달합니다. 같은 네트워크의 iPad에서 레이아웃을 미리 보려면 `-Lan`을 사용하고 iPad에서 표시된 PC 주소를 엽니다. LAN의 일반 HTTP는 브라우저 미리보기 용도입니다. 설치 앱에서 오프라인 도감을 쓰려면 HTTPS 주소를 사용하세요.
 
-서버 없이 화면을 볼 때는 `space-atlas-preview.html`을 브라우저에서 엽니다. 최신 파일은 빌드 후 `node scripts/make-preview.mjs`로 생성합니다. 도감 데이터와 로컬 이미지를 HTML 안에 포함하며, 온라인 전용 이미지는 인터넷 연결이 필요합니다. iPad 설치는 배포된 HTTPS 주소에서 진행합니다.
+서버 없이 화면을 볼 때는 `space-atlas-preview.html`을 브라우저에서 엽니다. 최신 파일은 빌드 후 `node scripts/make-preview.mjs`로 생성합니다. 도감 데이터와 로컬 이미지를 HTML 안에 포함하며, 온라인 전용 이미지는 인터넷 연결이 필요합니다. 사진을 불러올 수 없으면 구분 표시가 붙은 개념 그림이 표시됩니다. iPad 설치는 배포된 HTTPS 주소에서 진행합니다.
+
+인터넷에 연결된 PC에 Node.js가 있다면 `start-space-atlas.cmd -PrepareImages`로 이용 조건을 확인한 사진을 내려받고 도감과 `space-atlas-preview.html`을 갱신한 뒤 로컬에서 열 수 있습니다. 내려받기에 실패한 사진은 온라인 주소를 유지합니다.
 
 ## iPad에 설치
 

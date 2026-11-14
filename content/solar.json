@@ -1,0 +1,1568 @@
+{
+  "objects": [
+    {
+      "id": "sun",
+      "name": "태양",
+      "en": "Sun",
+      "aliases": [
+        "해",
+        "Sol"
+      ],
+      "category": "star",
+      "intro": "태양은 지구에서 가장 가까운 별이에요. 우리에게 빛과 따뜻함을 보내요.",
+      "prompt": "태양 사진에서 둥근 테두리와 밝기가 다른 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "지름",
+          "value": "약 140만 km",
+          "source": "nasa-sun"
+        },
+        {
+          "label": "지구까지의 평균 거리",
+          "value": "약 1억 5,000만 km",
+          "source": "nasa-sun"
+        },
+        {
+          "label": "질량",
+          "value": "지구의 33만 배 이상",
+          "source": "nasa-sun",
+          "detail": true
+        },
+        {
+          "label": "표면 온도",
+          "value": "약 5,500°C",
+          "source": "nasa-sun",
+          "detail": true
+        },
+        {
+          "label": "적도에서 한 바퀴 자전",
+          "value": "약 25일",
+          "source": "nasa-sun",
+          "detail": true
+        },
+        {
+          "label": "광도",
+          "value": "약 3.83 × 10²⁶ W",
+          "source": "nasa-sun-metrics",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-sun",
+        "nasa-sun-metrics"
+      ],
+      "measurements": {
+        "diameterKm": 1400000
+      }
+    },
+    {
+      "id": "mercury",
+      "name": "수성",
+      "en": "Mercury",
+      "aliases": [],
+      "category": "planet",
+      "region": "inner-planets",
+      "intro": "태양에 가장 가까운 행성이에요. 바위 표면에 동그란 충돌 자국이 많아요.",
+      "prompt": "수성의 회색 표면에서 동그란 자국을 세어 봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 4,879 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 88일",
+          "source": "nasa-planet-metrics"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 5,790만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 0.055배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 58.6일",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "암석형 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-mercury",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 4879,
+        "solarDistanceKm": 57900000
+      }
+    },
+    {
+      "id": "venus",
+      "name": "금성",
+      "en": "Venus",
+      "aliases": [
+        "비너스",
+        "샛별"
+      ],
+      "category": "planet",
+      "region": "inner-planets",
+      "intro": "금성은 태양계에서 가장 뜨거운 행성이에요. 두꺼운 구름이 행성을 덮고 있어요.",
+      "prompt": "사진 속 구름의 밝은 띠와 어두운 띠를 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 12,104 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 225일",
+          "source": "nasa-planet-metrics"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 1억 820만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 0.815배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 243일 (대부분의 행성과 반대 방향)",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "암석형 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-venus",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 12104,
+        "solarDistanceKm": 108200000
+      }
+    },
+    {
+      "id": "earth",
+      "name": "지구",
+      "en": "Earth",
+      "aliases": [],
+      "category": "planet",
+      "region": "inner-planets",
+      "intro": "우리가 사는 행성이에요. 바다와 땅 위에 흰 구름이 떠 있어요.",
+      "prompt": "파란 바다, 갈색 땅, 흰 구름을 하나씩 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 12,742 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 365.2일",
+          "source": "nasa-planet-metrics"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 1억 4,960만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 5.97 × 10²⁴ kg",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 23시간 56분",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "암석형 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-earth",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 12742,
+        "solarDistanceKm": 149600000
+      }
+    },
+    {
+      "id": "mars",
+      "name": "화성",
+      "en": "Mars",
+      "aliases": [
+        "마스"
+      ],
+      "category": "planet",
+      "region": "inner-planets",
+      "intro": "화성은 철이 섞인 먼지 때문에 붉게 보여요. 화성의 한 해는 지구의 한 해보다 길어요.",
+      "prompt": "사진 속 붉게 보이는 곳과 흰 극지방을 살펴봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 6,779 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 687일",
+          "source": "nasa-planet-metrics"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 2억 2,800만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 0.107배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 24시간 37분",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "암석형 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-mars",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 6779,
+        "solarDistanceKm": 228000000
+      }
+    },
+    {
+      "id": "jupiter",
+      "name": "목성",
+      "en": "Jupiter",
+      "aliases": [
+        "주피터"
+      ],
+      "category": "planet",
+      "region": "outer-planets",
+      "intro": "목성은 태양계에서 가장 큰 행성이에요. 구름에 줄무늬가 있고 거대한 폭풍도 보여요.",
+      "prompt": "목성의 구름에서 줄무늬와 둥글게 소용돌이치는 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 139,822 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 11.86년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 7억 7,850만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 318배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 9시간 56분",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "가스 거대 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-jupiter",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 139822,
+        "solarDistanceKm": 778500000
+      }
+    },
+    {
+      "id": "saturn",
+      "name": "토성",
+      "en": "Saturn",
+      "aliases": [],
+      "category": "planet",
+      "region": "outer-planets",
+      "intro": "토성 주위에는 넓고 밝은 고리가 있어요. 고리는 얼음과 돌 조각으로 이루어져요.",
+      "prompt": "토성 사진에서 고리가 몇 겹으로 보이는지 살펴봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 116,464 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 29.45년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 14억 3,200만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 95배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "자전 주기 (JPL 기준)",
+          "value": "약 10시간 39분",
+          "source": "jpl-planet-physical",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "가스 거대 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-saturn",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 116464,
+        "solarDistanceKm": 1432000000
+      }
+    },
+    {
+      "id": "uranus",
+      "name": "천왕성",
+      "en": "Uranus",
+      "aliases": [],
+      "category": "planet",
+      "region": "outer-planets",
+      "intro": "천왕성은 거의 옆으로 누운 채 빙글빙글 돌아요. 아주 춥고 희미한 고리도 있어요.",
+      "prompt": "천왕성의 고리를 위에서 내려다보는 모습은 어떨지 생각해 봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 50,724 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 84년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 28억 6,700만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 14.5배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "약 17.2시간 (대부분의 행성과 반대 방향)",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "얼음 거대 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-uranus",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 50724,
+        "solarDistanceKm": 2867000000
+      }
+    },
+    {
+      "id": "neptune",
+      "name": "해왕성",
+      "en": "Neptune",
+      "aliases": [
+        "넵튠"
+      ],
+      "category": "planet",
+      "region": "outer-planets",
+      "intro": "해왕성은 태양에서 가장 먼 행성이에요. 구름 사이로 아주 빠른 바람이 불어요.",
+      "prompt": "사진에서 구름이나 밝기가 다른 띠를 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 49,244 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 164.8년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 45억 1,500만 km",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 지구의 17.1배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "약 16.1시간",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "행성 유형",
+          "value": "얼음 거대 행성",
+          "source": "nasa-planets-overview",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-neptune",
+        "jpl-planet-physical",
+        "nasa-planet-metrics",
+        "nasa-planets-overview"
+      ],
+      "measurements": {
+        "diameterKm": 49244,
+        "solarDistanceKm": 4515000000
+      }
+    },
+    {
+      "id": "ceres",
+      "name": "세레스",
+      "en": "Ceres",
+      "aliases": [
+        "1 Ceres",
+        "케레스"
+      ],
+      "category": "dwarf",
+      "region": "asteroid-belt",
+      "intro": "세레스는 화성과 목성 사이에 있는 둥근 천체예요. 표면에 밝은 자국이 있어요.",
+      "prompt": "회색 표면에서 반짝이는 점처럼 보이는 곳을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 939 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 4.61년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 4억 1,300만 km",
+          "source": "nasa-solar-sizes",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 9.1시간",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.00016배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-ceres",
+        "jpl-planet-physical",
+        "nasa-solar-sizes"
+      ],
+      "measurements": {
+        "diameterKm": 939,
+        "solarDistanceKm": 413000000
+      }
+    },
+    {
+      "id": "pluto",
+      "name": "명왕성",
+      "en": "Pluto",
+      "aliases": [
+        "134340 Pluto"
+      ],
+      "category": "dwarf",
+      "region": "kuiper-belt",
+      "intro": "명왕성은 태양계 바깥쪽의 차가운 왜행성이에요. 사진에서 하트처럼 밝은 곳이 보여요.",
+      "prompt": "하트 모양이 사진의 어디에 있는지 가리켜 봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 2,377 km",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 248년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 59억 km",
+          "source": "nasa-solar-sizes",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 6.39일 (대부분의 행성과 반대 방향)",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.0022배",
+          "source": "jpl-planet-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-pluto",
+        "jpl-planet-physical",
+        "nasa-solar-sizes"
+      ],
+      "measurements": {
+        "diameterKm": 2377,
+        "solarDistanceKm": 5900000000
+      }
+    },
+    {
+      "id": "haumea",
+      "name": "하우메아",
+      "en": "Haumea",
+      "aliases": [
+        "136108 Haumea",
+        "2003 EL61"
+      ],
+      "category": "dwarf",
+      "region": "kuiper-belt",
+      "intro": "하우메아는 납작하고 길쭉한 왜행성이에요. 빠르게 빙글빙글 돌고 주위에 고리도 있어요.",
+      "prompt": "공처럼 둥근 지구와 길쭉한 하우메아의 모양을 비교해 봐요.",
+      "facts": [
+        {
+          "label": "가장 긴 축",
+          "value": "최소 약 2,320 km",
+          "source": "ortiz-haumea",
+          "estimated": true
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 285년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 65억 km",
+          "source": "nasa-solar-sizes",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 3.9시간",
+          "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.00067배",
+          "source": "jpl-planet-physical",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "nasa-haumea",
+        "jpl-planet-physical",
+        "nasa-solar-sizes",
+        "ortiz-haumea"
+      ],
+      "measurements": {
+        "solarDistanceKm": 6500000000
+      }
+    },
+    {
+      "id": "makemake",
+      "name": "마케마케",
+      "en": "Makemake",
+      "aliases": [
+        "136472 Makemake",
+        "2005 FY9"
+      ],
+      "category": "dwarf",
+      "region": "kuiper-belt",
+      "intro": "마케마케는 멀리 있는 차가운 왜행성이에요. 과학자들은 표면에서 얼어붙은 메테인을 찾아냈어요.",
+      "prompt": "마케마케와 명왕성의 지름을 비교해 봐요. 어느 쪽이 더 클까요?",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 1,428 km",
+          "source": "jpl-planet-physical",
+          "estimated": true
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 308년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 69억 km",
+          "source": "nasa-solar-sizes",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 22.5시간",
+          "source": "jpl-planet-physical",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "nasa-makemake",
+        "jpl-planet-physical",
+        "nasa-solar-sizes"
+      ],
+      "measurements": {
+        "diameterKm": 1428,
+        "solarDistanceKm": 6900000000
+      }
+    },
+    {
+      "id": "eris",
+      "name": "에리스",
+      "en": "Eris",
+      "aliases": [
+        "136199 Eris",
+        "2003 UB313"
+      ],
+      "category": "dwarf",
+      "intro": "에리스는 명왕성과 크기가 비슷한 왜행성이에요. 길쭉한 궤도를 따라 태양을 한 바퀴 도는 데 500년 넘게 걸려요.",
+      "prompt": "에리스와 명왕성 중 태양을 한 바퀴 도는 데 더 오래 걸리는 쪽을 찾아봐요.",
+      "facts": [
+        {
+          "label": "적도 지름",
+          "value": "약 2,326 km",
+          "source": "nasa-solar-sizes",
+          "estimated": true
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 558년",
+          "source": "jpl-planet-physical"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 100억 km",
+          "source": "nasa-solar-sizes",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 25.9시간",
+          "source": "jpl-planet-physical",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.0028배",
+          "source": "jpl-planet-physical",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "nasa-eris",
+        "nasa-solar-sizes",
+        "jpl-planet-physical",
+        "nasa-kuiper"
+      ],
+      "measurements": {
+        "solarDistanceKm": 10000000000
+      },
+      "region": "scattered-disk"
+    },
+    {
+      "id": "moon",
+      "name": "달",
+      "en": "Moon",
+      "aliases": [
+        "Luna",
+        "지구의 달",
+        "지구 위성",
+        "월구"
+      ],
+      "category": "moon",
+      "region": "inner-planets",
+      "intro": "달은 지구 주위를 도는 자연위성이에요. 햇빛을 받아 환하게 보여요.",
+      "prompt": "밝은 부분과 어두운 부분을 살펴보고 동그란 자국을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 3,475 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "지구 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 27.3일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "지구 중심을 도는 궤도의 긴반지름",
+          "value": "약 38만 4,400 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.0123배",
+          "source": "nasa-planet-metrics",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-moon",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "nasa-planet-metrics"
+      ]
+    },
+    {
+      "id": "phobos",
+      "name": "포보스",
+      "en": "Phobos",
+      "aliases": [
+        "화성 위성"
+      ],
+      "category": "moon",
+      "region": "inner-planets",
+      "intro": "포보스는 화성 가까이를 빠르게 도는 작은 위성이에요. 감자처럼 울퉁불퉁한 모양이에요.",
+      "prompt": "울퉁불퉁한 테두리나 커다란 충돌 자국을 찾아봐요.",
+      "facts": [
+        {
+          "label": "축별 크기",
+          "value": "약 27 × 22 × 18 km",
+          "source": "nasa-phobos"
+        },
+        {
+          "label": "화성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 7시간 39분",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "화성 중심을 도는 궤도의 긴반지름",
+          "value": "약 9,375 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 1.06 × 10¹⁶ kg (지구의 약 0.0000000018배)",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-phobos",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "io",
+      "name": "이오",
+      "en": "Io",
+      "aliases": [
+        "목성 위성"
+      ],
+      "category": "moon",
+      "region": "outer-planets",
+      "intro": "이오는 목성의 위성이에요. 곳곳에서 화산이 뿜어낸 물질이 표면에 쌓여요.",
+      "prompt": "이오 사진에 보이는 노란색과 어두운 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 3,643 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "목성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 1.76일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "목성 중심을 도는 궤도의 긴반지름",
+          "value": "약 42만 1,800 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.015배",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-io",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "kasi-moons-jupiter",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "europa",
+      "name": "유로파",
+      "en": "Europa",
+      "aliases": [
+        "에우로파",
+        "목성 위성"
+      ],
+      "category": "moon",
+      "region": "outer-planets",
+      "intro": "유로파는 얼음에 덮인 목성의 위성이에요. 과학자들은 얼음 아래에 바다가 있을 것으로 봐요.",
+      "prompt": "얼음 표면을 가로지르는 가는 줄을 찾아 손가락으로 따라가 봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 3,122 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "목성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 3.53일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "목성 중심을 도는 궤도의 긴반지름",
+          "value": "약 67만 1,100 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.0080배",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-europa",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "kasi-moons-jupiter",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "titan",
+      "name": "타이탄",
+      "en": "Titan",
+      "aliases": [
+        "티탄",
+        "토성 위성"
+      ],
+      "category": "moon",
+      "region": "outer-planets",
+      "intro": "타이탄은 토성에서 가장 큰 위성이에요. 두꺼운 대기 아래에 액체 메테인이 담긴 호수가 있어요.",
+      "prompt": "대기가 보이는 사진에서는 가장자리의 옅은 테두리를 살펴봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 5,150 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "토성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 15.95일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "토성 중심을 도는 궤도의 긴반지름",
+          "value": "약 122만 1,900 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.023배",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-titan",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "enceladus",
+      "name": "엔셀라두스",
+      "en": "Enceladus",
+      "aliases": [
+        "엔켈라두스",
+        "토성 위성"
+      ],
+      "category": "moon",
+      "region": "outer-planets",
+      "intro": "엔셀라두스는 토성을 도는 밝은 얼음 위성이에요. 남쪽의 틈에서 물과 얼음 알갱이가 우주로 뿜어져 나와요.",
+      "prompt": "표면에 보이는 가느다란 틈을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 504 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "토성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 1.37일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "토성 중심을 도는 궤도의 긴반지름",
+          "value": "약 23만 8,400 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 1.08 × 10²⁰ kg (지구의 약 0.000018배)",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-enceladus",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "charon",
+      "name": "카론",
+      "en": "Charon",
+      "aliases": [
+        "명왕성 위성"
+      ],
+      "category": "moon",
+      "region": "kuiper-belt",
+      "intro": "카론은 명왕성의 가장 큰 위성이에요. 두 천체는 빙글빙글 돌면서 늘 같은 쪽을 서로 바라봐요.",
+      "prompt": "색을 강조한 사진이라면 카론의 북쪽에서 붉게 보이는 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 1,212 km",
+          "source": "jpl-moon-physical"
+        },
+        {
+          "label": "명왕성 둘레를 한 바퀴",
+          "value": "지구 시간으로 약 6.39일",
+          "source": "jpl-moon-orbits"
+        },
+        {
+          "label": "명왕성 중심을 도는 궤도의 긴반지름",
+          "value": "약 1만 9,600 km",
+          "source": "jpl-moon-orbits",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "지구의 약 0.00027배",
+          "source": "jpl-moon-physical",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-charon",
+        "jpl-moon-physical",
+        "jpl-moon-orbits",
+        "jpl-planet-physical"
+      ]
+    },
+    {
+      "id": "bennu",
+      "name": "베누",
+      "en": "Bennu",
+      "aliases": [
+        "101955 Bennu",
+        "1999 RQ36",
+        "벤누"
+      ],
+      "category": "asteroid",
+      "intro": "베누는 지구 가까이까지 오는 작은 소행성이에요. 탐사선이 여기서 모은 돌과 먼지를 지구로 가져왔어요.",
+      "prompt": "팽이처럼 가운데가 넓어 보이는지 살펴봐요.",
+      "facts": [
+        {
+          "label": "적도 너비",
+          "value": "약 500 m",
+          "source": "nasa-bennu"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 1.2년",
+          "source": "nasa-bennu"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 1억 6,800만 km",
+          "source": "nasa-bennu",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 4.3시간",
+          "source": "nasa-bennu",
+          "detail": true
+        },
+        {
+          "label": "암석·먼지 표본의 지구 도착",
+          "value": "2023년",
+          "source": "nasa-bennu",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-bennu"
+      ]
+    },
+    {
+      "id": "arrokoth",
+      "name": "아로코트",
+      "en": "Arrokoth",
+      "aliases": [
+        "486958 Arrokoth",
+        "2014 MU69",
+        "울티마 툴레"
+      ],
+      "category": "kuiper-small",
+      "region": "kuiper-belt",
+      "intro": "아로코트는 해왕성보다 멀리 도는 작은 천체예요. 납작한 두 덩어리가 붙어 있어요.",
+      "prompt": "큰 덩어리와 작은 덩어리가 만나는 곳을 찾아봐요.",
+      "facts": [
+        {
+          "label": "전체 길이",
+          "value": "약 35 km",
+          "source": "nasa-arrokoth"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 293년",
+          "source": "nasa-arrokoth"
+        },
+        {
+          "label": "태양까지의 평균 거리",
+          "value": "약 44.6 AU",
+          "source": "nasa-arrokoth",
+          "detail": true
+        },
+        {
+          "label": "한 바퀴 자전",
+          "value": "지구 시간으로 약 15.9시간",
+          "source": "nasa-arrokoth",
+          "detail": true
+        },
+        {
+          "label": "탐사선이 가까이 지나간 해",
+          "value": "2019년",
+          "source": "nasa-arrokoth",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-arrokoth"
+      ]
+    },
+    {
+      "id": "halley",
+      "name": "핼리 혜성",
+      "en": "Halley's Comet",
+      "aliases": [
+        "1P/Halley",
+        "Halley",
+        "할리 혜성",
+        "핼리"
+      ],
+      "category": "comet",
+      "intro": "핼리 혜성은 아주 긴 길을 따라 태양을 돌아요. 남기고 간 먼지는 지구에서 유성우로 보일 수 있어요.",
+      "prompt": "혜성의 중심과 길게 뻗는 꼬리는 어떻게 다른지 생각해 봐요.",
+      "facts": [
+        {
+          "label": "혜성 핵의 크기",
+          "value": "약 15 × 8 km",
+          "source": "nasa-halley"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "평균 약 76년",
+          "source": "nasa-halley"
+        },
+        {
+          "label": "다음 근일점 예상",
+          "value": "2061년",
+          "source": "nasa-halley",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "태양 주위를 도는 방향",
+          "value": "지구와 반대 방향",
+          "source": "nasa-halley",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-halley"
+      ]
+    },
+    {
+      "id": "comet-67p",
+      "name": "67P 혜성",
+      "en": "67P/Churyumov–Gerasimenko",
+      "aliases": [
+        "67P",
+        "추류모프–게라시멘코",
+        "추류모프 게라시멘코",
+        "추류모프-게라시멘코",
+        "로제타 혜성",
+        "Comet 67P",
+        "추류모프-게라시멘코 혜성"
+      ],
+      "category": "comet",
+      "intro": "67P 혜성의 몸통은 두 덩어리가 좁은 부분으로 이어진 모양이에요. 로제타 탐사선이 가까이 가서 살펴봤어요.",
+      "prompt": "두 덩어리 사이의 좁은 목 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "핵의 큰 덩어리",
+          "value": "약 4.1 × 3.3 × 1.8 km",
+          "source": "esa-comet-67p"
+        },
+        {
+          "label": "태양을 한 바퀴",
+          "value": "지구 시간으로 약 6.5년",
+          "source": "esa-rosetta-orbit"
+        },
+        {
+          "label": "핵의 작은 덩어리",
+          "value": "약 2.6 × 2.3 × 1.8 km",
+          "source": "esa-comet-67p",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "약 100억 톤",
+          "source": "esa-comet-67p",
+          "detail": true
+        },
+        {
+          "label": "로제타가 혜성에 도착한 해",
+          "value": "2014년",
+          "source": "esa-rosetta-orbit",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-comet-67p",
+        "esa-comet-67p",
+        "esa-rosetta-orbit"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "sun",
+      "to": "mercury",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "venus",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "earth",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "mars",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "jupiter",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "saturn",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "uranus",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "neptune",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "ceres",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "pluto",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "haumea",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "makemake",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "eris",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "bennu",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "arrokoth",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "halley",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "sun",
+      "to": "comet-67p",
+      "forward": "태양을 도는 천체",
+      "reverse": "내가 도는 별, 태양"
+    },
+    {
+      "from": "earth",
+      "to": "moon",
+      "forward": "지구의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "mars",
+      "to": "phobos",
+      "forward": "화성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "jupiter",
+      "to": "io",
+      "forward": "목성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "jupiter",
+      "to": "europa",
+      "forward": "목성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "saturn",
+      "to": "titan",
+      "forward": "토성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "saturn",
+      "to": "enceladus",
+      "forward": "토성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "pluto",
+      "to": "charon",
+      "forward": "명왕성의 위성이에요",
+      "reverse": "이 위성이 도는 천체"
+    },
+    {
+      "from": "halley",
+      "to": "orionids",
+      "forward": "이 혜성이 남긴 먼지로 생기는 유성우",
+      "reverse": "먼지를 남긴 혜성"
+    }
+  ],
+  "sources": {
+    "nasa-sun": {
+      "name": "NASA Science · 태양",
+      "url": "https://science.nasa.gov/sun/facts/"
+    },
+    "jpl-planet-physical": {
+      "name": "NASA/JPL · 행성과 왜행성의 물리량",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+    },
+    "nasa-planet-metrics": {
+      "name": "NASA NSSDC · 태양계 행성 수치표",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    },
+    "nasa-solar-sizes": {
+      "name": "NASA Science · 태양계 행성과 왜행성의 크기·거리",
+      "url": "https://science.nasa.gov/solar-system/planets/planet-sizes-and-locations-in-our-solar-system/"
+    },
+    "jpl-moon-physical": {
+      "name": "NASA/JPL · 자연위성의 물리량",
+      "url": "https://ssd.jpl.nasa.gov/sats/phys_par/"
+    },
+    "jpl-moon-orbits": {
+      "name": "NASA/JPL · 자연위성의 평균 궤도 요소",
+      "url": "https://ssd.jpl.nasa.gov/sats/elem/"
+    },
+    "nasa-mercury": {
+      "name": "NASA Science · 수성",
+      "url": "https://science.nasa.gov/mercury/facts/"
+    },
+    "nasa-venus": {
+      "name": "NASA Science · 금성",
+      "url": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    "nasa-earth": {
+      "name": "NASA Science · 지구",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    "nasa-mars": {
+      "name": "NASA Science · 화성",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    "nasa-jupiter": {
+      "name": "NASA Science · 목성",
+      "url": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    "nasa-saturn": {
+      "name": "NASA Science · 토성",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    "nasa-uranus": {
+      "name": "NASA Science · 천왕성",
+      "url": "https://science.nasa.gov/uranus/facts/"
+    },
+    "nasa-neptune": {
+      "name": "NASA Science · 해왕성",
+      "url": "https://science.nasa.gov/neptune/neptune-facts/"
+    },
+    "nasa-ceres": {
+      "name": "NASA Science · 세레스",
+      "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+    },
+    "nasa-pluto": {
+      "name": "NASA Science · 명왕성",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    },
+    "nasa-haumea": {
+      "name": "NASA Science · 하우메아",
+      "url": "https://science.nasa.gov/dwarf-planets/haumea/"
+    },
+    "nasa-makemake": {
+      "name": "NASA Science · 마케마케",
+      "url": "https://science.nasa.gov/dwarf-planets/makemake/"
+    },
+    "nasa-eris": {
+      "name": "NASA Science · 에리스",
+      "url": "https://science.nasa.gov/dwarf-planets/eris/"
+    },
+    "nasa-moon": {
+      "name": "NASA Science · 달",
+      "url": "https://science.nasa.gov/moon/facts/"
+    },
+    "nasa-phobos": {
+      "name": "NASA Science · 포보스",
+      "url": "https://science.nasa.gov/mars/moons/phobos/"
+    },
+    "nasa-io": {
+      "name": "NASA Science · 이오",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/"
+    },
+    "nasa-europa": {
+      "name": "NASA Science · 유로파",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+    },
+    "nasa-titan": {
+      "name": "NASA Science · 타이탄",
+      "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+    },
+    "nasa-enceladus": {
+      "name": "NASA Science · 엔셀라두스",
+      "url": "https://science.nasa.gov/saturn/moons/enceladus/"
+    },
+    "nasa-charon": {
+      "name": "NASA Science · 카론",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/charon/"
+    },
+    "nasa-bennu": {
+      "name": "NASA Science · 베누",
+      "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/facts/"
+    },
+    "nasa-arrokoth": {
+      "name": "NASA Science · 아로코트",
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/facts/"
+    },
+    "nasa-halley": {
+      "name": "NASA Science · 핼리 혜성",
+      "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
+    },
+    "nasa-comet-67p": {
+      "name": "NASA Science · 67P 혜성",
+      "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/"
+    },
+    "esa-rosetta-orbit": {
+      "name": "ESA · 로제타 임무와 67P 혜성의 공전",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Frequently_asked_questions"
+    },
+    "esa-comet-67p": {
+      "name": "ESA · 로제타로 측정한 67P 혜성",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Getting_to_know_Rosetta_s_comet"
+    },
+    "nasa-sun-metrics": {
+      "name": "NASA NSSDC · 태양 물리량",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "nasa-kuiper": {
+      "name": "NASA · 카이퍼대",
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/"
+    },
+    "ortiz-haumea": {
+      "name": "Ortiz 외 · 하우메아의 모양과 고리 관측 (Nature)",
+      "url": "https://www.nature.com/articles/nature24051"
+    },
+    "kasi-moons-jupiter": {
+      "name": "한국천문연구원 · 목성과 갈릴레이 위성",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5118"
+    },
+    "nasa-planets-overview": {
+      "name": "NASA Science · 행성 분류와 태양계 개요",
+      "url": "https://science.nasa.gov/solar-system/planets/"
+    }
+  }
+}

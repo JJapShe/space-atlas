@@ -1,0 +1,475 @@
+{
+  "categories": [
+    {
+      "id": "planet",
+      "name": "행성",
+      "aliases": ["태양계 행성", "planet"],
+      "summary": "태양계 행성은 태양 둘레를 도는 둥근 천체예요. 우리 태양계에는 행성이 여덟 개 있어요.",
+      "traits": [
+        "수성부터 화성까지는 단단한 표면이 있어요.",
+        "목성과 토성은 가스 거대 행성, 천왕성과 해왕성은 얼음 거대 행성이에요."
+      ],
+      "sources": [
+        "nasa-planets"
+      ]
+    },
+    {
+      "id": "exoplanet",
+      "name": "외계행성",
+      "aliases": ["exoplanet","extrasolar planet"],
+      "summary": "태양계 밖의 행성이에요. 도감에는 다른 별이나 갈색왜성을 도는 예를 담았어요.",
+      "traits": [
+        "별 앞을 지나며 별빛을 조금 가릴 때 찾을 수 있어요.",
+        "우리가 사는 지구보다 작거나 훨씬 큰 행성도 있어요."
+      ],
+      "sources": [
+        "nasa-exoplanets"
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "왜행성",
+      "aliases": ["왜소행성", "dwarf planet"],
+      "summary": "태양을 돌고 둥글게 뭉칠 만큼 큰 천체예요. 자기 궤도 주변에 작은 천체들이 남아 있어요.",
+      "traits": [
+        "왜소행성이라고도 불러요.",
+        "왜행성도 자기 둘레를 도는 위성을 가질 수 있어요."
+      ],
+      "sources": [
+        "nasa-planets",
+        "nasa-moons",
+        "kasi-solar-overview"
+      ]
+    },
+    {
+      "id": "moon",
+      "name": "자연위성",
+      "aliases": ["위성","moon","natural satellite"],
+      "summary": "행성이나 왜행성, 소행성 같은 천체를 도는 자연 천체예요.",
+      "traits": [
+        "지구의 자연위성 이름은 달이에요.",
+        "위성은 바위로 이루어지기도 하고 얼음으로 덮여 있기도 해요."
+      ],
+      "sources": [
+        "nasa-moons"
+      ]
+    },
+    {
+      "id": "asteroid",
+      "name": "소행성",
+      "aliases": ["asteroid"],
+      "summary": "태양을 도는 작은 바위 천체예요. 태양계가 만들어질 때 남은 재료로 이루어져 있어요.",
+      "traits": [
+        "많은 소행성이 화성과 목성 사이에 모여 있어요.",
+        "베누처럼 지구 궤도 가까이에 다가오는 소행성도 있어요."
+      ],
+      "sources": [
+        "nasa-asteroids"
+      ]
+    },
+    {
+      "id": "kuiper-small",
+      "name": "카이퍼대 소천체",
+      "aliases": ["카이퍼대 천체","kuiper belt object"],
+      "summary": "해왕성 너머의 카이퍼대에서 태양을 도는 작은 천체를 모아 볼 수 있어요.",
+      "traits": [
+        "바위와 여러 종류의 얼음이 섞여 있어요.",
+        "아로코트는 두 덩어리가 서로 닿아 붙은 모습이에요."
+      ],
+      "sources": [
+        "nasa-kuiper"
+      ]
+    },
+    {
+      "id": "comet",
+      "name": "혜성",
+      "aliases": ["comet"],
+      "summary": "얼음과 먼지, 바위가 섞여 있는 작은 천체예요. 태양 가까이에서 꼬리가 나타날 수 있어요.",
+      "traits": [
+        "꼬리를 만드는 기체와 먼지는 태양에서 멀어지는 쪽으로 퍼져요.",
+        "혜성이 남긴 먼지가 지구 대기에 들어오면 유성우를 볼 수 있어요."
+      ],
+      "sources": [
+        "nasa-comets",
+        "nasa-orionids"
+      ]
+    },
+    {
+      "id": "star",
+      "name": "항성",
+      "aliases": ["별","star"],
+      "summary": "스스로 빛과 열을 내는 뜨거운 천체예요. 우리가 낮에 보는 태양도 항성이에요.",
+      "traits": [
+        "온도에 따라 붉거나 푸르게 보이는 별이 있어요.",
+        "별은 오랜 시간 동안 크기와 밝기가 달라질 수 있어요."
+      ],
+      "sources": [
+        "nasa-stellar-types"
+      ]
+    },
+    {
+      "id": "brown-dwarf",
+      "name": "갈색왜성",
+      "aliases": ["brown dwarf"],
+      "summary": "가스가 뭉쳐 만들어진 천체예요. 별처럼 수소를 계속 태울 만큼 무겁지 않아요.",
+      "traits": [
+        "적외선 망원경으로 찾을 수 있어요.",
+        "갈색왜성 곁을 도는 작은 천체도 발견됐어요."
+      ],
+      "sources": [
+        "nasa-brown-dwarf",
+        "nasa-exoplanets"
+      ]
+    },
+    {
+      "id": "remnant",
+      "name": "별의 잔해",
+      "aliases": ["백색왜성","중성자별","stellar remnant"],
+      "summary": "별이 일생의 마지막에 남긴 아주 조밀한 천체예요. 여기서는 백색왜성과 중성자별을 만나요.",
+      "traits": [
+        "태양과 비슷한 별은 먼 훗날 백색왜성을 남겨요.",
+        "어떤 중성자별은 등대처럼 일정한 간격으로 신호를 보내는 펄서로 보여요."
+      ],
+      "sources": [
+        "nasa-stellar-types",
+        "nasa-crab-remnant"
+      ]
+    },
+    {
+      "id": "black-hole",
+      "name": "블랙홀",
+      "aliases": ["black hole"],
+      "summary": "아주 강한 중력 때문에 경계 안에서는 빛도 밖으로 나오지 못하는 곳이에요.",
+      "traits": [
+        "큰 별이 무너져 항성질량 블랙홀이 생길 수 있어요.",
+        "여러 은하 중심에는 훨씬 무거운 초대질량 블랙홀이 있어요."
+      ],
+      "sources": [
+        "nasa-black-hole-types"
+      ]
+    },
+    {
+      "id": "nebula",
+      "name": "성운",
+      "aliases": ["nebula"],
+      "summary": "우주에 가스와 먼지가 커다란 구름처럼 모인 곳이에요.",
+      "traits": [
+        "어떤 성운에서는 새 별이 태어나요.",
+        "별이 뿜거나 폭발하며 남긴 물질도 성운이 될 수 있어요."
+      ],
+      "sources": [
+        "nasa-nebula-types"
+      ]
+    },
+    {
+      "id": "cluster",
+      "name": "성단",
+      "aliases": ["star cluster"],
+      "summary": "별들이 서로의 중력에 이끌려 모인 무리예요.",
+      "traits": [
+        "산개성단은 별들이 비교적 느슨하게 모인 무리예요.",
+        "구상성단은 별들이 둥근 공처럼 빽빽이 모인 무리예요."
+      ],
+      "sources": [
+        "nasa-cluster-types"
+      ]
+    },
+    {
+      "id": "galaxy",
+      "name": "은하",
+      "aliases": ["galaxy"],
+      "summary": "별과 가스와 먼지 등이 중력으로 한데 모인 아주 큰 무리예요.",
+      "traits": [
+        "우리가 사는 태양계는 우리 은하에 있어요.",
+        "나선처럼 팔을 뻗은 은하도, 둥글거나 길쭉한 은하도 있어요."
+      ],
+      "sources": [
+        "nasa-galaxy-types",
+        "kasi-solar-overview"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "solar-center",
+      "name": "태양",
+      "summary": "태양계 가운데에서 빛과 열을 내는 별이에요.",
+      "objects": [
+        "sun"
+      ],
+      "sources": [
+        "nasa-solar-overview"
+      ]
+    },
+    {
+      "id": "inner-planets",
+      "name": "안쪽 행성",
+      "summary": "태양 가까이에서 수성, 금성, 지구, 화성이 돌아요.",
+      "objects": [
+        "mercury",
+        "venus",
+        "earth",
+        "mars"
+      ],
+      "sources": [
+        "nasa-planets"
+      ]
+    },
+    {
+      "id": "asteroid-belt",
+      "name": "소행성대",
+      "summary": "화성과 목성 사이의 넓은 곳에 작은 바위 천체들이 많이 돌아요. 왜행성 세레스도 여기에 있어요.",
+      "objects": [
+        "ceres"
+      ],
+      "sources": [
+        "nasa-asteroids",
+        "nasa-planets"
+      ]
+    },
+    {
+      "id": "outer-planets",
+      "name": "바깥쪽 행성",
+      "summary": "목성, 토성, 천왕성, 해왕성이 태양에서 더 멀리 돌아요.",
+      "objects": [
+        "jupiter",
+        "saturn",
+        "uranus",
+        "neptune"
+      ],
+      "sources": [
+        "nasa-planets"
+      ]
+    },
+    {
+      "id": "kuiper-belt",
+      "name": "카이퍼대",
+      "summary": "해왕성 너머에서 얼음을 품은 천체들이 태양을 돌고 있어요.",
+      "objects": [
+        "pluto",
+        "haumea",
+        "makemake",
+        "arrokoth"
+      ],
+      "sources": [
+        "nasa-kuiper"
+      ]
+    },
+    {
+      "id": "scattered-disk",
+      "name": "산란원반",
+      "summary": "카이퍼대 바깥까지 이어지는 영역이에요. 에리스처럼 길쭉한 길을 따라 도는 천체가 있어요.",
+      "objects": [
+        "eris"
+      ],
+      "sources": [
+        "nasa-kuiper"
+      ]
+    },
+    {
+      "id": "oort-cloud",
+      "name": "오르트 구름",
+      "summary": "태양계 아주 먼 곳을 얼음 천체들이 둥글게 둘러쌀 거라고 과학자들이 생각해요.",
+      "objects": [],
+      "sources": [
+        "nasa-oort-cloud"
+      ]
+    }
+  ],
+  "phenomena": [
+    {
+      "id": "orionids",
+      "name": "오리온자리 유성우",
+      "en": "Orionid meteor shower",
+      "aliases": [
+        "Orionids",
+        "오리온 유성우",
+        "별똥별"
+      ],
+      "summary": "가을 밤, 핼리 혜성이 남긴 먼지가 별똥별로 빛나요.",
+      "intro": "지구가 핼리 혜성이 남긴 먼지 길을 지나면, 먼지가 대기에 들어오며 빛나요. 밤하늘에서는 오리온자리 쪽에서 여러 별똥별이 퍼져 나오는 것처럼 보여요.",
+      "prompt": "별똥별 여러 개가 나아간 길을 거꾸로 이으면 어디쯤에 모일까요?",
+      "facts": [
+        {
+          "label": "활발한 때",
+          "value": "해마다 10월 무렵",
+          "source": "nasa-orionids"
+        },
+        {
+          "label": "먼지를 남긴 혜성",
+          "value": "핼리 혜성",
+          "source": "nasa-orionids"
+        },
+        {
+          "label": "대기에 들어오는 속도",
+          "value": "약 66 km/s",
+          "source": "nasa-orionids",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-orionids"
+      ]
+    },
+    {
+      "id": "supernova",
+      "name": "초신성",
+      "en": "Supernova",
+      "aliases": [
+        "별의 폭발",
+        "Supernovae"
+      ],
+      "summary": "별이 아주 크게 폭발하며 한동안 밝게 빛나요.",
+      "intro": "무거운 별이 일생의 마지막에 크게 폭발할 수 있어요. 별에서 튀어나온 가스는 시간이 지나도 우주에 남아요.",
+      "prompt": "별에서 멀리 튀어나간 가스는 어떤 모양의 구름이 될까요?",
+      "facts": [
+        {
+          "label": "한 가지 원인",
+          "value": "무거운 별의 중심이 무너져요.",
+          "source": "nasa-supernova"
+        },
+        {
+          "label": "또 다른 원인",
+          "value": "백색왜성이 다른 별의 물질을 받아 폭발하는 경우도 있어요.",
+          "source": "nasa-supernova",
+          "detail": true
+        },
+        {
+          "label": "폭발이 남긴 성운",
+          "value": "게성운",
+          "source": "nasa-crab-remnant"
+        }
+      ],
+      "sources": [
+        "nasa-supernova",
+        "nasa-crab-remnant"
+      ]
+    },
+    {
+      "id": "constellation",
+      "name": "별자리",
+      "en": "Constellation",
+      "aliases": [
+        "별자리 지도",
+        "Constellations"
+      ],
+      "summary": "밤하늘에서 천체를 찾는 데 쓰는 이름 있는 구역이에요.",
+      "intro": "옛사람들은 밤하늘의 별을 이어 사람이나 동물 모양을 떠올렸어요. 오늘날 천문학에서는 하늘을 여러 구역으로 나누고 별자리 이름을 써요.",
+      "prompt": "밤하늘에서 눈에 띄는 별 몇 개를 찾고, 어떤 모양으로 이어지는지 상상해 봐요.",
+      "facts": [
+        {
+          "label": "공식 별자리",
+          "value": "88개",
+          "source": "nasa-constellations"
+        },
+        {
+          "label": "하늘에서 하는 일",
+          "value": "별이나 성운이 보이는 방향을 알려 줘요.",
+          "source": "nasa-constellations",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-constellations"
+      ]
+    }
+  ],
+  "sources": {
+    "nasa-planets": {
+      "name": "NASA · 태양계의 행성",
+      "url": "https://science.nasa.gov/solar-system/planets/"
+    },
+    "nasa-exoplanets": {
+      "name": "NASA · 외계행성",
+      "url": "https://science.nasa.gov/exoplanets/"
+    },
+    "nasa-moons": {
+      "name": "NASA · 자연위성",
+      "url": "https://science.nasa.gov/solar-system/moons/facts/"
+    },
+    "nasa-asteroids": {
+      "name": "NASA · 소행성",
+      "url": "https://science.nasa.gov/solar-system/asteroids/facts/"
+    },
+    "nasa-kuiper": {
+      "name": "NASA · 카이퍼대",
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/"
+    },
+    "nasa-comets": {
+      "name": "NASA · 혜성",
+      "url": "https://science.nasa.gov/solar-system/comets/facts/"
+    },
+    "nasa-stellar-types": {
+      "name": "NASA · 항성의 유형과 진화",
+      "url": "https://science.nasa.gov/universe/stars/types/"
+    },
+    "nasa-brown-dwarf": {
+      "name": "NASA · 갈색왜성",
+      "url": "https://science.nasa.gov/asset/hubble/failing-stars/"
+    },
+    "nasa-black-hole-types": {
+      "name": "NASA · 블랙홀의 유형",
+      "url": "https://science.nasa.gov/universe/black-holes/types/"
+    },
+    "nasa-nebula-types": {
+      "name": "NASA · 허블이 본 성운",
+      "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/"
+    },
+    "nasa-cluster-types": {
+      "name": "NASA · 허블이 본 성단",
+      "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-star-clusters/"
+    },
+    "nasa-galaxy-types": {
+      "name": "NASA · 은하의 유형",
+      "url": "https://science.nasa.gov/universe/galaxies/types/"
+    },
+    "nasa-oort-cloud": {
+      "name": "NASA · 오르트 구름",
+      "url": "https://science.nasa.gov/solar-system/oort-cloud/"
+    },
+    "nasa-orionids": {
+      "name": "NASA · 오리온자리 유성우",
+      "url": "https://science.nasa.gov/solar-system/meteors-meteorites/orionids/"
+    },
+    "nasa-supernova": {
+      "name": "NASA Space Place · 초신성",
+      "url": "https://spaceplace.nasa.gov/supernova/en/"
+    },
+    "nasa-constellations": {
+      "name": "NASA · 밤하늘 관측 질문 모음",
+      "url": "https://science.nasa.gov/skywatching/faq/"
+    },
+    "nasa-crab-remnant": {
+      "name": "NASA · 게성운",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+    },
+    "nasa-solar-overview": {
+      "name": "NASA · 태양계 개요",
+      "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter1-1/"
+    },
+    "kasi-solar-overview": {
+      "name": "한국천문연구원 · 태양계 개요",
+      "url": "https://astro.kasi.re.kr/kor/post/solarSystemOverview"
+    }
+  },
+  "relations": [
+    {
+      "from": "supernova",
+      "to": "crab-nebula",
+      "forward": "폭발이 남긴 구름, 게성운",
+      "reverse": "게성운을 남긴 별의 폭발"
+    },
+    {
+      "from": "constellation",
+      "to": "betelgeuse",
+      "forward": "오리온자리에서 보이는 별",
+      "reverse": "밤하늘에서 별을 찾는 방법"
+    },
+    {
+      "from": "constellation",
+      "to": "orion-nebula",
+      "forward": "오리온자리 방향의 성운",
+      "reverse": "밤하늘에서 성운을 찾는 방법"
+    }
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "objects": [
+    {
+      "id": "proxima-b",
+      "name": "프록시마 센타우리 b",
+      "en": "Proxima Centauri b",
+      "aliases": [
+        "프록시마 b",
+        "Proxima b",
+        "Proxima Cen b"
+      ],
+      "category": "exoplanet",
+      "intro": "태양 다음으로 우리에게 가까운 별을 도는 행성이에요. 별을 한 바퀴 도는 데 지구 시간으로 약 11일이 걸려요.",
+      "prompt": "이 행성의 1년이 지구의 몇 주쯤 되는지 생각해 봐요.",
+      "facts": [
+        {
+          "label": "행성계까지의 거리",
+          "value": "지구에서 약 4.24광년",
+          "source": "proxima-archive"
+        },
+        {
+          "label": "공전 주기",
+          "value": "지구 시간으로 약 11.2일",
+          "source": "proxima-archive"
+        },
+        {
+          "label": "질량의 하한 추정",
+          "value": "지구 질량의 약 1.06배",
+          "source": "proxima-archive",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "중심별을 도는 궤도의 긴반지름",
+          "value": "약 0.0485 AU",
+          "source": "proxima-archive",
+          "detail": true
+        },
+        {
+          "label": "발견 방법",
+          "value": "별빛의 파장이 아주 조금 달라지는 것을 재서 별이 흔들리는 움직임을 알아냈어요.",
+          "source": "proxima-eso",
+          "detail": true
+        },
+        {
+          "label": "발견 발표",
+          "value": "2016년",
+          "source": "proxima-eso",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "proxima-archive",
+        "proxima-eso"
+      ]
+    },
+    {
+      "id": "trappist-1-e",
+      "name": "트라피스트-1 e",
+      "en": "TRAPPIST-1 e",
+      "aliases": [
+        "TRAPPIST-1e",
+        "트라피스트 1 e"
+      ],
+      "category": "exoplanet",
+      "intro": "작은 붉은 별을 도는 바위 행성이에요. 지구와 크기가 비슷해요.",
+      "prompt": "연결 카드에서 이 행성이 도는 작은 별을 찾아봐요.",
+      "facts": [
+        {
+          "label": "행성계까지의 거리",
+          "value": "지구에서 약 40광년",
+          "source": "trappist-nasa"
+        },
+        {
+          "label": "반지름",
+          "value": "지구 반지름의 약 0.92배",
+          "source": "trappist-e-nasa"
+        },
+        {
+          "label": "공전 주기",
+          "value": "지구 시간으로 약 6.1일",
+          "source": "trappist-e-nasa"
+        },
+        {
+          "label": "질량",
+          "value": "지구 질량의 약 0.69배",
+          "source": "trappist-archive",
+          "detail": true
+        },
+        {
+          "label": "중심별을 도는 궤도의 긴반지름",
+          "value": "약 0.029 AU",
+          "source": "trappist-archive",
+          "detail": true
+        },
+        {
+          "label": "발견 방법",
+          "value": "별 앞을 지날 때 별빛이 조금 어두워져요. 이 변화를 관측했어요.",
+          "source": "trappist-e-nasa",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "trappist-nasa",
+        "trappist-e-nasa",
+        "trappist-archive"
+      ]
+    },
+    {
+      "id": "2m1207-b",
+      "name": "2M1207 b",
+      "en": "2M1207 b",
+      "aliases": [
+        "2MASS J12073346-3932539 b",
+        "2MASS 1207 b",
+        "TWA 27 B"
+      ],
+      "category": "exoplanet",
+      "intro": "갈색왜성 곁을 도는 큰 외계행성이에요. 망원경으로 이 행성에서 나온 적외선을 직접 관측했어요.",
+      "prompt": "연결 카드에서 이 행성이 도는 갈색왜성을 찾아봐요.",
+      "facts": [
+        {
+          "label": "행성계까지의 거리",
+          "value": "지구에서 약 210광년",
+          "source": "2m1207-archive"
+        },
+        {
+          "label": "발견 방법",
+          "value": "적외선 직접 촬영",
+          "source": "2m1207-eso"
+        },
+        {
+          "label": "질량 추정",
+          "value": "목성 질량의 약 5.2배",
+          "source": "2m1207-archive",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "반지름 추정",
+          "value": "목성 반지름의 약 1.4배",
+          "source": "2m1207-archive",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "갈색왜성과 하늘에서 보이는 간격",
+          "value": "발견 당시 약 0.8각초 · 각초는 하늘에서 두 점 사이의 각도를 재는 단위예요.",
+          "source": "2m1207-separation",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "2m1207-archive",
+        "2m1207-eso",
+        "2m1207-hubble",
+        "2m1207-separation"
+      ]
+    },
+    {
+      "id": "proxima-centauri",
+      "name": "프록시마 센타우리",
+      "en": "Proxima Centauri",
+      "aliases": [
+        "프록시마",
+        "센타우루스자리 알파 C",
+        "Alpha Centauri C",
+        "Proxima Cen"
+      ],
+      "category": "star",
+      "intro": "태양을 빼면 지구에서 가장 가까운 별이에요. 작고 희미해서 맨눈으로는 보이지 않아요.",
+      "prompt": "이 별과 이름이 닮은 행성을 연결 카드에서 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 4.24광년",
+          "source": "proxima-archive"
+        },
+        {
+          "label": "항성 종류",
+          "value": "적색왜성",
+          "source": "proxima-eso"
+        },
+        {
+          "label": "반지름",
+          "value": "태양 반지름의 약 0.14배",
+          "source": "proxima-archive",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "태양 질량의 약 0.12배",
+          "source": "proxima-archive",
+          "detail": true
+        },
+        {
+          "label": "광도",
+          "value": "태양 광도의 약 0.0015배",
+          "source": "proxima-archive",
+          "detail": true
+        },
+        {
+          "label": "유효 온도",
+          "value": "약 2,900 K",
+          "source": "proxima-archive",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "proxima-archive",
+        "proxima-eso"
+      ]
+    },
+    {
+      "id": "trappist-1",
+      "name": "트라피스트-1",
+      "en": "TRAPPIST-1",
+      "aliases": [
+        "트라피스트 1",
+        "2MASS J23062928-0502285"
+      ],
+      "category": "star",
+      "intro": "작고 붉은 별이에요. 이 별을 도는 행성 일곱 개가 발견됐어요.",
+      "prompt": "일곱 행성 중 이름 끝에 e가 붙은 행성을 연결 카드에서 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 40광년",
+          "source": "trappist-nasa"
+        },
+        {
+          "label": "알려진 행성",
+          "value": "7개",
+          "source": "trappist-nasa"
+        },
+        {
+          "label": "반지름",
+          "value": "태양 반지름의 약 0.12배",
+          "source": "trappist-archive",
+          "detail": true
+        },
+        {
+          "label": "질량",
+          "value": "태양 질량의 약 0.09배",
+          "source": "trappist-archive",
+          "detail": true
+        },
+        {
+          "label": "광도",
+          "value": "태양 광도의 약 0.00055배",
+          "source": "trappist-archive",
+          "detail": true
+        },
+        {
+          "label": "유효 온도",
+          "value": "약 2,570 K",
+          "source": "trappist-archive",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "trappist-nasa",
+        "trappist-archive"
+      ]
+    },
+    {
+      "id": "betelgeuse",
+      "name": "베텔게우스",
+      "en": "Betelgeuse",
+      "aliases": [
+        "오리온자리 알파",
+        "Alpha Orionis"
+      ],
+      "category": "star",
+      "intro": "오리온자리에서 붉게 빛나는 아주 큰 별이에요. 별의 겉에는 주변보다 밝게 보이는 곳이 있어요.",
+      "prompt": "이 별의 반지름이 태양의 몇 배인지 숫자로 확인해 봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리 추정",
+          "value": "약 600광년",
+          "source": "betelgeuse-alma",
+          "estimated": true
+        },
+        {
+          "label": "별의 종류",
+          "value": "적색초거성",
+          "source": "betelgeuse-alma"
+        },
+        {
+          "label": "반지름 추정",
+          "value": "태양 반지름의 약 800배",
+          "source": "betelgeuse-alma",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "밤하늘 위치",
+          "value": "오리온자리",
+          "source": "betelgeuse-kasi",
+          "detail": true
+        },
+        {
+          "label": "관측 장비",
+          "value": "ALMA 전파망원경",
+          "source": "betelgeuse-eso",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "betelgeuse-alma",
+        "betelgeuse-eso",
+        "betelgeuse-kasi"
+      ]
+    },
+    {
+      "id": "2m1207",
+      "name": "2M1207",
+      "en": "2M1207",
+      "aliases": [
+        "2M1207 A",
+        "2MASS J12073346-3932539",
+        "TWA 27 A"
+      ],
+      "category": "brown-dwarf",
+      "intro": "갈색왜성이에요. 별처럼 오랫동안 수소를 태울 만큼 무겁지 않아요.",
+      "prompt": "이 갈색왜성과 이름이 닮은 동반 행성을 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 210광년",
+          "source": "2m1207-archive"
+        },
+        {
+          "label": "곁에서 발견한 행성",
+          "value": "2M1207 b",
+          "source": "2m1207-eso"
+        },
+        {
+          "label": "질량 추정",
+          "value": "목성 질량의 약 25배 · 초기 연구 추정",
+          "source": "2m1207-archive",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "나이 추정",
+          "value": "약 1,000만 년",
+          "source": "2m1207-archive",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "2m1207-archive",
+        "2m1207-eso",
+        "2m1207-hubble"
+      ]
+    },
+    {
+      "id": "sirius-b",
+      "name": "시리우스 B",
+      "en": "Sirius B",
+      "aliases": [
+        "큰개자리 알파 B",
+        "Alpha Canis Majoris B"
+      ],
+      "category": "remnant",
+      "intro": "별의 중심이 작고 빽빽하게 남아서 생긴 백색왜성이에요. 밝게 빛나는 시리우스 A 곁에 있어요.",
+      "prompt": "시리우스 B의 지름이 지구보다 큰지 작은지 비교해 봐요.",
+      "facts": [
+        {
+          "label": "지구에서 시리우스 별계까지",
+          "value": "약 8.6광년",
+          "source": "sirius-hubble"
+        },
+        {
+          "label": "지름",
+          "value": "약 12,000 km",
+          "source": "sirius-esa"
+        },
+        {
+          "label": "질량",
+          "value": "태양 질량과 거의 같아요.",
+          "source": "sirius-hubble",
+          "detail": true
+        },
+        {
+          "label": "표면 온도 추정",
+          "value": "약 25,000 °C",
+          "source": "sirius-esa",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "시리우스 A와 서로 도는 주기",
+          "value": "약 50년",
+          "source": "sirius-esa",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "sirius-hubble",
+        "sirius-esa"
+      ]
+    },
+    {
+      "id": "crab-pulsar",
+      "name": "게성운 펄서",
+      "en": "Crab Pulsar",
+      "aliases": [
+        "게 펄서",
+        "PSR B0531+21",
+        "PSR J0534+2200"
+      ],
+      "category": "remnant",
+      "intro": "별이 폭발한 뒤 남은 중성자별이에요. 아주 빠르게 돌아서 규칙적인 간격으로 신호가 보여요.",
+      "prompt": "등대 불빛이 돌아올 때마다 번쩍 보이는 모습을 떠올려 봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 6,500광년",
+          "source": "crab-pulsar-nasa"
+        },
+        {
+          "label": "자전 속도",
+          "value": "1초에 약 30바퀴",
+          "source": "crab-nasa"
+        },
+        {
+          "label": "한 바퀴 도는 시간",
+          "value": "약 0.033초",
+          "source": "crab-pulsar-nasa",
+          "detail": true
+        },
+        {
+          "label": "위치",
+          "value": "게성운 중심부",
+          "source": "crab-pulsar-nasa",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "crab-pulsar-nasa",
+        "crab-nasa"
+      ]
+    },
+    {
+      "id": "sagittarius-a",
+      "name": "궁수자리 A*",
+      "en": "Sagittarius A*",
+      "aliases": [
+        "궁수자리 A 별표",
+        "Sgr A*",
+        "궁수자리 에이 스타"
+      ],
+      "category": "black-hole",
+      "intro": "우리 은하 한가운데에 있는 아주 무거운 블랙홀이에요. 주변에서 나온 전파를 모아 밝은 고리와 어두운 그림자를 알아봤어요.",
+      "prompt": "밝은 고리 안에서 어두운 부분을 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 27,000광년",
+          "source": "blackholes-eso"
+        },
+        {
+          "label": "질량",
+          "value": "태양 질량의 약 400만 배",
+          "source": "blackholes-eso"
+        },
+        {
+          "label": "관측 영상 공개",
+          "value": "2022년",
+          "source": "sagittarius-eso",
+          "detail": true
+        },
+        {
+          "label": "관측 방법",
+          "value": "지구 곳곳의 전파망원경을 함께 사용했어요.",
+          "source": "sagittarius-eso",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "blackholes-eso",
+        "sagittarius-eso"
+      ]
+    },
+    {
+      "id": "m87-star",
+      "name": "M87*",
+      "en": "M87*",
+      "aliases": [
+        "엠87 스타",
+        "메시에 87 중심 블랙홀",
+        "Virgo A black hole"
+      ],
+      "category": "black-hole",
+      "intro": "메시에 87 은하 한가운데에 있는 블랙홀이에요. 사람들은 이곳의 밝은 고리와 블랙홀 그림자를 처음 영상으로 보았어요.",
+      "prompt": "고리 전체가 똑같이 밝은지, 유난히 밝은 쪽이 있는지 살펴봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 5,500만 광년",
+          "source": "m87-eso"
+        },
+        {
+          "label": "질량",
+          "value": "태양 질량의 약 65억 배",
+          "source": "m87-eso"
+        },
+        {
+          "label": "관측 영상 공개",
+          "value": "2019년",
+          "source": "m87-eso",
+          "detail": true
+        },
+        {
+          "label": "중심에 이 블랙홀이 있는 은하",
+          "value": "메시에 87 · 타원은하",
+          "source": "m87-nasa",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "m87-eso",
+        "m87-nasa"
+      ]
+    },
+    {
+      "id": "orion-nebula",
+      "name": "오리온 성운",
+      "en": "Orion Nebula",
+      "aliases": [
+        "메시에 42",
+        "M42",
+        "NGC 1976",
+        "오리온 대성운",
+        "오리온대성운"
+      ],
+      "category": "nebula",
+      "intro": "가스와 먼지가 모인 큰 구름이에요. 그 속에서 새로운 별들이 태어나요.",
+      "prompt": "구름 속에서 별처럼 점으로 보이는 곳을 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 1,300광년",
+          "source": "orion-nasa"
+        },
+        {
+          "label": "밤하늘 위치",
+          "value": "오리온자리 허리띠 아래",
+          "source": "orion-nasa"
+        },
+        {
+          "label": "성운 중심의 어린 별들",
+          "value": "사다리꼴 모양으로 모인 밝은 별들이 있어요.",
+          "source": "orion-hubble",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "orion-nasa",
+        "orion-hubble",
+        "orion-kasi"
+      ]
+    },
+    {
+      "id": "crab-nebula",
+      "name": "게성운",
+      "en": "Crab Nebula",
+      "aliases": [
+        "게 성운",
+        "메시에 1",
+        "M1",
+        "NGC 1952"
+      ],
+      "category": "nebula",
+      "intro": "큰 별이 폭발하고 남은 가스가 퍼져 만든 구름이에요. 가운데에는 아주 빠르게 도는 게성운 펄서가 있어요.",
+      "prompt": "구름 밖으로 뻗어 있는 가느다란 줄기를 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 6,500광년",
+          "source": "crab-catalog"
+        },
+        {
+          "label": "폭발 빛을 지구에서 기록한 해",
+          "value": "1054년",
+          "source": "crab-nasa"
+        },
+        {
+          "label": "폭 추정",
+          "value": "약 10광년 · 관측 영역에 따라 달라요.",
+          "source": "crab-nasa",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "밤하늘 위치",
+          "value": "황소자리",
+          "source": "crab-catalog",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "crab-catalog",
+        "crab-nasa"
+      ]
+    },
+    {
+      "id": "carina-nebula",
+      "name": "용골자리 성운",
+      "en": "Carina Nebula",
+      "aliases": [
+        "칼드웰 92",
+        "Caldwell 92",
+        "NGC 3372",
+        "카리나 성운"
+      ],
+      "category": "nebula",
+      "intro": "많은 별이 태어나는 커다란 구름이에요. 그 안에는 산과 골짜기처럼 보이는 가스와 먼지도 있어요.",
+      "prompt": "성운의 어느 부분에서 새로운 별이 태어나는지 알아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 7,500광년",
+          "source": "carina-hubble"
+        },
+        {
+          "label": "전체 폭 추정",
+          "value": "300광년 이상",
+          "source": "carina-hubble",
+          "estimated": true
+        },
+        {
+          "label": "웹 망원경이 관측한 일부 영역",
+          "value": "성운 안의 별 탄생 지역 NGC 3324",
+          "source": "carina-webb",
+          "detail": true
+        },
+        {
+          "label": "밤하늘 위치",
+          "value": "용골자리",
+          "source": "carina-hubble",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "carina-hubble",
+        "carina-webb"
+      ]
+    },
+    {
+      "id": "pleiades",
+      "name": "플레이아데스 성단",
+      "en": "Pleiades",
+      "aliases": [
+        "좀생이별",
+        "칠자매별",
+        "일곱 자매",
+        "메시에 45",
+        "M45",
+        "Seven Sisters"
+      ],
+      "category": "cluster",
+      "intro": "어두운 밤하늘에서는 밝은 별 몇 개가 모여 보여요. 망원경으로 보면 더 많은 별을 찾을 수 있어요.",
+      "prompt": "맨눈으로 보이는 별과 성단 전체 별의 수가 왜 다를지 생각해 봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 445광년",
+          "source": "pleiades-nasa",
+          "estimated": true
+        },
+        {
+          "label": "성단의 종류",
+          "value": "산개성단",
+          "source": "pleiades-nasa"
+        },
+        {
+          "label": "모여 있는 별",
+          "value": "1,000개 이상",
+          "source": "pleiades-nasa",
+          "detail": true
+        },
+        {
+          "label": "밤하늘 위치",
+          "value": "황소자리",
+          "source": "pleiades-nasa",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "pleiades-nasa"
+      ]
+    },
+    {
+      "id": "milky-way",
+      "name": "우리 은하",
+      "en": "Milky Way",
+      "aliases": [
+        "은하수",
+        "Milky Way Galaxy",
+        "우리은하"
+      ],
+      "category": "galaxy",
+      "intro": "태양과 지구가 들어 있는 은하예요. 지구에서 보면 별이 많은 방향이 뿌연 빛의 띠처럼 보여요.",
+      "prompt": "우리가 사는 은하에 들어 있는 별을 연결 카드에서 찾아봐요.",
+      "facts": [
+        {
+          "label": "은하의 종류",
+          "value": "막대나선은하",
+          "source": "milky-glossary"
+        },
+        {
+          "label": "별이 모인 원반의 지름 추정",
+          "value": "약 10만 광년",
+          "source": "milky-glossary",
+          "estimated": true
+        },
+        {
+          "label": "별의 수 추정",
+          "value": "약 1,000억~4,000억 개",
+          "source": "milky-glossary",
+          "detail": true,
+          "estimated": true
+        },
+        {
+          "label": "태양계의 위치",
+          "value": "은하 중심에서 바깥쪽으로 나가는 나선팔 주변",
+          "source": "milky-nasa",
+          "detail": true
+        },
+        {
+          "label": "은하 중심 한 바퀴",
+          "value": "태양계가 도는 데 약 2억 4,000만 년",
+          "source": "milky-nasa",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "milky-glossary",
+        "milky-nasa"
+      ]
+    },
+    {
+      "id": "andromeda",
+      "name": "안드로메다은하",
+      "en": "Andromeda Galaxy",
+      "aliases": [
+        "안드로메다 은하",
+        "메시에 31",
+        "M31",
+        "NGC 224"
+      ],
+      "category": "galaxy",
+      "intro": "우리 은하와 가까운 큰 이웃 은하예요. 밝은 중심을 둘러싼 나선팔에는 별과 가스가 있어요.",
+      "prompt": "밝은 중심을 둘러싸며 휘어진 띠를 찾아봐요.",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 250만 광년",
+          "source": "andromeda-nearby"
+        },
+        {
+          "label": "은하의 종류",
+          "value": "나선은하",
+          "source": "andromeda-nasa"
+        },
+        {
+          "label": "별이 모인 영역의 폭 추정",
+          "value": "허블 자료에서 약 15만 광년 · 별이 모인 영역을 어디까지 재는지에 따라 달라요.",
+          "source": "andromeda-nasa",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "andromeda-nearby",
+        "andromeda-nasa"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "proxima-centauri",
+      "to": "proxima-b",
+      "forward": "이 별을 도는 행성이에요.",
+      "reverse": "이 행성이 도는 별이에요."
+    },
+    {
+      "from": "trappist-1",
+      "to": "trappist-1-e",
+      "forward": "이 별을 도는 행성이에요.",
+      "reverse": "이 행성이 도는 별이에요."
+    },
+    {
+      "from": "2m1207",
+      "to": "2m1207-b",
+      "forward": "이 갈색왜성을 도는 행성이에요.",
+      "reverse": "이 행성이 도는 갈색왜성이에요."
+    },
+    {
+      "from": "milky-way",
+      "to": "sagittarius-a",
+      "forward": "우리 은하 중심의 블랙홀이에요.",
+      "reverse": "이 블랙홀이 있는 은하예요."
+    },
+    {
+      "from": "crab-nebula",
+      "to": "crab-pulsar",
+      "forward": "이 성운 중심의 중성자별이에요.",
+      "reverse": "이 펄서를 둘러싼 성운이에요."
+    },
+    {
+      "from": "milky-way",
+      "to": "sun",
+      "forward": "우리 은하에 속한 별이에요.",
+      "reverse": "태양이 속한 은하예요."
+    },
+    {
+      "from": "milky-way",
+      "to": "andromeda",
+      "forward": "우리 은하의 큰 이웃 은하예요.",
+      "reverse": "안드로메다은하의 큰 이웃 은하예요."
+    }
+  ],
+  "sources": {
+    "proxima-archive": {
+      "name": "NASA 외계행성 아카이브 · 프록시마 센타우리와 행성 b",
+      "url": "https://exoplanet.ipac.caltech.edu/overview/proxima%20centauri"
+    },
+    "proxima-eso": {
+      "name": "ESO · 태양에서 가장 가까운 이웃별과 행성",
+      "url": "https://www.hq.eso.org/public/news/eso1629/"
+    },
+    "trappist-nasa": {
+      "name": "NASA · TRAPPIST-1 행성계",
+      "url": "https://science.nasa.gov/exoplanets/trappist1/"
+    },
+    "trappist-archive": {
+      "name": "NASA 외계행성 아카이브 · TRAPPIST-1",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1"
+    },
+    "trappist-e-nasa": {
+      "name": "NASA · TRAPPIST-1 e",
+      "url": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/"
+    },
+    "2m1207-archive": {
+      "name": "NASA 외계행성 아카이브 · 2M1207과 동반 천체",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/overview/2MASS%20J12073346-3932539"
+    },
+    "2m1207-hubble": {
+      "name": "NASA 허블 · 갈색왜성 2M1207과 동반 천체",
+      "url": "https://science.nasa.gov/asset/hubble/brown-dwarf-2m1207a-and-companion/"
+    },
+    "2m1207-eso": {
+      "name": "ESO · 2M1207 직접 관측 영상",
+      "url": "https://www.eso.org/public/images/26a_big-vlt/"
+    },
+    "betelgeuse-alma": {
+      "name": "ALMA · 베텔게우스 대기의 밝은 영역",
+      "url": "https://www.almaobservatory.org/en/audiences/alma-reveals-long-lived-hotspots-on-betelgeuses-bubbling-surface/"
+    },
+    "betelgeuse-eso": {
+      "name": "ESO · ALMA가 본 베텔게우스",
+      "url": "https://www.eso.org/public/images/potw1726a/"
+    },
+    "sirius-hubble": {
+      "name": "NASA 허블 · 시리우스 B의 질량 측정",
+      "url": "https://science.nasa.gov/missions/hubble/measuring-a-white-dwarf-star/"
+    },
+    "sirius-esa": {
+      "name": "ESA 허블 · 시리우스 A와 B의 관측",
+      "url": "https://esahubble.org/images/heic0516a/"
+    },
+    "crab-pulsar-nasa": {
+      "name": "NASA · 여러 파장으로 본 게성운과 펄서",
+      "url": "https://science.nasa.gov/asset/webb/infrared-universe-the-crab-nebula/"
+    },
+    "crab-nasa": {
+      "name": "NASA 허블 · 게성운",
+      "url": "https://science.nasa.gov/missions/hubble/the-crab-nebula/"
+    },
+    "crab-catalog": {
+      "name": "NASA 허블 · 메시에 1",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+    },
+    "sagittarius-eso": {
+      "name": "ESO · 우리 은하 중심의 블랙홀 영상",
+      "url": "https://www.eso.org/public/news/eso2208-eht-mw/"
+    },
+    "blackholes-eso": {
+      "name": "ESO · M87*과 궁수자리 A* 비교",
+      "url": "https://www.eso.org/public/images/eso2208-eht-mwe/"
+    },
+    "m87-eso": {
+      "name": "ESO · 최초의 블랙홀 그림자 영상",
+      "url": "https://www.hq.eso.org/public/news/eso1907/"
+    },
+    "orion-nasa": {
+      "name": "NASA · 오리온자리와 오리온 성운",
+      "url": "https://science.nasa.gov/universe/stories/quick-reads/discovering-the-universe-through-the-constellation-orion/"
+    },
+    "orion-hubble": {
+      "name": "NASA 허블 · 오리온 성운 메시에 42",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/"
+    },
+    "carina-hubble": {
+      "name": "NASA 허블 · 용골자리 성운의 가스와 먼지",
+      "url": "https://science.nasa.gov/missions/hubble/dark-clouds-of-the-carina-nebula/"
+    },
+    "carina-webb": {
+      "name": "ESA 웹 · 용골자리 성운 안의 NGC 3324",
+      "url": "https://esawebb.org/images/weic2205a/"
+    },
+    "pleiades-nasa": {
+      "name": "NASA 허블 · 플레이아데스 메시에 45",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-45/"
+    },
+    "milky-nasa": {
+      "name": "NASA · 은하와 우리 은하",
+      "url": "https://science.nasa.gov/universe/galaxies/"
+    },
+    "milky-glossary": {
+      "name": "NASA · 막대나선은하인 우리 은하",
+      "url": "https://science.nasa.gov/universe/glossary/"
+    },
+    "andromeda-nasa": {
+      "name": "NASA 허블 · 안드로메다은하의 나선팔",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-zooms-into-the-rosy-tendrils-of-andromeda/"
+    },
+    "andromeda-nearby": {
+      "name": "NASA 허블 · 안드로메다은하의 역사",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-traces-hidden-history-of-andromeda-galaxy/"
+    },
+    "2m1207-separation": {
+      "name": "ESO · 2M1207 곁의 빛점 발견",
+      "url": "https://www.eso.org/public/news/eso0428/"
+    },
+    "betelgeuse-kasi": {
+      "name": "한국천문연구원 · 오리온자리의 베텔게우스",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5355"
+    },
+    "orion-kasi": {
+      "name": "한국천문연구원 · 오리온 대성운",
+      "url": "https://www.kasi.re.kr/kor/publication/post/videoGallery/10446"
+    },
+    "m87-nasa": {
+      "name": "NASA · M87 타원은하와 블랙홀",
+      "url": "https://science.nasa.gov/universe/exoplanets/the-giant-galaxy-around-the-giant-black-hole/"
+    }
+  }
+}
