@@ -112,8 +112,7 @@ function validateDetail(item, sources) {
   item.sources = [...new Set([...item.sources, ...facts.map(fact => fact.source)])];
 }
 
-function validateImage(image, id) {
-  const context = `images.${id}`;
+function validateImage(image, context) {
   check(isRecord(image) && imageKinds.has(image.kind), context, '지원하지 않는 이미지 종류입니다.');
   for (const key of ['file', 'caption', 'credit', 'license', 'alt', 'changes', 'checkedAt']) {
     text(image[key], `${context}.${key}`);
@@ -126,7 +125,7 @@ function validateImage(image, id) {
   const local = localImage.test(image.file);
   if (local) {
     const asset = join(dist, image.file);
-    check(existsSync(asset) && readFileSync(asset).length > 0, context, `대표 이미지 파일을 찾을 수 없습니다: ${image.file}`);
+    check(existsSync(asset) && readFileSync(asset).length > 0, context, `이미지 파일을 찾을 수 없습니다: ${image.file}`);
   } else {
     https(image.file, `${context}.file`);
   }
@@ -153,8 +152,10 @@ function writeAtomically(path, value) {
 function build({ verifyOnly }) {
   const structure = readJSON(join(content, 'structure.json'));
   const images = readJSON(join(content, 'images.json'));
+  const galleryPath = join(content, 'gallery.json');
+  const gallery = existsSync(galleryPath) ? readJSON(galleryPath) : {};
   const shards = readdirSync(content).filter(filename => filename.endsWith('.json')
-    && !['structure.json', 'images.json'].includes(filename)).sort();
+    && !['structure.json', 'images.json', 'gallery.json'].includes(filename)).sort();
   check(shards.length > 0, 'content', '천체 데이터를 한 파일 이상 작성하세요.');
   const sources = new Map();
   const categories = new Map();
@@ -203,6 +204,7 @@ function build({ verifyOnly }) {
       if (!region.objects.includes(item.id)) region.objects.push(item.id);
     }
     check(item.image === undefined, item.id, '이미지 정보는 content/images.json에 등록하세요.');
+    check(item.gallery === undefined, item.id, '추가 이미지 정보는 content/gallery.json에 등록하세요.');
   }
   for (const item of phenomena.values()) {
     check(!objects.has(item.id), item.id, '천체와 밤하늘 현상에 같은 ID를 사용할 수 없습니다.');
@@ -230,13 +232,42 @@ function build({ verifyOnly }) {
   for (const [id, image] of entries(images, 'images.json')) {
     const item = objects.get(id);
     check(item, `images.${id}`, '존재하지 않는 천체의 이미지입니다.');
-    if (validateImage(image, id)) {
+    if (validateImage(image, `images.${id}`)) {
       localAssets.add(image.file);
       localCount += 1;
     } else {
       remoteCount += 1;
     }
     item.image = image;
+  }
+
+  let galleryLocalCount = 0;
+  let galleryRemoteCount = 0;
+  let galleryObjectCount = 0;
+  for (const [id, galleryImages] of entries(gallery, 'gallery.json')) {
+    const context = `gallery.${id}`;
+    const item = objects.get(id);
+    check(item, context, '존재하지 않는 천체의 이미지입니다.');
+    const images = list(galleryImages, context);
+    check(images.length > 0, context, '추가 이미지를 한 개 이상 등록하세요.');
+    const usedFiles = new Set([item.image?.file]);
+    const usedOriginals = new Set([item.image?.originalUrl]);
+    for (const [index, image] of images.entries()) {
+      const imageContext = `${context}[${index}]`;
+      const local = validateImage(image, imageContext);
+      check(!usedFiles.has(image.file) && (!image.originalUrl || !usedOriginals.has(image.originalUrl)),
+        imageContext, '이미 등록된 이미지와 중복됩니다.');
+      usedFiles.add(image.file);
+      usedOriginals.add(image.originalUrl);
+      if (local) {
+        localAssets.add(image.file);
+        galleryLocalCount += 1;
+      } else {
+        galleryRemoteCount += 1;
+      }
+    }
+    item.gallery = images;
+    galleryObjectCount += 1;
   }
 
   const catalog = {
@@ -268,6 +299,7 @@ function build({ verifyOnly }) {
   const missing = catalog.objects.length - localCount - remoteCount;
   console.log(`${verifyOnly ? '검사' : '빌드'} 완료 · 천체 ${catalog.objects.length} · 분류 ${categories.size} · 지역 ${regions.size} · 현상 ${phenomena.size} · 관계 ${relations.length}`);
   console.log(`대표 이미지 · 오프라인 ${localCount} · 온라인 전용 ${remoteCount} · 미등록 ${missing} · 캐시 ${cacheVersion}`);
+  console.log(`추가 이미지 · 천체 ${galleryObjectCount} · 오프라인 ${galleryLocalCount} · 온라인 전용 ${galleryRemoteCount}`);
 }
 
 try {

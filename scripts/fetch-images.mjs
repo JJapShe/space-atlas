@@ -4,7 +4,6 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const manifest = join(root, 'content/images.json');
 const imageDir = join(root, 'dist/assets/objects');
 const maxBytes = 8 * 1024 * 1024;
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -60,16 +59,22 @@ async function fetchImage(address) {
   throw new Error('리디렉션이 너무 많습니다.');
 }
 
-async function main() {
-  const images = JSON.parse((await readFile(manifest, 'utf8')).replace(/^\uFEFF/, ''));
-  const records = Object.entries(images);
-  const remote = records.filter(([, image]) => typeof image.file === 'string' && image.file.startsWith('https://'));
-  const usedFiles = new Set(records.map(([, image]) => image.file));
-  await mkdir(imageDir, { recursive: true });
-  const downloaded = new Map();
+async function readManifest(name) {
+  const path = join(root, 'content', name);
+  try {
+    const images = JSON.parse((await readFile(path, 'utf8')).replace(/^\uFEFF/, ''));
+    return { path, images };
+  } catch (error) {
+    if (name === 'gallery.json' && error.code === 'ENOENT') return { path, images: {} };
+    throw error;
+  }
+}
+
+async function prepareManifest(manifest, records, usedFiles, downloaded) {
+  const remote = records.filter(({ image }) => typeof image?.file === 'string' && image.file.startsWith('https://'));
   let localCount = 0;
   let failCount = 0;
-  for (const [id, image] of remote) {
+  for (const { id, basename, image } of remote) {
     try {
       if (!idPattern.test(id) || !['photo', 'processed', 'illustration'].includes(image.kind)
         || !['sourceUrl', 'originalUrl', 'licenseUrl'].every(field => secureUrl(image[field]))
@@ -80,11 +85,10 @@ async function main() {
       let file = downloaded.get(address);
       if (!file) {
         const { bytes, extension } = await fetchImage(address);
-        const basename = `${id}.${extension}`;
-        const suffix = usedFiles.has(`assets/objects/${basename}`)
+        const suffix = usedFiles.has(`assets/objects/${basename}.${extension}`)
           ? `-${createHash('sha256').update(bytes).digest('hex').slice(0, 12)}`
           : '';
-        const filename = `${id}${suffix}.${extension}`;
+        const filename = `${basename}${suffix}.${extension}`;
         const target = join(imageDir, filename);
         const temporary = `${target}.${process.pid}.tmp`;
         await writeFile(temporary, bytes);
@@ -95,17 +99,32 @@ async function main() {
       }
       image.file = file;
       localCount += 1;
-      console.log(`${id} · ${file}`);
+      console.log(`${basename} · ${file}`);
     } catch (error) {
       failCount += 1;
-      console.error(`${id} · ${error.message}`);
+      console.error(`${basename} · ${error.message}`);
     }
   }
   if (localCount > 0) {
-    const temporary = `${manifest}.${process.pid}.tmp`;
-    await writeFile(temporary, `${JSON.stringify(images, null, 2)}\n`);
-    await rename(temporary, manifest);
+    const temporary = `${manifest.path}.${process.pid}.tmp`;
+    await writeFile(temporary, `${JSON.stringify(manifest.images, null, 2)}\n`);
+    await rename(temporary, manifest.path);
   }
+  return { localCount, failCount };
+}
+
+async function main() {
+  const [representatives, gallery] = await Promise.all([readManifest('images.json'), readManifest('gallery.json')]);
+  const primary = Object.entries(representatives.images).map(([id, image]) => ({ id, basename: id, image }));
+  const additional = Object.entries(gallery.images).flatMap(([id, images]) =>
+    images.map((image, index) => ({ id, basename: `${id}--${index + 1}`, image })));
+  const usedFiles = new Set([...primary, ...additional].map(({ image }) => image?.file));
+  await mkdir(imageDir, { recursive: true });
+  const downloaded = new Map();
+  const primaryResult = await prepareManifest(representatives, primary, usedFiles, downloaded);
+  const galleryResult = await prepareManifest(gallery, additional, usedFiles, downloaded);
+  const localCount = primaryResult.localCount + galleryResult.localCount;
+  const failCount = primaryResult.failCount + galleryResult.failCount;
   console.log(`이미지 등록 · 기기 저장 가능 ${localCount} · 온라인 전용 유지 ${failCount}`);
   if (localCount > 0) console.log('node scripts/build.mjs를 실행해 도감과 오프라인 버전을 갱신하세요.');
   if (failCount > 0) process.exitCode = 1;

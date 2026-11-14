@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_VERSION = '93b559fc8661cc56';
+const CACHE_VERSION = '2da0a616d50f1066';
 const scope = new URL(self.registration.scope);
 const prefix = `space-atlas:${scope.pathname}:`;
 const cacheName = `${prefix}${CACHE_VERSION}`;
@@ -30,11 +30,13 @@ async function readCatalog(response) {
 
 function assetsFor(catalog) {
   const assets = new Map(shell);
-  for (const object of catalog.objects) {
-    if (!object.image?.file) continue;
-    const image = new URL(object.image.file, scope);
-    if (image.origin === scope.origin && image.pathname.startsWith(scope.pathname)) {
-      assets.set(image.href, /^image\//);
+  for (const { image, gallery = [] } of catalog.objects) {
+    for (const entry of [image, ...gallery]) {
+      if (!entry?.file) continue;
+      const address = new URL(entry.file, scope);
+      if (address.origin === scope.origin && address.pathname.startsWith(scope.pathname)) {
+        assets.set(address.href, /^image\//);
+      }
     }
   }
   return assets;

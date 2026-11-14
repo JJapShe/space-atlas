@@ -125,19 +125,19 @@ function schematic(item) {
   </div>`;
 }
 
-function visual(item, layout = 'card') {
-  const image = item.image;
-  const file = imageFile(item);
-  const eager = layout === 'hero' || layout === 'detail';
+function visual(item, layout = 'card', image = item.image, imageIndex) {
+  const file = imageFile({ image });
+  const eager = ['hero', 'detail', 'enlarged'].includes(layout);
   const remote = imagePath(image?.remoteFile);
   const fallback = remote && remote !== file ? ` data-remote="${escapeHTML(remote)}"` : '';
   const schematicLabel = item.id === 'sun' || planetIds.includes(item.id) ? '태양계 개념 그림' : '천체 분류 그림';
   return `<figure class="object-visual visual-${layout}">
     ${schematic(item)}
     ${file ? `<img src="${escapeHTML(file)}"${fallback} alt="${escapeHTML(image.alt || item.name)}" loading="${eager ? 'eager' : 'lazy'}" decoding="async"${layout === 'hero' ? ' fetchpriority="high"' : ''}>` : ''}
+    ${file && imageIndex !== undefined ? `<button class="photo-expand" type="button" data-image-index="${imageIndex}" aria-haspopup="dialog" aria-label="${escapeHTML(image.alt || item.name)} 이미지 크게 보기"><span>⛶ 크게 보기</span></button>` : ''}
     <figcaption class="visual-caption">
       <span class="schematic-label visual-type">${schematicLabel}</span><span class="photo-status schematic-label">${file ? '' : '사진 자료 없음'}</span>
-      ${file ? `<span class="photo-label visual-type">${escapeHTML(imageType(image))}${remoteOnly(item) ? ' · 인터넷 필요' : ''}</span>${image.credit ? `<span class="photo-label visual-credit">${escapeHTML(image.credit)}</span>` : ''}` : ''}
+      ${file ? `<span class="photo-label visual-type">${escapeHTML(imageType(image))}${file.startsWith('https://') ? ' · 인터넷 필요' : ''}</span>${image.credit ? `<span class="photo-label visual-credit">${escapeHTML(image.credit)}</span>` : ''}` : ''}
     </figcaption>
   </figure>`;
 }
@@ -248,9 +248,9 @@ function regionFor(pattern) {
   return [...regions.values()].find(entry => pattern.test(`${entry.id} ${entry.name}`));
 }
 
-function mapRegion(entry, fallback) {
-  if (!entry) return `<li class="region-point"><span>${escapeHTML(fallback)}</span></li>`;
-  return `<li class="region-point"><a href="#region/${escapeHTML(entry.id)}">${escapeHTML(entry.name)} <span aria-hidden="true">↗</span></a></li>`;
+function mapRegion(entry, id, fallback) {
+  const content = `<span class="region-icon" data-region="${id}" aria-hidden="true"></span><strong>${escapeHTML(entry?.name || fallback)}</strong>`;
+  return `<li class="region-point">${entry ? `<a href="#region/${escapeHTML(entry.id)}">${content}</a>` : `<span>${content}</span>`}</li>`;
 }
 
 function comparisonPanel(mode) {
@@ -277,7 +277,7 @@ function mapPanel(mode = '') {
   const regionsOnMap = [regionFor(/inner-planets|안쪽 행성/i), regionFor(/outer-planets|바깥쪽 행성/i)].filter(Boolean);
   return `<section class="solar-map" aria-labelledby="solar-map-heading">
       <div class="section-heading"><h2 id="solar-map-heading">태양계 지도</h2><span>크기와 거리는 실제 비율과 달라요.</span></div>
-      <ol class="solar-track" aria-label="태양에서 멀어지는 순서">${sun ? solarNode(sun, -1) : ''}${sequence(planetIds.slice(0, 4))}${mapRegion(asteroids, '소행성대')}${sequence(planetIds.slice(4))}${mapRegion(kuiper, '카이퍼대')}${scattered ? mapRegion(scattered) : ''}${mapRegion(oort, '오르트 구름')}</ol>
+      <ol class="solar-track" aria-label="태양에서 멀어지는 순서">${sun ? solarNode(sun, -1) : ''}${sequence(planetIds.slice(0, 4))}${mapRegion(asteroids, 'asteroid-belt', '소행성대')}${sequence(planetIds.slice(4))}${mapRegion(kuiper, 'kuiper-belt', '카이퍼대')}${mapRegion(scattered, 'scattered-disk', '산란원반')}${mapRegion(oort, 'oort-cloud', '오르트 구름')}</ol>
       ${regionsOnMap.length ? `<nav class="map-regions" aria-label="행성이 모인 곳">${regionsOnMap.map(entry => `<a href="#region/${escapeHTML(entry.id)}">${escapeHTML(entry.name)} <span aria-hidden="true">↗</span></a>`).join('')}</nav>` : ''}
       <nav class="compare-actions" aria-label="태양계 비교">${Object.entries(comparisons).map(([id, comparison]) => `<a class="button button-secondary" href="#solar${mode === id ? '' : `?compare=${id}`}"${mode === id ? ' aria-current="page"' : ''}>${comparison.heading}</a>`).join('')}</nav>
     </section>`;
@@ -328,15 +328,26 @@ function factList(item, heading = '숫자로 더 알아보기') {
   }).join('')}</dl></details>`;
 }
 
+function imageCitation(image) {
+  const changes = image.changes || image.modifications;
+  const links = [image.sourceUrl && externalLink(image.sourceUrl, '원본 이미지와 설명'), image.license && externalLink(image.licenseUrl, image.license)].filter(Boolean);
+  return `<p>${escapeHTML(image.caption)}${image.credit ? ` · ${escapeHTML(image.credit)}` : ''}</p>${links.length ? `<p>${links.join(' · ')}</p>` : ''}${changes ? `<p>이미지 변경 내역 · ${escapeHTML(changes)}</p>` : ''}`;
+}
+
 function citations(item) {
-  const image = item.image;
-  const changes = image?.changes || image?.modifications;
   const contentSources = (item.sources || []).map(sourceLink).filter(Boolean);
-  if (!image && !contentSources.length) return '';
+  if (!item.image && !contentSources.length) return '';
   return `<details class="detail-disclosure citation-disclosure"><summary>사진과 자료 출처</summary><div class="citation-content">
-    ${image ? `<h3>이미지</h3><p>${escapeHTML(image.caption)}${image.credit ? ` · ${escapeHTML(image.credit)}` : ''}</p><p>${image.sourceUrl ? externalLink(image.sourceUrl, '원본 이미지와 설명') : ''}${image.license ? ` · ${externalLink(image.licenseUrl, image.license)}` : ''}</p>${changes ? `<p>이미지 변경 내역 · ${escapeHTML(changes)}</p>` : ''}` : ''}
+    ${item.image ? `<h3>대표 이미지</h3>${imageCitation(item.image)}` : ''}
     ${contentSources.length ? `<h3>본문 자료</h3><ul>${contentSources.map(link => `<li>${link}</li>`).join('')}</ul>` : ''}
   </div></details>`;
+}
+
+function imageGallery(item) {
+  if (!item.gallery?.length) return '';
+  return `<section class="linked-section photo-gallery"><h2>이미지 더 보기</h2><div class="photo-grid">${item.gallery.map((image, index) => `<div>
+    ${visual(item, 'gallery', image, index + 1)}<div class="gallery-caption"><p>${escapeHTML(image.caption)}</p>${image.sourceUrl ? externalLink(image.sourceUrl, '이미지 출처') : ''}</div>
+  </div>`).join('')}</div></section>`;
 }
 
 function objectView(item) {
@@ -345,9 +356,10 @@ function objectView(item) {
   const facts = coreFacts(item);
   const returnLink = /^#(?:catalog|category\/|favorites|solar|region\/)/.test(previousView || '') ? `<a href="${escapeHTML(previousView)}" class="return-link">← 이전 목록</a>` : '';
   return `<nav class="breadcrumbs" aria-label="현재 위치">${returnLink}<a href="#catalog">천체 도감</a><span aria-hidden="true">/</span><a href="#category/${escapeHTML(item.category)}">${escapeHTML(categoryName(item.category))}</a>${solarMember(item) ? '<span aria-hidden="true">/</span><a href="#solar">태양계 탐험</a>' : ''}${region && !/^(solar|solar-system)$/.test(region.id) ? `<span aria-hidden="true">/</span><a href="#region/${escapeHTML(region.id)}">${escapeHTML(region.name)}</a>` : ''}</nav>
-    <article class="detail-page"><div class="detail-hero">${visual(item, 'detail')}<div class="detail-copy"><p class="detail-category">${escapeHTML(categoryName(item.category))}</p><h1>${escapeHTML(item.name)}</h1>${item.en ? `<p class="detail-english" lang="en">${escapeHTML(item.en)}</p>` : ''}<p class="detail-intro">${escapeHTML(item.intro)}</p>${favoriteButton(item, 'detail')}</div></div>
+    <article class="detail-page"><div class="detail-hero">${visual(item, 'detail', item.image, 0)}<div class="detail-copy"><p class="detail-category">${escapeHTML(categoryName(item.category))}</p><h1>${escapeHTML(item.name)}</h1>${item.en ? `<p class="detail-english" lang="en">${escapeHTML(item.en)}</p>` : ''}<p class="detail-intro">${escapeHTML(item.intro)}</p>${favoriteButton(item, 'detail')}</div></div>
     ${item.prompt ? `<section class="observation-note"><h2>${imageFile(item) ? '원본 이미지에서 찾아봐요' : '생각해 봐요'}</h2><p>${escapeHTML(item.prompt)}</p></section>` : ''}
-    ${facts ? `<dl class="core-facts">${facts}</dl>` : ''}${factList(item)}${relationList(item.id)}${citations(item)}</article>`;
+    ${facts ? `<dl class="core-facts">${facts}</dl>` : ''}${imageGallery(item)}${factList(item)}${relationList(item.id)}${citations(item)}</article>
+    <dialog class="photo-dialog" aria-labelledby="photo-dialog-title"></dialog>`;
 }
 
 function groupView(item, type) {
@@ -363,7 +375,7 @@ function favorites() {
 }
 
 function about() {
-  const onlineImages = [...catalog.values()].filter(remoteOnly).length;
+  const onlineImages = [...catalog.values()].flatMap(item => [item.image, ...(item.gallery || [])]).filter(image => remoteOnly({ image })).length;
   return `<section class="page-intro"><h1>설치 · 사진과 자료 안내</h1></section><div class="about-grid">
     <section><h2>iPad에 설치하기</h2>${embeddedCatalog ? '<p>홈 화면 앱을 설치하려면 HTTPS에 게시된 우주 아틀라스 주소가 필요해요.</p>' : '<ol><li>Safari에서 우주 아틀라스를 열어요.</li><li>공유 버튼을 누르고 ‘홈 화면에 추가’를 선택해요.</li><li>‘웹 앱으로 열기’를 켠 뒤 ‘추가’를 눌러요.</li><li>홈 화면 아이콘으로 온라인에서 처음 열고, 하단의 ‘오프라인 준비 완료’를 확인해요.</li></ol>'}<p>${externalLink('https://support.apple.com/ko-kr/guide/ipad/ipad8f1f7a29/ipados', 'Apple 설치 안내')}</p></section>
     <section><h2>사진과 상상도</h2><p>이미지 옆에 어떻게 얻었는지 적었어요. 여러 장을 합치거나 눈에 보이지 않는 빛을 색으로 바꾼 관측 자료도 있어요. 기관의 상상도와 AI 상상도에는 각각 이름을 붙였어요.</p><p>천체 상세에서 사진의 원본, 이용 조건과 숫자의 출처를 볼 수 있어요.</p></section>
@@ -412,6 +424,18 @@ document.querySelector('.skip-link').addEventListener('click', event => {
 });
 
 document.addEventListener('click', event => {
+  const opener = event.target.closest('[data-image-index]');
+  if (opener) {
+    const item = catalog.get(route().id);
+    const image = [item.image, ...(item.gallery || [])][Number(opener.dataset.imageIndex)];
+    const dialog = main.querySelector('.photo-dialog');
+    const displayed = opener.closest('.object-visual').querySelector('img');
+    const enlarged = { ...image, file: displayed.getAttribute('src') };
+    dialog.innerHTML = `<header><h2 id="photo-dialog-title">${escapeHTML(item.name)} 이미지</h2><form method="dialog"><button class="button button-secondary" autofocus>닫기 <span aria-hidden="true">×</span></button></form></header>
+      ${visual(item, 'enlarged', enlarged)}<div class="citation-content">${imageCitation(image)}${image.originalUrl && image.originalUrl !== image.sourceUrl ? `<p>${externalLink(image.originalUrl, '원본 크기로 열기')}</p>` : ''}</div>`;
+    dialog.showModal();
+    return;
+  }
   const favorite = event.target.closest('[data-favorite]');
   if (favorite && catalog) {
     const id = favorite.dataset.favorite;

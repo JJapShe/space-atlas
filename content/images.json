@@ -364,17 +364,17 @@
     "checkedAt": "2026-11-14"
   },
   "moon": {
-    "file": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005001/moon_mosaic_print.jpg",
+    "file": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/l/lro_nearside.jpg",
     "kind": "processed",
-    "caption": "달 정찰 궤도선 촬영 · 1,231장을 합친 보름달",
-    "credit": "NASA's Scientific Visualization Studio",
-    "sourceUrl": "https://svs.gsfc.nasa.gov/5001",
-    "license": "기관 미디어 이용 지침 적용",
+    "caption": "달 정찰 궤도선의 관측 자료로 만든 달 앞면이에요. 어두운 평원과 둥근 충돌구가 보여요.",
+    "credit": "NASA/Goddard Space Flight Center/Arizona State University",
+    "sourceUrl": "https://science.nasa.gov/resource/lunar-near-side/",
+    "license": "NASA 미디어 이용 지침에 따른 교육용 이용",
     "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-    "alt": "둥근 달 앞면에 밝고 어두운 부분과 충돌구가 보이는 사진",
-    "originalUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005001/moon_mosaic_print.jpg",
-    "changes": "기관 공식 웹용 파일 사용",
-    "checkedAt": "2026-11-14"
+    "alt": "회색 달 앞면의 넓고 어두운 평원과 밝은 충돌구",
+    "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/l/lro_nearside.jpg",
+    "changes": "NASA 공식 JPEG 원본 사용. 아틀라스에서 별도 편집하지 않음.",
+    "checkedAt": "2026-11-15"
   },
   "ceres": {
     "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21079/PIA21079.jpg",

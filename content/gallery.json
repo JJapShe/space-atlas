@@ -1,0 +1,632 @@
+{
+  "sun": [
+    {
+      "file": "https://svs.gsfc.nasa.gov/vis/a010000/a010800/a010801/304_1k_Sun_Still.jpg",
+      "kind": "processed",
+      "caption": "태양 활동 관측 위성이 본 거대한 분출 · 극자외선을 색으로 표현했어요",
+      "credit": "NASA/Goddard Space Flight Center",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/10801",
+      "originalUrl": "https://svs.gsfc.nasa.gov/vis/a010000/a010800/a010801/304_4k_Sun_Still.jpg",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "NASA가 제공한 1024px 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "태양 표면에서 큰 고리처럼 솟아오르는 분출"
+    }
+  ],
+  "mercury": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia14/pia14080/PIA14080.jpg",
+      "kind": "photo",
+      "caption": "메신저가 가까이서 본 드뷔시 충돌구의 밝은 줄기",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+      "sourceUrl": "https://science.nasa.gov/photojournal/exploring-the-rays-of-debussy/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia14/pia14080/PIA14080.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "충돌구에서 멀리 퍼져 나가는 밝은 줄무늬"
+    }
+  ],
+  "venus": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00254/PIA00254.jpg",
+      "kind": "processed",
+      "caption": "마젤란 레이더로 재구성한 마아트산 · 색과 높이를 강조했어요",
+      "credit": "NASA/JPL",
+      "sourceUrl": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons-2/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00254/PIA00254.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "넓은 용암 평야 뒤로 솟은 마아트산"
+    }
+  ],
+  "earth": [
+    {
+      "file": "https://svs.gsfc.nasa.gov/vis/a030000/a030800/a030876/BlackMarble_2016_global_7km_print.jpg",
+      "kind": "processed",
+      "caption": "수오미 NPP가 관측한 지구의 밤 · 야간 불빛을 모아 만든 지도",
+      "credit": "NASA’s Goddard Space Flight Center",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/30876",
+      "originalUrl": "https://svs.gsfc.nasa.gov/vis/a030000/a030800/a030876/BlackMarble_2016_global_7km.png",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "NASA가 제공한 1024px JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "어두운 대륙과 해안 곳곳에 반짝이는 도시 불빛"
+    }
+  ],
+  "mars": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00422/PIA00422.jpg",
+      "kind": "processed",
+      "caption": "바이킹 사진을 이어 붙인 매리너스 협곡",
+      "credit": "NASA/JPL/USGS",
+      "sourceUrl": "https://science.nasa.gov/photojournal/valles-marineris/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00422/PIA00422.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "화성 표면을 길게 가로지르는 서로 이어진 골짜기"
+    }
+  ],
+  "jupiter": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23606/PIA23606.jpg",
+      "kind": "processed",
+      "caption": "주노가 촬영한 대적점 · 두 사진을 합치고 색을 강조했어요",
+      "credit": "Image data: NASA/JPL-Caltech/SwRI/MSSS, Image processing by Kevin M. Gill, © CC BY",
+      "sourceUrl": "https://science.nasa.gov/photojournal/the-great-red-spot/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23606/PIA23606.jpg",
+      "license": "CC BY (원문 표기)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "붉은 타원형 폭풍 주위로 소용돌이치는 목성 구름"
+    }
+  ],
+  "saturn": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07512/PIA07512.jpg",
+      "kind": "photo",
+      "caption": "카시니가 가까이서 본 토성의 고리",
+      "credit": "NASA/JPL/Space Science Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/scanning-the-rings/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07512/PIA07512.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 띠 사이에 좁고 어두운 틈이 여러 개 보이는 토성 고리"
+    }
+  ],
+  "uranus": [
+    {
+      "file": "https://cdn.esawebb.org/archives/images/large/weic2332a.jpg",
+      "kind": "processed",
+      "caption": "제임스 웹이 본 천왕성의 고리와 극지방 · 근적외선을 색으로 표현했어요",
+      "credit": "NASA, ESA, CSA, STScI",
+      "sourceUrl": "https://esawebb.org/images/weic2332a/",
+      "originalUrl": "https://cdn.esawebb.org/archives/images/large/weic2332a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esawebb.org/copyright/",
+      "changes": "기관의 공식 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝게 보이는 천왕성의 극지방과 행성을 감싼 여러 고리"
+    }
+  ],
+  "neptune": [
+    {
+      "file": "https://cdn.esawebb.org/archives/images/large/weic2214c.jpg",
+      "kind": "processed",
+      "caption": "제임스 웹이 본 해왕성과 희미한 고리 · 근적외선을 색으로 표현했어요",
+      "credit": "NASA, ESA, CSA, and STScI",
+      "sourceUrl": "https://esawebb.org/images/weic2214c/",
+      "originalUrl": "https://cdn.esawebb.org/archives/images/large/weic2214c.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esawebb.org/copyright/",
+      "changes": "기관의 공식 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "빛나는 해왕성 둘레를 얇게 감싸는 고리와 주변의 점들"
+    }
+  ],
+  "ceres": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia20/pia20350/PIA20350.jpg",
+      "kind": "processed",
+      "caption": "던이 촬영한 오카토르 충돌구 합성 사진",
+      "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA/PSI",
+      "sourceUrl": "https://science.nasa.gov/photojournal/occator-crater-and-ceres-brightest-spots/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia20/pia20350/PIA20350.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "커다란 둥근 충돌구 안에 보이는 밝은 얼룩과 갈라진 바닥"
+    }
+  ],
+  "pluto": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19710/PIA19710.jpg",
+      "kind": "photo",
+      "caption": "뉴호라이즌스가 가까이서 본 명왕성의 얼음 산맥",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/the-icy-mountains-of-pluto/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19710/PIA19710.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "평평한 지형 옆으로 울퉁불퉁하게 솟아 있는 산들"
+    }
+  ],
+  "haumea": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Haumea_with_rings_%2837641832331%29.jpg/960px-Haumea_with_rings_%2837641832331%29.jpg",
+      "kind": "illustration",
+      "caption": "별빛이 가려진 관측을 바탕으로 그린 하우메아와 고리 상상도",
+      "credit": "Kevin M. Gill",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haumea_with_rings_(37641832331).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Haumea_with_rings_%2837641832331%29.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "파일 제공처의 960px 크기 조정본 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "옆으로 길쭉한 하우메아와 그 둘레의 얇은 고리"
+    }
+  ],
+  "makemake": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/large/opo1618b.jpg",
+      "kind": "photo",
+      "caption": "허블이 촬영한 마케마케와 작고 어두운 위성",
+      "credit": "NASA, ESA, and A. Parker and M. Buie (Southwest Research Institute)",
+      "sourceUrl": "https://esahubble.org/images/opo1618b/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/large/opo1618b.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esahubble.org/public/copyright/",
+      "changes": "기관의 공식 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝게 빛나는 마케마케 옆의 작은 위성"
+    }
+  ],
+  "eris": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/large/opo0724b.jpg",
+      "kind": "photo",
+      "caption": "허블이 촬영한 에리스와 위성 디스노미아",
+      "credit": "NASA, ESA, and M. Brown (California Institute of Technology)",
+      "sourceUrl": "https://esahubble.org/images/opo0724b/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/large/opo0724b.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esahubble.org/public/copyright/",
+      "changes": "기관의 공식 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "가운데의 밝은 점인 에리스와 왼쪽의 어두운 점인 디스노미아"
+    }
+  ],
+  "moon": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/09/as11-44-6551_orig.jpg",
+      "kind": "photo",
+      "caption": "아폴로 11호에서 촬영한 달의 지평선과 떠오르는 지구",
+      "credit": "NASA/JSC",
+      "sourceUrl": "https://science.nasa.gov/resource/apollo-11-mission-image-view-of-moon-limb-with-earth-on-the-horizon/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/09/as11-44-6551_orig.jpg",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "달 표면의 회색 지평선 너머로 떠오르는 파란 지구"
+    }
+  ],
+  "phobos": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01335/PIA01335.jpg",
+      "kind": "photo",
+      "caption": "마스 글로벌 서베이어가 촬영한 스티크니 충돌구의 벽",
+      "credit": "NASA/JPL/Malin Space Science Systems",
+      "sourceUrl": "https://science.nasa.gov/photojournal/high-resolution-moc-image-of-phobos-stickney-crater/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01335/PIA01335.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝고 어두운 줄무늬가 아래로 이어지는 충돌구 벽"
+    }
+  ],
+  "io": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00703/PIA00703.jpg",
+      "kind": "processed",
+      "caption": "갈릴레오가 촬영한 화산 분출 · 분출 기둥 두 곳을 확대해 붙였어요",
+      "credit": "NASA/JPL",
+      "sourceUrl": "https://science.nasa.gov/photojournal/active-volcanic-plumes-on-io/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00703/PIA00703.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "이오 가장자리와 낮과 밤의 경계에 보이는 화산 분출 확대 장면"
+    }
+  ],
+  "europa": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23872/PIA23872.jpg",
+      "kind": "processed",
+      "caption": "갈릴레오가 촬영한 유로파의 얼음 지형 · 색을 입혀 다시 처리했어요",
+      "credit": "NASA/JPL-Caltech/SETI Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/crisscrossing-bands/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23872/PIA23872.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 얼음 표면에서 교차하는 긴 띠"
+    }
+  ],
+  "titan": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22481/PIA22481.jpg",
+      "kind": "processed",
+      "caption": "카시니가 촬영한 타이탄 북극의 호수와 바다 · 합성 이미지",
+      "credit": "NASA/JPL-Caltech/Space Science Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/titan-lakes/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22481/PIA22481.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "타이탄 북극 표면에 흩어져 있는 크고 작은 호수와 바다"
+    }
+  ],
+  "enceladus": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia12/pia12762/PIA12762.jpg",
+      "kind": "photo",
+      "caption": "카시니가 촬영한 엔셀라두스 남극의 얼음 분출",
+      "credit": "NASA/JPL/Space Science Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/plumes-and-a-crescent/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia12/pia12762/PIA12762.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "초승달처럼 밝은 위성의 아래쪽 경계에서 뻗어 나오는 물얼음 기둥"
+    }
+  ],
+  "charon": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19713/PIA19713.jpg",
+      "kind": "processed",
+      "caption": "뉴호라이즌스가 촬영한 카론 · 움푹 팬 곳 속에 솟은 산 확대",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/close-up-of-charons-mountain-in-a-moat/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19713/PIA19713.jpg",
+      "license": "기관 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "카론 전체 사진 옆에 움푹 팬 곳과 가운데 솟은 산을 확대한 사진"
+    }
+  ],
+  "bennu": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/b/Bennu_boulders.png",
+      "kind": "photo",
+      "caption": "오시리스-렉스가 가까이서 본 베누 남반구의 바위들",
+      "credit": "NASA/Goddard/University of Arizona",
+      "sourceUrl": "https://science.nasa.gov/resource/bennus-boulders-and-limb-from-detailed-survey/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/b/Bennu_boulders.png",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science PNG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "베누 표면에 빼곡히 놓인 바위들과 그 너머의 검은 우주"
+    }
+  ],
+  "arrokoth": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/c/CA06_deconvolved.png",
+      "kind": "processed",
+      "caption": "뉴호라이즌스가 가까이서 본 아로코트 · 표면을 선명하게 처리했어요",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "sourceUrl": "https://science.nasa.gov/resource/kuiper-belt-object-arrokoth-2014-mu69/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/c/CA06_deconvolved.png",
+      "license": "NASA 미디어 이용 지침 적용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "변경 없이 NASA Science 다운로드 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "납작한 두 덩어리가 좁은 목으로 연결된 아로코트"
+    }
+  ],
+  "halley": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/91/Comet-Halley%27s-tail-NASA-1986-b%26w.jpg",
+      "kind": "photo",
+      "caption": "1986년에 촬영한 핼리 혜성의 머리와 꼬리",
+      "credit": "NASA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comet-Halley%27s-tail-NASA-1986-b%26w.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Comet-Halley%27s-tail-NASA-1986-b%26w.jpg",
+      "license": "NASA 제작 자료 · 미국 퍼블릭 도메인",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "위키미디어 공용에서 제공한 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 머리에서 길게 뻗어 나오는 여러 줄기의 혜성 꼬리"
+    }
+  ],
+  "comet-67p": [
+    {
+      "file": "https://media.esa.int/legacy/web/images/esa_multimedia/images/2015/04/comet_on_15_april_2015_b_navcam/15367952-1-eng-GB/Comet_on_15_April_2015_b_NavCam.jpg?dl=",
+      "kind": "photo",
+      "caption": "로제타가 2015년 4월 15일 촬영한 67P 혜성",
+      "credit": "ESA/Rosetta/NavCam – CC BY-SA IGO 3.0 · ESA - European Space Agency",
+      "sourceUrl": "https://www.esa.int/media/comet-on-15-april-2015-b-navcam",
+      "originalUrl": "https://media.esa.int/legacy/web/images/esa_multimedia/images/2015/04/comet_on_15_april_2015_b_navcam/15367952-1-eng-GB/Comet_on_15_April_2015_b_NavCam.jpg?dl=",
+      "license": "CC BY-SA 3.0 IGO",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "changes": "변경 없이 기관 JPEG 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "목처럼 좁은 부분으로 이어진 두 덩어리와 그 표면의 돌출부"
+    }
+  ],
+  "proxima-b": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso1629c.jpg",
+      "kind": "illustration",
+      "caption": "프록시마 센타우리 b의 궤도를 태양계 안쪽 행성의 궤도와 비교한 그림이에요.",
+      "credit": "ESO/M. Kornmesser/G. Coleman",
+      "sourceUrl": "https://www.eso.org/public/images/eso1629c/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso1629c.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "위쪽 프록시마 센타우리 b의 궤도와 아래쪽 태양계 안쪽 행성의 궤도"
+    }
+  ],
+  "trappist-1-e": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso1706o.jpg",
+      "kind": "illustration",
+      "caption": "왼쪽에서 네 번째가 트라피스트-1 e예요. 행성 크기는 비교할 수 있고 표면 모습은 상상으로 그렸어요.",
+      "credit": "NASA/R. Hurt/T. Pyle",
+      "sourceUrl": "https://www.eso.org/public/images/eso1706o/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso1706o.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "크기와 표면이 다르게 그려진 일곱 행성 중 왼쪽에서 네 번째인 트라피스트-1 e"
+    }
+  ],
+  "2m1207-b": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/screen/opo1605a.jpg",
+      "kind": "illustration",
+      "caption": "앞쪽에 보이는 큰 천체가 행성 2M1207 b예요. 허블의 적외선 관측을 바탕으로 상상한 모습이에요.",
+      "credit": "NASA, ESA, and G. Bacon (STScI)",
+      "sourceUrl": "https://esahubble.org/images/opo1605a/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/screen/opo1605a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "앞쪽의 큰 행성 2M1207 b와 멀리 있는 붉은 갈색왜성 2M1207"
+    }
+  ],
+  "proxima-centauri": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso1629f.jpg",
+      "kind": "processed",
+      "caption": "하늘 사진 여러 장을 합쳤어요. 표시된 작은 붉은 점이 프록시마 센타우리예요.",
+      "credit": "Digitized Sky Survey 2. Acknowledgement: Davide De Martin/Mahdi Zamani",
+      "sourceUrl": "https://www.eso.org/public/images/eso1629f/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso1629f.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "붉은 점으로 표시된 프록시마 센타우리와 더 밝게 보이는 알파 센타우리 AB"
+    }
+  ],
+  "trappist-1": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso1615b.jpg",
+      "kind": "illustration",
+      "caption": "트라피스트-1 앞을 행성 하나가 지나가는 모습을 그렸어요.",
+      "credit": "ESO/M. Kornmesser",
+      "sourceUrl": "https://www.eso.org/public/images/eso1615b/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso1615b.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "붉게 빛나는 트라피스트-1 앞을 지나는 둥근 행성의 실루엣"
+    }
+  ],
+  "betelgeuse": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso2003a.jpg",
+      "kind": "processed",
+      "caption": "2019년 12월에 관측한 베텔게우스의 표면이에요. 위쪽과 아래쪽의 밝기가 달라 보여요.",
+      "credit": "ESO/M. Montargès et al.",
+      "sourceUrl": "https://www.eso.org/public/images/eso2003a/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso2003a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 위쪽과 어두운 아래쪽이 보이는 베텔게우스 표면"
+    }
+  ],
+  "2m1207": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/screen/opo1605a.jpg",
+      "kind": "illustration",
+      "caption": "뒤쪽에서 붉게 빛나는 작은 천체가 갈색왜성 2M1207이에요. 가까이 보이는 큰 천체는 그 둘레를 도는 행성이에요.",
+      "credit": "NASA, ESA, and G. Bacon (STScI)",
+      "sourceUrl": "https://esahubble.org/images/opo1605a/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/screen/opo1605a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "큰 행성 뒤로 붉게 빛나는 작은 갈색왜성 2M1207"
+    }
+  ],
+  "sirius-b": [
+    {
+      "file": "https://www.chandra.cfa.harvard.edu/photo/2000/0065/SiriusAB_scale.jpg",
+      "kind": "processed",
+      "caption": "찬드라의 엑스선 사진에서는 백색왜성 시리우스 B가 시리우스 A보다 더 밝게 보여요.",
+      "credit": "NASA/SAO/CXC",
+      "sourceUrl": "https://www.chandra.cfa.harvard.edu/photo/2000/0065/more.html",
+      "originalUrl": "https://www.chandra.cfa.harvard.edu/photo/2000/0065/SiriusAB_scale.jpg",
+      "license": "NASA/Chandra 이미지 이용 지침",
+      "licenseUrl": "https://chandra.harvard.edu/photo/image_use.html",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "찬드라의 엑스선 사진에서 밝게 보이는 시리우스 B와 희미한 시리우스 A"
+    }
+  ],
+  "crab-pulsar": [
+    {
+      "file": "https://chandra.harvard.edu/photo/2002/0052/0052_xray_opt.jpg",
+      "kind": "processed",
+      "caption": "찬드라가 본 엑스선은 파랗게, 허블이 본 가시광선은 붉게 표시했어요. 고리 가운데에 펄서가 있어요.",
+      "credit": "X-ray: NASA/CXC/ASU/J. Hester et al.; Optical: NASA/HST/ASU/J. Hester et al.",
+      "sourceUrl": "https://chandra.harvard.edu/photo/2002/0052/more.html",
+      "originalUrl": "https://chandra.harvard.edu/photo/2002/0052/0052_xray_opt.jpg",
+      "license": "NASA/Chandra 이미지 이용 지침",
+      "licenseUrl": "https://chandra.harvard.edu/photo/image_use.html",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "푸른 고리 가운데의 게성운 펄서와 그 둘레의 붉은 가스"
+    }
+  ],
+  "sagittarius-a": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso2406a.jpg",
+      "kind": "processed",
+      "caption": "검은 그림자 둘레의 선은 궁수자리 A* 주변에서 관측한 빛의 편광 방향을 나타내요.",
+      "credit": "EHT Collaboration",
+      "sourceUrl": "https://www.eso.org/public/images/eso2406a/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso2406a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "검은 그림자를 감싼 밝은 고리 위로 굽은 선"
+    }
+  ],
+  "m87-star": [
+    {
+      "file": "https://cdn.eso.org/images/screen/eso2105a.jpg",
+      "kind": "processed",
+      "caption": "M87*의 검은 그림자 둘레에 빛의 편광 방향을 선으로 표시했어요.",
+      "credit": "EHT Collaboration",
+      "sourceUrl": "https://www.eso.org/public/images/eso2105a/",
+      "originalUrl": "https://cdn.eso.org/images/screen/eso2105a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "검은 그림자 둘레에서 한쪽이 더 밝은 고리 위에 겹친 굽은 선"
+    }
+  ],
+  "orion-nebula": [
+    {
+      "file": "https://cdn.esawebb.org/archives/images/screen/ann2301a.jpg",
+      "kind": "processed",
+      "caption": "웹 망원경이 찍은 짧은 적외선 파장의 사진을 이어 붙여 오리온 성운 안쪽을 보여 줘요.",
+      "credit": "NASA, ESA, CSA. Science leads and image processing: M. McCaughrean, S. Pearson",
+      "sourceUrl": "https://esawebb.org/images/ann2301a/",
+      "originalUrl": "https://cdn.esawebb.org/archives/images/screen/ann2301a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "오리온 성운 중심부를 가로지르는 구름 가장자리와 촘촘한 별"
+    }
+  ],
+  "crab-nebula": [
+    {
+      "file": "https://cdn.esawebb.org/archives/images/screen/weic2417a.jpg",
+      "kind": "processed",
+      "caption": "웹 망원경이 모은 적외선 관측을 합쳐 별 폭발이 남긴 가느다란 가스 줄기를 보여 줘요.",
+      "credit": "NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+      "sourceUrl": "https://esawebb.org/images/weic2417a/",
+      "originalUrl": "https://cdn.esawebb.org/archives/images/screen/weic2417a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "밝은 중심을 둘러싼 가느다란 가스 줄기"
+    }
+  ],
+  "carina-nebula": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/screen/heic1007c.jpg",
+      "kind": "processed",
+      "caption": "허블이 용골자리 성운 속의 가스와 먼지 기둥을 넓게 담았어요. 가운데 솟은 기둥은 ‘신비의 산’이라고 불려요.",
+      "credit": "NASA, ESA and M. Livio and the Hubble 20th Anniversary Team (STScI)",
+      "sourceUrl": "https://esahubble.org/images/heic1007c/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/screen/heic1007c.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "용골자리 성운의 밝은 구름 가운데 솟은 가스와 먼지 기둥"
+    }
+  ],
+  "pleiades": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/screen/opo0036a.jpg",
+      "kind": "processed",
+      "caption": "플레이아데스 성단의 밝은 별 메로페가 가까운 먼지 구름을 비추는 모습이에요.",
+      "credit": "NASA/ESA and The Hubble Heritage Team (STScI/AURA), George Herbig and Theodore Simon (University of Hawaii).",
+      "sourceUrl": "https://esahubble.org/images/opo0036a/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/screen/opo0036a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "메로페의 별빛에 비친 선 모양의 먼지 구름"
+    }
+  ],
+  "milky-way": [
+    {
+      "file": "https://cdn.eso.org/images/screen/galactic-centre-a.jpg",
+      "kind": "processed",
+      "caption": "우리 은하의 중심 방향을 넓게 찍은 사진이에요. 별빛 앞을 가로막는 먼지 구름은 어둡게 보여요.",
+      "credit": "ESO and Digitized Sky Survey 2. Acknowledgment: Davide De Martin and S. Guisard (www.eso.org/~sguisard)",
+      "sourceUrl": "https://www.eso.org/public/images/galactic-centre-a/",
+      "originalUrl": "https://cdn.eso.org/images/screen/galactic-centre-a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "수많은 별 사이로 어두운 먼지 구름이 가로지르는 우리 은하 중심 방향"
+    }
+  ],
+  "andromeda": [
+    {
+      "file": "https://cdn.esahubble.org/archives/images/screen/heic1502a.jpg",
+      "kind": "processed",
+      "caption": "허블 사진들을 이어 붙여 안드로메다은하의 원반 일부에 모인 별들을 보여 줘요.",
+      "credit": "NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.",
+      "sourceUrl": "https://esahubble.org/images/heic1502a/",
+      "originalUrl": "https://cdn.esahubble.org/archives/images/screen/heic1502a.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "기관 공식 웹용 파일 사용",
+      "checkedAt": "2026-11-15",
+      "alt": "안드로메다은하의 밝은 중심부에서 한쪽으로 펼쳐진 별과 먼지 띠"
+    }
+  ]
+}

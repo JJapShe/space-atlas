@@ -15,10 +15,12 @@ function replace(html, token, replacement) {
 
 const catalog = JSON.parse(read('data/catalog.json'));
 const embedded = new Map();
-for (const { image } of catalog.objects) {
-  if (!image?.file.startsWith('assets/objects/')) continue;
-  if (!embedded.has(image.file)) embedded.set(image.file, dataURL(image.file));
-  image.file = embedded.get(image.file);
+for (const { image, gallery = [] } of catalog.objects) {
+  for (const entry of [image, ...gallery]) {
+    if (!entry?.file.startsWith('assets/objects/')) continue;
+    if (!embedded.has(entry.file)) embedded.set(entry.file, dataURL(entry.file));
+    entry.file = embedded.get(entry.file);
+  }
 }
 const data = JSON.stringify(catalog).replace(/</g, '\\u003c');
 const styles = read('styles.css');

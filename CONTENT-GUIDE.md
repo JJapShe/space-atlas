@@ -50,11 +50,12 @@
 4. `content/images.json`의 천체 ID에 `file`, `kind`, `caption`, `credit`, `sourceUrl`, `originalUrl`, `license`, `licenseUrl`, `changes`, `checkedAt`, `alt`를 기록한다. `credit`에는 요구된 문구를 그대로 넣는다. `sourceUrl`은 설명·크레딧이 있는 페이지, `originalUrl`은 실제 파일 주소다. `alt`에는 아이가 확인할 대상을 설명한다. 자산별 조건에 맞는 크레딧을 이미지 근처에서 확인할 수 있어야 한다.
 5. AI 상상도를 써야 하면 제목과 이미지 설명에 유형을 표시하고 `generator`에 제작 도구, `generationPrompt`에 실제 입력 프롬프트를 넣는다. 참고 근거는 천체의 `sources`에 둔다. 공식 출처나 이용 조건 주소가 없으면 `sourceUrl`, `originalUrl`, `licenseUrl`을 생략한다. 궤도나 단면의 정확한 설명은 검증된 수치와 도식으로 만든다.
 6. 다운로드가 막힌 경우 개별 조건이 확인된 기관 이미지의 HTTPS 주소를 `file`에 기록할 수 있다. 이 경우 이미지가 온라인에서만 표시된다고 안내한다. 확인 가능한 후보가 없다면 이미지 레코드를 만들지 않고 앱의 자료 미확보 표시를 사용한다.
+7. 기존 천체의 추가 이미지는 `content/gallery.json`에서 천체 ID별 배열로 등록한다. 대표 이미지와 같은 필드를 쓰고, 확대 화면에서 볼 만한 다른 각도나 관측 장면을 고른다. 대표 이미지와 추가 이미지 사이에 같은 원본을 반복하지 않는다. 로컬 파일은 `assets/objects/` 아래에 고유한 이름으로 두고, 개별 캡션과 크레딧을 확인한다.
 
 ## 6. 파일과 검수 순서
 
-1. 추가 데이터는 `content/solar.json`, `content/deep.json`, 또는 같은 형식의 `content/<묶음>.json`에 둔다. `objects`, `relations`, `sources`를 사용한다. `content/structure.json`은 분류·지역·현상, `content/images.json`은 대표 이미지 등록에 사용한다.
+1. 추가 데이터는 `content/solar.json`, `content/deep.json`, 또는 같은 형식의 `content/<묶음>.json`에 둔다. `objects`, `relations`, `sources`를 사용한다. `content/structure.json`은 분류·지역·현상, `content/images.json`은 대표 이미지, `content/gallery.json`은 추가 이미지에 사용한다.
 2. 기존 항목을 예제로 열어 비교한다. `mars`는 기본·심화 수치, `jupiter`와 `europa`는 모천체·위성, `trappist-1`과 `trappist-1-e`는 별·외계행성, `halley`와 `orionids`는 천체·현상 연결 예시다.
 3. `node scripts/build.mjs`로 빌드하고 `node scripts/build.mjs --check`로 현재 산출물이 소스와 일치하는지 확인한다. 수치 출처 참조, 알 수 없는 ID, 중복 관계, 깨진 로컬 이미지 경로를 해결한다. 생성된 `dist/data/catalog.json`을 수동 수정하지 않는다.
-4. 앱에서 한글명과 별칭 검색, 해당 분류와 지역에서 진입, 관련 항목 왕복, 사진과 실제 크레딧 표시, 심화 수치 출처를 확인한다. 로컬 대표 사진이 있다면 첫 온라인 준비가 끝난 다음 오프라인에서 열리는지 확인한다.
+4. 앱에서 한글명과 별칭 검색, 해당 분류와 지역에서 진입, 관련 항목 왕복, 사진과 실제 크레딧 표시, 심화 수치 출처를 확인한다. 사진을 확대해 전체 사진과 개별 출처가 보이는지 확인한다. 로컬 대표·추가 이미지가 있다면 첫 온라인 준비가 끝난 다음 오프라인에서 열리는지 확인한다.
 5. 최종 보고에 추가한 천체 ID, 핵심 근거, 출처·이용 조건이 확인된 이미지, 실제로 확인한 동작, 남은 항목을 짧게 적는다. 실제 확인 없이 전문가 감수나 기기 검수를 완료로 기록하지 않는다.
