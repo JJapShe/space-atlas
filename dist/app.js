@@ -1,4 +1,5 @@
 const main = document.querySelector('#main-content');
+const backButton = document.querySelector('#atlas-back');
 const queryInput = document.querySelector('#site-query');
 const announcement = document.querySelector('#announcement');
 const offlineStatus = document.querySelector('#offline-status');
@@ -13,7 +14,6 @@ let categories;
 let regions;
 let phenomena;
 let activeHash;
-let previousView;
 
 const types = {
   observation: '관측 이미지', photograph: '촬영 이미지', photo: '촬영 이미지', processed: '관측 이미지 재구성',
@@ -59,10 +59,24 @@ function route() {
   return { view: view || 'home', id, params: new URLSearchParams(query) };
 }
 
-function navigate(hash) {
-  if (location.hash === hash) return;
+function navigate(hash, { replace = false } = {}) {
+  if ((location.hash || '#home') === hash) return;
   scrollPositions.set(activeHash, window.scrollY);
-  location.hash = hash;
+  const depth = history.state?.spaceAtlasDepth || 0;
+  if (replace) history.replaceState({ spaceAtlasDepth: depth }, '', hash);
+  else history.pushState({ spaceAtlasDepth: depth + 1 }, '', hash);
+  render({ focus: true, restore: true });
+}
+
+function parentRoute({ view, id }) {
+  if (view === 'object') {
+    const item = catalog.get(id);
+    return item ? `#category/${item.category}` : '#catalog';
+  }
+  if (view === 'category') return '#catalog';
+  if (view === 'region') return '#solar';
+  if (view === 'phenomenon') return '#catalog';
+  return '#home';
 }
 
 function catalogHash(query = '', region = '', category = '') {
@@ -353,12 +367,10 @@ function imageGallery(item) {
 function objectView(item) {
   if (!item) return missingPage();
   const region = regions.get(item.region);
-  const facts = coreFacts(item);
-  const returnLink = /^#(?:catalog|category\/|favorites|solar|region\/)/.test(previousView || '') ? `<a href="${escapeHTML(previousView)}" class="return-link">← 이전 목록</a>` : '';
-  return `<nav class="breadcrumbs" aria-label="현재 위치">${returnLink}<a href="#catalog">천체 도감</a><span aria-hidden="true">/</span><a href="#category/${escapeHTML(item.category)}">${escapeHTML(categoryName(item.category))}</a>${solarMember(item) ? '<span aria-hidden="true">/</span><a href="#solar">태양계 탐험</a>' : ''}${region && !/^(solar|solar-system)$/.test(region.id) ? `<span aria-hidden="true">/</span><a href="#region/${escapeHTML(region.id)}">${escapeHTML(region.name)}</a>` : ''}</nav>
+  return `<nav class="breadcrumbs" aria-label="현재 위치"><a href="#catalog">천체 도감</a><span aria-hidden="true">/</span><a href="#category/${escapeHTML(item.category)}">${escapeHTML(categoryName(item.category))}</a>${solarMember(item) ? '<span aria-hidden="true">/</span><a href="#solar">태양계 탐험</a>' : ''}${region && !/^(solar|solar-system)$/.test(region.id) ? `<span aria-hidden="true">/</span><a href="#region/${escapeHTML(region.id)}">${escapeHTML(region.name)}</a>` : ''}</nav>
     <article class="detail-page"><div class="detail-hero">${visual(item, 'detail', item.image, 0)}<div class="detail-copy"><p class="detail-category">${escapeHTML(categoryName(item.category))}</p><h1>${escapeHTML(item.name)}</h1>${item.en ? `<p class="detail-english" lang="en">${escapeHTML(item.en)}</p>` : ''}<p class="detail-intro">${escapeHTML(item.intro)}</p>${favoriteButton(item, 'detail')}</div></div>
     ${item.prompt ? `<section class="observation-note"><h2>${imageFile(item) ? '원본 이미지에서 찾아봐요' : '생각해 봐요'}</h2><p>${escapeHTML(item.prompt)}</p></section>` : ''}
-    ${facts ? `<dl class="core-facts">${facts}</dl>` : ''}${imageGallery(item)}${factList(item)}${relationList(item.id)}${citations(item)}</article>
+    ${imageGallery(item)}${relationList(item.id)}${factList(item, '더 알아보기')}${citations(item)}</article>
     <dialog class="photo-dialog" aria-labelledby="photo-dialog-title"></dialog>`;
 }
 
@@ -390,6 +402,7 @@ function missingPage() {
 function render({ focus = false, restore = false } = {}) {
   if (!data) return;
   const current = route();
+  backButton.hidden = current.view === 'home' && !history.state?.spaceAtlasDepth;
   const views = {
     home, solar: () => solarView(current), catalog: () => catalogView(current), category: () => catalogView(current),
     object: () => objectView(catalog.get(current.id)), region: () => groupView(regions.get(current.id), 'region'),
@@ -417,23 +430,79 @@ document.querySelector('#site-search').addEventListener('submit', event => {
   navigate(catalogHash(queryInput.value.trim()));
 });
 
+backButton.addEventListener('click', () => {
+  if (!data) return;
+  if (history.state?.spaceAtlasDepth > 0) history.back();
+  else navigate(parentRoute(route()), { replace: true });
+});
+
 document.querySelector('.skip-link').addEventListener('click', event => {
   event.preventDefault();
   main.focus();
   main.scrollIntoView();
 });
 
+function openPhotoDialog(opener) {
+  const item = catalog.get(route().id);
+  const dialog = main.querySelector('.photo-dialog');
+  const entries = [item.image, ...(item.gallery || [])];
+  const clickedImage = entries[Number(opener.dataset.imageIndex)];
+  const images = entries.filter(image => imageFile({ image }));
+  const displayed = opener.closest('.object-visual').querySelector('img');
+  let index = images.indexOf(clickedImage);
+  if (index < 0 || !displayed) return;
+  images[index] = { ...clickedImage, file: displayed.getAttribute('src') };
+
+  const hasMultiple = images.length > 1;
+  dialog.innerHTML = `<header><h2 id="photo-dialog-title">${escapeHTML(item.name)} 이미지</h2><form method="dialog"><button class="button button-secondary" autofocus>닫기 <span aria-hidden="true">×</span></button></form></header>
+    <div class="photo-dialog-stage"></div>
+    ${hasMultiple ? '<nav class="photo-dialog-nav" aria-label="이미지 넘기기"><button class="button button-secondary" type="button" data-photo-step="-1"><span aria-hidden="true">←</span> 이전</button><p role="status" aria-atomic="true"></p><button class="button button-secondary" type="button" data-photo-step="1">다음 <span aria-hidden="true">→</span></button></nav>' : ''}
+    <div class="citation-content"></div>`;
+  const stage = dialog.querySelector('.photo-dialog-stage');
+  const citation = dialog.querySelector('.citation-content');
+  const status = dialog.querySelector('[role="status"]');
+  function showImage(step = 0) {
+    index = (index + step + images.length) % images.length;
+    const image = images[index];
+    stage.innerHTML = visual(item, 'enlarged', image);
+    citation.innerHTML = `${imageCitation(image)}${image.originalUrl && image.originalUrl !== image.sourceUrl ? `<p>${externalLink(image.originalUrl, '원본 크기로 열기')}</p>` : ''}`;
+    if (status) status.textContent = `${index + 1} / ${images.length}`;
+  }
+
+  if (hasMultiple) {
+    dialog.querySelectorAll('[data-photo-step]').forEach(button => {
+      button.addEventListener('click', () => showImage(Number(button.dataset.photoStep)));
+    });
+    dialog.onkeydown = event => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+      event.preventDefault();
+      showImage(event.key === 'ArrowLeft' ? -1 : 1);
+    };
+    let start;
+    stage.addEventListener('touchstart', event => {
+      start = event.touches.length === 1 ? event.touches[0] : null;
+    }, { passive: true });
+    stage.addEventListener('touchend', event => {
+      if (!start || event.touches.length) return;
+      const { clientX, clientY } = event.changedTouches[0];
+      const horizontal = clientX - start.clientX;
+      const vertical = clientY - start.clientY;
+      start = null;
+      if (Math.abs(horizontal) >= 42 && Math.abs(horizontal) > 1.3 * Math.abs(vertical)) showImage(horizontal < 0 ? 1 : -1);
+    }, { passive: true });
+    stage.addEventListener('touchcancel', () => { start = null; });
+  }
+  showImage();
+  dialog.addEventListener('close', () => {
+    if (opener.isConnected) opener.focus({ preventScroll: true });
+  }, { once: true });
+  dialog.showModal();
+}
+
 document.addEventListener('click', event => {
   const opener = event.target.closest('[data-image-index]');
   if (opener) {
-    const item = catalog.get(route().id);
-    const image = [item.image, ...(item.gallery || [])][Number(opener.dataset.imageIndex)];
-    const dialog = main.querySelector('.photo-dialog');
-    const displayed = opener.closest('.object-visual').querySelector('img');
-    const enlarged = { ...image, file: displayed.getAttribute('src') };
-    dialog.innerHTML = `<header><h2 id="photo-dialog-title">${escapeHTML(item.name)} 이미지</h2><form method="dialog"><button class="button button-secondary" autofocus>닫기 <span aria-hidden="true">×</span></button></form></header>
-      ${visual(item, 'enlarged', enlarged)}<div class="citation-content">${imageCitation(image)}${image.originalUrl && image.originalUrl !== image.sourceUrl ? `<p>${externalLink(image.originalUrl, '원본 크기로 열기')}</p>` : ''}</div>`;
-    dialog.showModal();
+    openPhotoDialog(opener);
     return;
   }
   const favorite = event.target.closest('[data-favorite]');
@@ -458,7 +527,8 @@ document.addEventListener('click', event => {
   }
   const internalLink = event.target.closest('a[href^="#"]');
   if (internalLink && !event.defaultPrevented && event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
-    scrollPositions.set(activeHash, window.scrollY);
+    event.preventDefault();
+    navigate(internalLink.getAttribute('href'));
   }
 });
 
@@ -491,7 +561,6 @@ main.addEventListener('error', event => {
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 window.addEventListener('hashchange', () => {
   scrollPositions.set(activeHash, window.scrollY);
-  previousView = activeHash;
   render({ focus: true, restore: true });
 });
 
