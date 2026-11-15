@@ -24,6 +24,11 @@
           "source": "proxima-archive"
         },
         {
+          "label": "중심별과의 간격 비교",
+          "value": "프록시마 센타우리 b는 수성이 태양을 도는 것보다 자기 별에 훨씬 가까이 붙어 돌아요.",
+          "source": "proxima-orbit-comparison"
+        },
+        {
           "label": "질량의 하한 추정",
           "value": "지구 질량의 약 1.06배",
           "source": "proxima-archive",
@@ -51,7 +56,8 @@
       ],
       "sources": [
         "proxima-archive",
-        "proxima-eso"
+        "proxima-eso",
+        "proxima-orbit-comparison"
       ]
     },
     {
@@ -98,12 +104,19 @@
           "value": "별 앞을 지날 때 별빛이 조금 어두워져요. 이 변화를 관측했어요.",
           "source": "trappist-e-nasa",
           "detail": true
+        },
+        {
+          "label": "대기 관측",
+          "value": "웹 망원경 관측으로 두꺼운 수소 대기가 없다는 점을 알아냈어요. 다른 종류의 대기가 있을지는 아직 알 수 없어요.",
+          "source": "trappist-e-spectrum",
+          "detail": true
         }
       ],
       "sources": [
         "trappist-nasa",
         "trappist-e-nasa",
-        "trappist-archive"
+        "trappist-archive",
+        "trappist-e-spectrum"
       ]
     },
     {
@@ -130,6 +143,12 @@
           "source": "2m1207-eso"
         },
         {
+          "label": "자전하는 데 걸리는 시간",
+          "value": "한 바퀴에 약 10시간이에요. 허블은 행성에서 나오는 적외선 밝기가 반복해서 바뀌는 주기를 재었어요.",
+          "source": "2m1207-b-rotation",
+          "estimated": true
+        },
+        {
           "label": "질량 추정",
           "value": "목성 질량의 약 5.2배",
           "source": "2m1207-archive",
@@ -154,7 +173,8 @@
         "2m1207-archive",
         "2m1207-eso",
         "2m1207-hubble",
-        "2m1207-separation"
+        "2m1207-separation",
+        "2m1207-b-rotation"
       ]
     },
     {
@@ -180,6 +200,11 @@
           "label": "항성 종류",
           "value": "적색왜성",
           "source": "proxima-eso"
+        },
+        {
+          "label": "짧고 강한 폭발",
+          "value": "2019년 5월에는 이 별에서 일어난 약 7초 동안의 폭발을 허블과 ALMA가 함께 관측했어요.",
+          "source": "proxima-flare-alma"
         },
         {
           "label": "반지름",
@@ -208,7 +233,8 @@
       ],
       "sources": [
         "proxima-archive",
-        "proxima-eso"
+        "proxima-eso",
+        "proxima-flare-alma"
       ]
     },
     {
@@ -231,6 +257,11 @@
         {
           "label": "알려진 행성",
           "value": "7개",
+          "source": "trappist-nasa"
+        },
+        {
+          "label": "촘촘한 행성 궤도",
+          "value": "트라피스트-1의 일곱 행성이 도는 궤도는 모두 수성이 태양을 도는 궤도보다 작아요.",
           "source": "trappist-nasa"
         },
         {
@@ -287,6 +318,11 @@
           "source": "betelgeuse-alma"
         },
         {
+          "label": "한동안 어두워진 이유",
+          "value": "2019년 말부터 별의 일부가 식고, 별에서 나온 가스가 식어 먼지 구름을 만들었어요. 그 먼지가 별빛의 일부를 가렸어요.",
+          "source": "betelgeuse-dimming-eso"
+        },
+        {
           "label": "반지름 추정",
           "value": "태양 반지름의 약 800배",
           "source": "betelgeuse-alma",
@@ -309,7 +345,8 @@
       "sources": [
         "betelgeuse-alma",
         "betelgeuse-eso",
-        "betelgeuse-kasi"
+        "betelgeuse-kasi",
+        "betelgeuse-dimming-eso"
       ]
     },
     {
@@ -336,6 +373,11 @@
           "source": "2m1207-eso"
         },
         {
+          "label": "양쪽으로 뻗는 물질",
+          "value": "천문학자들은 어린 별에서처럼 물질이 이 갈색왜성의 양쪽으로 뿜어져 나오는 모습을 관측했어요.",
+          "source": "2m1207-jet-eso"
+        },
+        {
           "label": "질량 추정",
           "value": "목성 질량의 약 25배 · 초기 연구 추정",
           "source": "2m1207-archive",
@@ -353,7 +395,8 @@
       "sources": [
         "2m1207-archive",
         "2m1207-eso",
-        "2m1207-hubble"
+        "2m1207-hubble",
+        "2m1207-jet-eso"
       ]
     },
     {
@@ -379,6 +422,11 @@
           "source": "sirius-esa"
         },
         {
+          "label": "엑스선에서 보이는 밝기",
+          "value": "눈으로 볼 수 있는 빛에서는 시리우스 A가 더 밝아요. 찬드라 망원경으로 엑스선을 찍으면 시리우스 B가 더 밝게 보여요.",
+          "source": "sirius-chandra"
+        },
+        {
           "label": "질량",
           "value": "태양 질량과 거의 같아요.",
           "source": "sirius-hubble",
@@ -400,7 +448,8 @@
       ],
       "sources": [
         "sirius-hubble",
-        "sirius-esa"
+        "sirius-esa",
+        "sirius-chandra"
       ]
     },
     {
@@ -427,6 +476,12 @@
           "source": "crab-nasa"
         },
         {
+          "label": "펄서 주변의 안쪽 고리",
+          "value": "찬드라 망원경이 관측한 안쪽 고리의 폭은 약 1광년이에요.",
+          "source": "crab-pulsar-ring",
+          "estimated": true
+        },
+        {
           "label": "한 바퀴 도는 시간",
           "value": "약 0.033초",
           "source": "crab-pulsar-nasa",
@@ -441,7 +496,8 @@
       ],
       "sources": [
         "crab-pulsar-nasa",
-        "crab-nasa"
+        "crab-nasa",
+        "crab-pulsar-ring"
       ]
     },
     {
@@ -468,6 +524,11 @@
           "source": "blackholes-eso"
         },
         {
+          "label": "주변 자기장을 알아보는 방법",
+          "value": "전파가 흔들리는 방향인 ‘편광’을 재서 블랙홀 그림자 주변의 자기장이 어떻게 놓여 있는지 알아내요.",
+          "source": "sagittarius-eht-polarization"
+        },
+        {
           "label": "관측 영상 공개",
           "value": "2022년",
           "source": "sagittarius-eso",
@@ -482,7 +543,8 @@
       ],
       "sources": [
         "blackholes-eso",
-        "sagittarius-eso"
+        "sagittarius-eso",
+        "sagittarius-eht-polarization"
       ]
     },
     {
@@ -509,6 +571,12 @@
           "source": "m87-eso"
         },
         {
+          "label": "은하 중심에서 뻗는 줄기",
+          "value": "M87* 주변에서 뿜어져 나온 물질을 허블이 포착했어요. 사진 속 줄기는 약 3,000광년 길이예요.",
+          "source": "m87-jet-hubble",
+          "estimated": true
+        },
+        {
           "label": "관측 영상 공개",
           "value": "2019년",
           "source": "m87-eso",
@@ -523,7 +591,8 @@
       ],
       "sources": [
         "m87-eso",
-        "m87-nasa"
+        "m87-nasa",
+        "m87-jet-hubble"
       ]
     },
     {
@@ -552,6 +621,11 @@
           "source": "orion-nasa"
         },
         {
+          "label": "어린 별 주변의 원반",
+          "value": "허블은 어린 별 주위를 감싼 가스와 먼지 원반을 관측했어요. 그곳의 물질은 새 행성의 재료가 될 수 있어요.",
+          "source": "orion-disks-hubble"
+        },
+        {
           "label": "성운 중심의 어린 별들",
           "value": "사다리꼴 모양으로 모인 밝은 별들이 있어요.",
           "source": "orion-hubble",
@@ -561,7 +635,8 @@
       "sources": [
         "orion-nasa",
         "orion-hubble",
-        "orion-kasi"
+        "orion-kasi",
+        "orion-disks-hubble"
       ]
     },
     {
@@ -589,6 +664,11 @@
           "source": "crab-nasa"
         },
         {
+          "label": "따뜻한 먼지와 가스",
+          "value": "웹 망원경이 본 따뜻한 먼지는 성운을 둘러싼 그물처럼 퍼져 있어요. 웹 사진에서는 먼지를 자홍색, 일부 황 가스를 초록색으로 표시했어요.",
+          "source": "crab-dust-webb"
+        },
+        {
           "label": "폭 추정",
           "value": "약 10광년 · 관측 영역에 따라 달라요.",
           "source": "crab-nasa",
@@ -604,7 +684,8 @@
       ],
       "sources": [
         "crab-catalog",
-        "crab-nasa"
+        "crab-nasa",
+        "crab-dust-webb"
       ]
     },
     {
@@ -633,6 +714,12 @@
           "estimated": true
         },
         {
+          "label": "‘신비의 산’ 높이",
+          "value": "허블이 찍은 가스와 먼지 기둥은 높이가 약 3광년이에요. 가까운 별빛을 받으며 조금씩 깎여 나가고 있어요.",
+          "source": "carina-mountain-hubble",
+          "estimated": true
+        },
+        {
           "label": "웹 망원경이 관측한 일부 영역",
           "value": "성운 안의 별 탄생 지역 NGC 3324",
           "source": "carina-webb",
@@ -647,7 +734,8 @@
       ],
       "sources": [
         "carina-hubble",
-        "carina-webb"
+        "carina-webb",
+        "carina-mountain-hubble"
       ]
     },
     {
@@ -678,6 +766,11 @@
           "source": "pleiades-nasa"
         },
         {
+          "label": "먼지 구름이 빛나는 이유",
+          "value": "플레이아데스의 밝은 별 메로페 가까이에서 먼지 구름이 별빛을 반사해요.",
+          "source": "pleiades-merope-hubble"
+        },
+        {
           "label": "모여 있는 별",
           "value": "1,000개 이상",
           "source": "pleiades-nasa",
@@ -691,7 +784,8 @@
         }
       ],
       "sources": [
-        "pleiades-nasa"
+        "pleiades-nasa",
+        "pleiades-merope-hubble"
       ]
     },
     {
@@ -719,6 +813,11 @@
           "estimated": true
         },
         {
+          "label": "태양이 들어 있는 나선팔의 이름",
+          "value": "태양은 우리 은하의 작은 나선팔인 오리온팔에 있어요.",
+          "source": "milky-location-nasa"
+        },
+        {
           "label": "별의 수 추정",
           "value": "약 1,000억~4,000억 개",
           "source": "milky-glossary",
@@ -741,7 +840,8 @@
       ],
       "sources": [
         "milky-glossary",
-        "milky-nasa"
+        "milky-nasa",
+        "milky-location-nasa"
       ]
     },
     {
@@ -769,6 +869,11 @@
           "source": "andromeda-nasa"
         },
         {
+          "label": "주위를 도는 작은 은하",
+          "value": "허블은 안드로메다은하를 도는 작은 은하 36개를 조사했어요. 메시에 32도 그중 하나예요.",
+          "source": "andromeda-satellites-hubble"
+        },
+        {
           "label": "별이 모인 영역의 폭 추정",
           "value": "허블 자료에서 약 15만 광년 · 별이 모인 영역을 어디까지 재는지에 따라 달라요.",
           "source": "andromeda-nasa",
@@ -778,7 +883,8 @@
       ],
       "sources": [
         "andromeda-nearby",
-        "andromeda-nasa"
+        "andromeda-nasa",
+        "andromeda-satellites-hubble"
       ]
     }
   ],
@@ -950,6 +1056,70 @@
     "m87-nasa": {
       "name": "NASA · M87 타원은하와 블랙홀",
       "url": "https://science.nasa.gov/universe/exoplanets/the-giant-galaxy-around-the-giant-black-hole/"
+    },
+    "proxima-orbit-comparison": {
+      "name": "ESO · 프록시마 센타우리 b와 수성의 궤도 비교",
+      "url": "https://www.eso.org/public/images/eso1629c/"
+    },
+    "trappist-e-spectrum": {
+      "name": "ESA 웹 · 트라피스트-1 e의 통과 스펙트럼",
+      "url": "https://esawebb.org/images/trappist1e/"
+    },
+    "2m1207-b-rotation": {
+      "name": "ESA 허블 · 2M1207 b의 자전 관측",
+      "url": "https://esahubble.org/images/opo1605a/"
+    },
+    "proxima-flare-alma": {
+      "name": "ALMA · 프록시마 센타우리의 폭발 관측",
+      "url": "https://www.almaobservatory.org/en/press-releases/record-breaking-stellar-flare-from-nearby-star-recorded-in-multiple-wavelengths-for-the-first-time/"
+    },
+    "betelgeuse-dimming-eso": {
+      "name": "ESO · 베텔게우스가 어두워진 이유",
+      "url": "https://www.eso.org/public/news/eso2109/"
+    },
+    "2m1207-jet-eso": {
+      "name": "ESO · 갈색왜성 2M1207 주변의 물질 분출",
+      "url": "https://cdn3.eso.org/public/news/eso0724/"
+    },
+    "sirius-chandra": {
+      "name": "찬드라 · 시리우스 A와 B의 가시광선·엑스선 비교",
+      "url": "https://www.chandra.cfa.harvard.edu/photo/2000/0065/more.html"
+    },
+    "crab-pulsar-ring": {
+      "name": "찬드라 · 게성운 펄서 주변의 엑스선 고리",
+      "url": "https://chandra.harvard.edu/photo/2002/0052/more.html"
+    },
+    "sagittarius-eht-polarization": {
+      "name": "ESO · 궁수자리 A*의 편광 관측",
+      "url": "https://www.eso.org/public/images/eso2406a/"
+    },
+    "m87-jet-hubble": {
+      "name": "ESA 허블 · 메시에 87 은하의 물질 분출",
+      "url": "https://esahubble.org/images/heic2411b/"
+    },
+    "orion-disks-hubble": {
+      "name": "ESA 허블 · 오리온 성운의 원시 행성 원반",
+      "url": "https://esahubble.org/images/opo9229c/"
+    },
+    "crab-dust-webb": {
+      "name": "ESA 웹 · 게성운의 먼지와 황 가스",
+      "url": "https://esawebb.org/images/weic2417a/"
+    },
+    "carina-mountain-hubble": {
+      "name": "ESA 허블 · 용골자리 성운의 ‘신비의 산’",
+      "url": "https://esahubble.org/images/heic1007c/"
+    },
+    "pleiades-merope-hubble": {
+      "name": "ESA 허블 · 메로페 옆의 반사 성운",
+      "url": "https://esahubble.org/images/opo0036a/"
+    },
+    "milky-location-nasa": {
+      "name": "NASA · 우리 은하와 태양의 위치",
+      "url": "https://science.nasa.gov/asset/webb/milky-way-and-our-location/"
+    },
+    "andromeda-satellites-hubble": {
+      "name": "ESA 허블 · 안드로메다은하의 위성 은하",
+      "url": "https://esahubble.org/images/opo2509/"
     }
   }
 }

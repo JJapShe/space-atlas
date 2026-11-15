@@ -45,6 +45,12 @@
           "value": "약 3.83 × 10²⁶ W",
           "source": "nasa-sun-metrics",
           "detail": true
+        },
+        {
+          "label": "태양의 빛과 열이 생기는 곳",
+          "value": "아주 뜨거운 중심에서 수소가 합쳐져 헬륨이 되면서 에너지가 나와요.",
+          "source": "nasa-sun",
+          "detail": true
         }
       ],
       "sources": [
@@ -97,6 +103,12 @@
           "label": "행성 유형",
           "value": "암석형 행성",
           "source": "nasa-planets-overview",
+          "detail": true
+        },
+        {
+          "label": "해가 뜨고 다시 뜰 때까지",
+          "value": "지구 시간으로 약 176일이 걸려요. 수성이 태양 주위를 두 바퀴 도는 시간이에요.",
+          "source": "nasa-mercury",
           "detail": true
         }
       ],
@@ -157,6 +169,12 @@
           "value": "암석형 행성",
           "source": "nasa-planets-overview",
           "detail": true
+        },
+        {
+          "label": "표면이 뜨거운 까닭",
+          "value": "두꺼운 대기가 열을 가둬요. 표면 온도는 약 467°C예요.",
+          "source": "nasa-venus",
+          "detail": true
         }
       ],
       "sources": [
@@ -212,6 +230,12 @@
           "label": "행성 유형",
           "value": "암석형 행성",
           "source": "nasa-planets-overview",
+          "detail": true
+        },
+        {
+          "label": "바다가 덮은 면적",
+          "value": "지구 표면을 100칸으로 나누면 약 71칸이 바다예요.",
+          "source": "nasa-earth",
           "detail": true
         }
       ],
@@ -271,6 +295,12 @@
           "value": "암석형 행성",
           "source": "nasa-planets-overview",
           "detail": true
+        },
+        {
+          "label": "화성의 계절",
+          "value": "봄·여름·가을·겨울이 있어요. 태양을 한 바퀴 도는 데 오래 걸려 계절도 지구보다 길어요.",
+          "source": "nasa-mars",
+          "detail": true
         }
       ],
       "sources": [
@@ -329,6 +359,12 @@
           "value": "가스 거대 행성",
           "source": "nasa-planets-overview",
           "detail": true
+        },
+        {
+          "label": "구름 띠가 움직이는 방향",
+          "value": "밝은 띠와 어두운 띠의 구름이 동쪽과 서쪽으로 서로 반대 방향으로 흘러요.",
+          "source": "nasa-jupiter",
+          "detail": true
         }
       ],
       "sources": [
@@ -386,6 +422,12 @@
           "value": "가스 거대 행성",
           "source": "nasa-planets-overview",
           "detail": true
+        },
+        {
+          "label": "고리를 이루는 조각의 크기",
+          "value": "먼지처럼 작은 얼음 알갱이부터 집만 한 덩어리까지 있어요. 산만 한 조각도 드물게 있어요.",
+          "source": "nasa-saturn",
+          "detail": true
         }
       ],
       "sources": [
@@ -441,6 +483,12 @@
           "label": "행성 유형",
           "value": "얼음 거대 행성",
           "source": "nasa-planets-overview",
+          "detail": true
+        },
+        {
+          "label": "극지방의 긴 겨울",
+          "value": "자전축이 옆으로 크게 기울어 한쪽 극지방에는 약 21년 동안 해가 뜨지 않는 겨울이 와요.",
+          "source": "nasa-uranus",
           "detail": true
         }
       ],
@@ -500,6 +548,12 @@
           "value": "얼음 거대 행성",
           "source": "nasa-planets-overview",
           "detail": true
+        },
+        {
+          "label": "구름을 몰고 가는 바람",
+          "value": "얼어붙은 메테인 구름을 시속 2,000 km가 넘는 속도로 몰고 갈 수 있어요.",
+          "source": "nasa-neptune",
+          "detail": true
         }
       ],
       "sources": [
@@ -553,6 +607,12 @@
           "value": "지구의 약 0.00016배",
           "source": "jpl-planet-physical",
           "detail": true
+        },
+        {
+          "label": "던 탐사선이 도착한 해",
+          "value": "2015년이에요. 세레스는 탐사선이 찾아간 첫 왜행성이에요.",
+          "source": "nasa-ceres",
+          "detail": true
         }
       ],
       "sources": [
@@ -603,6 +663,12 @@
           "label": "질량",
           "value": "지구의 약 0.0022배",
           "source": "jpl-planet-physical",
+          "detail": true
+        },
+        {
+          "label": "아주 얇은 대기",
+          "value": "명왕성의 대기는 대부분 질소로 이루어져 있어요. 태양에 가까워지면 표면의 얼음 일부가 기체가 되어 대기로 올라가요.",
+          "source": "nasa-pluto",
           "detail": true
         }
       ],
@@ -658,6 +724,12 @@
           "source": "jpl-planet-physical",
           "detail": true,
           "estimated": true
+        },
+        {
+          "label": "햇빛이 도착하는 데 걸리는 시간",
+          "value": "태양에서 평균 거리만큼 떨어져 있을 때 햇빛이 닿기까지 약 6시간 걸려요.",
+          "source": "nasa-haumea",
+          "detail": true
         }
       ],
       "sources": [
@@ -706,6 +778,12 @@
           "source": "jpl-planet-physical",
           "detail": true,
           "estimated": true
+        },
+        {
+          "label": "위성 MK 2가 보이는 밝기",
+          "value": "허블 망원경으로 찍었을 때 위성은 마케마케보다 1,300배 넘게 어둡게 보였어요.",
+          "source": "nasa-makemake",
+          "detail": true
         }
       ],
       "sources": [
@@ -760,6 +838,12 @@
           "source": "jpl-planet-physical",
           "detail": true,
           "estimated": true
+        },
+        {
+          "label": "위성 디스노미아의 한 바퀴",
+          "value": "디스노미아는 에리스 둘레를 약 16일마다 한 바퀴 돌아요.",
+          "source": "nasa-eris",
+          "detail": true
         }
       ],
       "sources": [
@@ -809,6 +893,12 @@
           "value": "지구의 약 0.0123배",
           "source": "nasa-planet-metrics",
           "detail": true
+        },
+        {
+          "label": "지구에서 달의 같은 쪽이 보이는 까닭",
+          "value": "달이 스스로 한 바퀴 도는 시간과 지구 둘레를 한 바퀴 도는 시간이 같아요.",
+          "source": "nasa-moon",
+          "detail": true
         }
       ],
       "sources": [
@@ -851,6 +941,12 @@
           "value": "약 1.06 × 10¹⁶ kg (지구의 약 0.0000000018배)",
           "source": "jpl-moon-physical",
           "detail": true
+        },
+        {
+          "label": "가장 큰 충돌구",
+          "value": "스티크니라는 커다란 충돌구가 있어요. 지름은 약 9 km예요.",
+          "source": "nasa-phobos",
+          "detail": true
         }
       ],
       "sources": [
@@ -892,6 +988,12 @@
           "label": "질량",
           "value": "지구의 약 0.015배",
           "source": "jpl-moon-physical",
+          "detail": true
+        },
+        {
+          "label": "화산을 데우는 힘",
+          "value": "목성과 주변 위성의 중력 때문에 이오가 돌면서 늘어나고 눌려요. 이 움직임이 이오 속을 데워요.",
+          "source": "nasa-io",
           "detail": true
         }
       ],
@@ -937,6 +1039,12 @@
           "value": "지구의 약 0.0080배",
           "source": "jpl-moon-physical",
           "detail": true
+        },
+        {
+          "label": "얼음 위의 아주 옅은 대기",
+          "value": "유로파 주위에는 산소로 이루어진 매우 희박한 대기가 있어요.",
+          "source": "nasa-europa",
+          "detail": true
         }
       ],
       "sources": [
@@ -981,6 +1089,12 @@
           "value": "지구의 약 0.023배",
           "source": "jpl-moon-physical",
           "detail": true
+        },
+        {
+          "label": "타이탄에 내리는 비",
+          "value": "구름에서 액체 메테인 비가 내려요. 표면의 강과 호수에는 액체 메테인과 에테인이 있어요.",
+          "source": "nasa-titan",
+          "detail": true
         }
       ],
       "sources": [
@@ -1024,6 +1138,12 @@
           "value": "약 1.08 × 10²⁰ kg (지구의 약 0.000018배)",
           "source": "jpl-moon-physical",
           "detail": true
+        },
+        {
+          "label": "토성의 E 고리와 이어지는 얼음",
+          "value": "엔셀라두스에서 뿜어 나온 얼음 알갱이 일부가 토성 주위로 퍼져 E 고리를 이루어요.",
+          "source": "nasa-enceladus",
+          "detail": true
         }
       ],
       "sources": [
@@ -1065,6 +1185,12 @@
           "label": "질량",
           "value": "지구의 약 0.00027배",
           "source": "jpl-moon-physical",
+          "detail": true
+        },
+        {
+          "label": "늘 서로 마주 보는 두 천체",
+          "value": "카론과 명왕성은 각각 항상 같은 얼굴을 서로에게 보여 줘요.",
+          "source": "nasa-charon",
           "detail": true
         }
       ],
@@ -1115,6 +1241,12 @@
           "value": "2023년",
           "source": "nasa-bennu",
           "detail": true
+        },
+        {
+          "label": "팽이를 닮은 모양",
+          "value": "베누는 가운데 둘레가 볼록해 팽이처럼 보여요. 어떤 과정으로 이 모양이 생겼는지는 연구 중이에요.",
+          "source": "nasa-bennu",
+          "detail": true
         }
       ],
       "sources": [
@@ -1162,6 +1294,12 @@
           "value": "2019년",
           "source": "nasa-arrokoth",
           "detail": true
+        },
+        {
+          "label": "두 덩어리가 만나는 곳",
+          "value": "두 덩어리 사이의 좁은 연결부는 뉴호라이즌스 사진에서 주변보다 더 밝게 보여요.",
+          "source": "nasa-arrokoth",
+          "detail": true
         }
       ],
       "sources": [
@@ -1202,6 +1340,12 @@
         {
           "label": "태양 주위를 도는 방향",
           "value": "지구와 반대 방향",
+          "source": "nasa-halley",
+          "detail": true
+        },
+        {
+          "label": "핼리 혜성이 남긴 두 유성우",
+          "value": "혜성이 남긴 알갱이 때문에 5월의 물병자리 에타 유성우와 10월의 오리온자리 유성우가 생겨요.",
           "source": "nasa-halley",
           "detail": true
         }
@@ -1253,6 +1397,12 @@
           "label": "로제타가 혜성에 도착한 해",
           "value": "2014년",
           "source": "esa-rosetta-orbit",
+          "detail": true
+        },
+        {
+          "label": "혜성에 내려앉은 로봇",
+          "value": "로제타가 데려간 필레 착륙선이 2014년 혜성에 내려앉았어요.",
+          "source": "nasa-comet-67p",
           "detail": true
         }
       ],
