@@ -1,0 +1,355 @@
+{
+  "objects": [
+    {
+      "id": "ganymede",
+      "name": "가니메데",
+      "en": "Ganymede",
+      "aliases": [
+        "가니메드",
+        "Jupiter III"
+      ],
+      "category": "moon",
+      "intro": "가니메데는 목성을 도는 달이에요. 태양계의 달 중 가장 커요.",
+      "prompt": "사진에서 밝고 길게 이어진 줄을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 5,260 km",
+          "source": "nasa-ganymede"
+        },
+        {
+          "label": "달 중 크기",
+          "value": "태양계에서 가장 커요",
+          "source": "nasa-ganymede"
+        },
+        {
+          "label": "작은 행성과 비교",
+          "value": "수성보다 지름이 커요",
+          "source": "nasa-ganymede",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-ganymede"
+      ]
+    },
+    {
+      "id": "callisto",
+      "name": "칼리스토",
+      "en": "Callisto",
+      "aliases": [
+        "칼리스토 위성",
+        "Jupiter IV"
+      ],
+      "category": "moon",
+      "intro": "칼리스토는 목성을 도는 달이에요. 어두운 겉면에 돌이 부딪친 둥근 자국이 많아요.",
+      "prompt": "어두운 둥근 사진에서 밝은 자국을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "목성의 달 중 크기",
+          "value": "두 번째로 커요",
+          "source": "nasa-callisto"
+        },
+        {
+          "label": "갈릴레오가 망원경으로 본 해",
+          "value": "1610년",
+          "source": "nasa-callisto"
+        }
+      ],
+      "sources": [
+        "nasa-callisto"
+      ]
+    },
+    {
+      "id": "mimas",
+      "name": "미마스",
+      "en": "Mimas",
+      "aliases": [
+        "미마스 위성",
+        "Saturn I"
+      ],
+      "category": "moon",
+      "intro": "미마스는 토성을 도는 작은 달이에요. 옆에 커다랗고 동그란 충돌 자국이 있어요.",
+      "prompt": "사진에서 가장 큰 동그란 자국을 가리켜 볼까요?",
+      "facts": [
+        {
+          "label": "평균 지름",
+          "value": "약 394 km",
+          "source": "nasa-mimas"
+        },
+        {
+          "label": "가장 큰 충돌 자국의 너비",
+          "value": "약 130 km",
+          "source": "nasa-mimas"
+        }
+      ],
+      "sources": [
+        "nasa-mimas"
+      ]
+    },
+    {
+      "id": "triton",
+      "name": "트리톤",
+      "en": "Triton",
+      "aliases": [
+        "트리톤 위성",
+        "Neptune I"
+      ],
+      "category": "moon",
+      "intro": "트리톤은 해왕성의 가장 큰 달이에요. 해왕성이 도는 방향과 반대로 빙 둘러 돌아요.",
+      "prompt": "트리톤 사진에서 밝은 가장자리가 보이나요?",
+      "facts": [
+        {
+          "label": "지름",
+          "value": "약 2,700 km",
+          "source": "nasa-triton"
+        },
+        {
+          "label": "보이저 2호가 가까이 지나간 해",
+          "value": "1989년",
+          "source": "nasa-triton"
+        }
+      ],
+      "sources": [
+        "nasa-triton"
+      ]
+    },
+    {
+      "id": "miranda",
+      "name": "미란다",
+      "en": "Miranda",
+      "aliases": [
+        "미란다 위성",
+        "Uranus V"
+      ],
+      "category": "moon",
+      "intro": "미란다는 천왕성을 도는 작은 달이에요. 깊은 골짜기와 줄처럼 이어진 산등성이가 있어요.",
+      "prompt": "미란다 사진에서 나란히 있는 줄무늬를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지름",
+          "value": "약 480 km",
+          "source": "nasa-miranda"
+        },
+        {
+          "label": "보이저 2호가 가까이 찍은 해",
+          "value": "1986년",
+          "source": "nasa-miranda"
+        }
+      ],
+      "sources": [
+        "nasa-miranda"
+      ]
+    },
+    {
+      "id": "vesta",
+      "name": "베스타",
+      "en": "Vesta",
+      "aliases": [
+        "4 베스타",
+        "4 Vesta"
+      ],
+      "category": "asteroid",
+      "intro": "베스타는 화성과 목성 사이를 도는 큰 소행성이에요. 던 탐사선이 베스타 둘레를 돌며 사진을 찍었어요.",
+      "prompt": "사진 왼쪽 위에서 가깝게 붙은 동그란 자국 세 개를 찾아볼까요?",
+      "region": "asteroid-belt",
+      "facts": [
+        {
+          "label": "던이 둘레를 돌기 시작한 해",
+          "value": "2011년",
+          "source": "nasa-vesta"
+        },
+        {
+          "label": "큰 충돌 자국의 너비",
+          "value": "레아실비아의 너비는 약 500 km예요",
+          "source": "nasa-vesta"
+        }
+      ],
+      "sources": [
+        "nasa-vesta"
+      ]
+    },
+    {
+      "id": "eros",
+      "name": "에로스",
+      "en": "Eros",
+      "aliases": [
+        "433 에로스",
+        "433 Eros"
+      ],
+      "category": "asteroid",
+      "intro": "에로스는 길쭉하고 가운데가 움푹 들어간 소행성이에요. 우주 탐사선이 소행성 중 처음으로 여기 내려앉았어요.",
+      "prompt": "사진 아래쪽에서 오목하게 들어간 곳을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "탐사선이 둘레를 돌기 시작한 해",
+          "value": "2000년",
+          "source": "nasa-eros"
+        },
+        {
+          "label": "탐사선이 내려앉은 해",
+          "value": "2001년",
+          "source": "nasa-eros"
+        }
+      ],
+      "sources": [
+        "nasa-eros"
+      ]
+    },
+    {
+      "id": "ida",
+      "name": "이다",
+      "en": "Ida",
+      "aliases": [
+        "243 이다",
+        "243 Ida"
+      ],
+      "category": "asteroid",
+      "intro": "이다는 울퉁불퉁하고 길쭉한 소행성이에요. 작은 달 닥틸이 이다 둘레를 돌아요.",
+      "prompt": "길쭉한 이다 옆에 작고 동그란 닥틸이 보이나요?",
+      "region": "asteroid-belt",
+      "facts": [
+        {
+          "label": "갈릴레오 탐사선이 가까이 지나간 해",
+          "value": "1993년",
+          "source": "nasa-ida"
+        },
+        {
+          "label": "소행성의 달",
+          "value": "이다에서 소행성을 도는 달을 처음 발견했어요",
+          "source": "nasa-ida"
+        }
+      ],
+      "sources": [
+        "nasa-ida"
+      ]
+    },
+    {
+      "id": "dactyl",
+      "name": "닥틸",
+      "en": "Dactyl",
+      "aliases": [
+        "닥틸 위성",
+        "Ida I"
+      ],
+      "category": "moon",
+      "intro": "닥틸은 소행성 이다를 도는 아주 작은 달이에요. 달걀처럼 생겼고 둥근 자국이 있어요.",
+      "prompt": "닥틸의 밝은 쪽에서 동그란 자국을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "둘레를 도는 곳",
+          "value": "소행성 이다",
+          "source": "nasa-dactyl"
+        },
+        {
+          "label": "가장 긴 쪽의 길이",
+          "value": "약 1.6 km",
+          "source": "nasa-dactyl"
+        }
+      ],
+      "sources": [
+        "nasa-dactyl"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "jupiter",
+      "to": "ganymede",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "jupiter",
+      "to": "callisto",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "saturn",
+      "to": "mimas",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "neptune",
+      "to": "triton",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "uranus",
+      "to": "miranda",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "ida",
+      "to": "dactyl",
+      "forward": "이 천체 둘레를 도는 달이에요",
+      "reverse": "이 달이 둘레를 도는 곳이에요"
+    },
+    {
+      "from": "juno",
+      "to": "ganymede",
+      "forward": "이 탐사선이 가까이서 찍었어요",
+      "reverse": "이 달을 가까이서 찍은 탐사선이에요"
+    },
+    {
+      "from": "cassini",
+      "to": "mimas",
+      "forward": "이 탐사선이 가까이서 찍었어요",
+      "reverse": "이 달을 가까이서 찍은 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "triton",
+      "forward": "이 탐사선이 가까이서 찍었어요",
+      "reverse": "이 달을 가까이서 찍은 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "miranda",
+      "forward": "이 탐사선이 가까이서 찍었어요",
+      "reverse": "이 달을 가까이서 찍은 탐사선이에요"
+    }
+  ],
+  "sources": {
+    "nasa-ganymede": {
+      "name": "NASA · 가니메데",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+    },
+    "nasa-callisto": {
+      "name": "NASA · 칼리스토",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/"
+    },
+    "nasa-mimas": {
+      "name": "NASA · 미마스",
+      "url": "https://science.nasa.gov/saturn/moons/mimas/"
+    },
+    "nasa-triton": {
+      "name": "NASA · 트리톤",
+      "url": "https://science.nasa.gov/neptune/moons/triton/"
+    },
+    "nasa-miranda": {
+      "name": "NASA · 미란다",
+      "url": "https://www.jpl.nasa.gov/images/pia01490-south-polar-view-of-miranda/"
+    },
+    "nasa-vesta": {
+      "name": "NASA · 베스타",
+      "url": "https://science.nasa.gov/solar-system/asteroids/4-vesta/"
+    },
+    "nasa-eros": {
+      "name": "NASA · 에로스",
+      "url": "https://science.nasa.gov/solar-system/asteroids/433-eros/"
+    },
+    "nasa-ida": {
+      "name": "NASA · 이다",
+      "url": "https://science.nasa.gov/solar-system/asteroids/243-ida/"
+    },
+    "nasa-dactyl": {
+      "name": "NASA · 닥틸",
+      "url": "https://www.jpl.nasa.gov/images/pia00297-high-resolution-view-of-dactyl/"
+    }
+  }
+}

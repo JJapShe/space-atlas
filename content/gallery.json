@@ -964,5 +964,110 @@
       "checkedAt": "2026-11-15",
       "alt": "가운데 안드로메다은하 주위에 표시된 작은 은하들과 오른쪽의 확대 사진 네 장"
     }
+  ],
+  "hubble": [
+    {
+      "file": "https://esahubble.org/media/archives/images/original/hstsm2f.jpg",
+      "kind": "photo",
+      "caption": "우주 비행사가 우주에서 허블 망원경 장비를 손보는 모습이에요.",
+      "credit": "NASA/ESA",
+      "sourceUrl": "https://esahubble.org/images/hstsm2f/",
+      "originalUrl": "https://esahubble.org/media/archives/images/original/hstsm2f.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esahubble.org/copyright/",
+      "changes": "기관 공식 파일 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "은빛 허블 망원경 바로 옆의 흰 우주복을 입은 비행사"
+    }
+  ],
+  "james-webb": [
+    {
+      "file": "https://cdn.esawebb.org/archives/images/screen/weic2201a.jpg",
+      "kind": "photo",
+      "caption": "발사 전 먼지를 줄인 조립실에서 웹 망원경을 찍었어요. 큰 거울은 로켓에 실을 수 있게 접히도록 만들었어요.",
+      "credit": "NASA/Chris Gunn",
+      "sourceUrl": "https://esawebb.org/images/weic2201a/",
+      "originalUrl": "https://esawebb.org/media/archives/images/original/weic2201a.tif",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://esawebb.org/copyright/",
+      "changes": "기관 공식 웹용 JPEG 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "조립실에서 지지대에 고정된 웹 망원경의 금색 거울"
+    }
+  ],
+  "new-horizons": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19841/PIA19841.jpg",
+      "kind": "processed",
+      "caption": "뉴호라이즌스가 가까이에서 본 명왕성의 하트 모양 지형 일부예요. 얼어붙은 넓은 평원이 보여요.",
+      "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/frozen-plains-in-the-heart-of-plutos-heart/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19841/PIA19841.jpg",
+      "license": "NASA 미디어 이용 지침에 따른 교육용 이용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "기관 공식 관측 이미지 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "명왕성에 펼쳐진 밝은 얼음 평원과 그 위를 가로지르는 어두운 경계선"
+    }
+  ],
+  "cassini": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10583/PIA10583.jpg",
+      "kind": "photo",
+      "caption": "카시니가 토성 북극에서 관측한 육각형 구름 무늬예요.",
+      "credit": "NASA/JPL/Space Science Institute",
+      "sourceUrl": "https://science.nasa.gov/photojournal/unveiling-the-hexagon/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10583/PIA10583.jpg",
+      "license": "JPL 미디어 이용 지침에 따른 교육용 이용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관 공식 파일 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "토성 북극을 둘러싼 육각형 구름 무늬의 일부"
+    }
+  ],
+  "juno": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia13/pia13013/PIA13013.jpg",
+      "kind": "photo",
+      "caption": "기술자들이 주노의 전자 장비를 방사선으로부터 보호할 상자를 조립실에서 옮기고 있어요. 아래에는 우주선 몸체의 모형이 있어요.",
+      "credit": "NASA/JPL/Lockheed Martin",
+      "sourceUrl": "https://science.nasa.gov/photojournal/juno-taking-shape-2/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia13/pia13013/PIA13013.jpg",
+      "license": "JPL 미디어 이용 지침에 따른 교육용 이용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관 공식 파일 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "흰 작업복을 입은 기술자들이 주노의 금속 상자를 들어 옮기는 장면"
+    }
+  ],
+  "apollo-11": [
+    {
+      "file": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24439/PIA24439.jpg",
+      "kind": "photo",
+      "caption": "아폴로 11호의 버즈 올드린이 1969년 달을 걸을 때 찍은 발자국이에요.",
+      "credit": "NASA",
+      "sourceUrl": "https://science.nasa.gov/photojournal/apollo-footprint/",
+      "originalUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24439/PIA24439.jpg",
+      "license": "NASA 미디어 이용 지침에 따른 교육용 이용",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "기관 공식 파일 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "회색 달 먼지 위에 남은 우주복 장화 밑창 무늬"
+    }
+  ],
+  "mars-2020": [
+    {
+      "file": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia23/pia23964/PIA23964.jpg?crop=faces%2Cfocalpoint&fit=clip&h=2541&w=3811",
+      "kind": "photo",
+      "caption": "화성에서 퍼서비어런스를 움직이기 전에, 기술자들은 지구에 만든 시험용 쌍둥이 로버로 운전을 연습했어요.",
+      "credit": "NASA/JPL-Caltech",
+      "sourceUrl": "https://science.nasa.gov/photojournal/perseverance-test-rovers-first-drive/",
+      "originalUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia23/pia23964/PIA23964.jpg?crop=faces%2Cfocalpoint&fit=clip&h=2541&w=3811",
+      "license": "JPL 미디어 이용 지침에 따른 교육용 이용",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "기관 공식 JPEG 사용. 별도 편집 없음.",
+      "checkedAt": "2026-11-15",
+      "alt": "지구의 조립실 안에서 기술자들이 지켜보는 여섯 바퀴의 시험용 로버"
+    }
   ]
 }

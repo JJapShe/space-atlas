@@ -1,0 +1,459 @@
+{
+  "objects": [
+    {
+      "id": "whirlpool-galaxy",
+      "name": "소용돌이은하",
+      "en": "Whirlpool Galaxy",
+      "aliases": [
+        "소용돌이 은하",
+        "메시에 51",
+        "M51",
+        "M51a",
+        "NGC 5194"
+      ],
+      "category": "galaxy",
+      "intro": "별과 먼지가 모인 팔이 밝은 가운데를 빙글빙글 감싸고 있어요. 그래서 소용돌이은하라고 불러요.",
+      "prompt": "사진에서 가운데를 감싸며 휘어진 팔을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 3,100만 광년",
+          "source": "exp-whirlpool-galaxy",
+          "estimated": true
+        },
+        {
+          "label": "은하의 종류",
+          "value": "나선은하",
+          "source": "exp-whirlpool-galaxy"
+        },
+        {
+          "label": "팔에서 일어나는 일",
+          "value": "휘어진 팔 곳곳에서 새 별이 태어나요.",
+          "source": "exp-whirlpool-galaxy"
+        },
+        {
+          "label": "밤하늘에서 찾는 방향",
+          "value": "사냥개자리 쪽이에요.",
+          "source": "exp-whirlpool-galaxy",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "exp-whirlpool-galaxy",
+        "exp-whirlpool-galaxy-image"
+      ]
+    },
+    {
+      "id": "sombrero-galaxy",
+      "name": "솜브레로은하",
+      "en": "Sombrero Galaxy",
+      "aliases": [
+        "솜브레로 은하",
+        "메시에 104",
+        "M104",
+        "NGC 4594"
+      ],
+      "category": "galaxy",
+      "intro": "둥글게 솟은 가운데와 길게 뻗은 가장자리가 넓은 챙을 가진 모자 같아요. 그 모자를 솜브레로라고 해요.",
+      "prompt": "사진에서 모자의 챙처럼 길고 어두운 줄을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 3,000만 광년",
+          "source": "exp-sombrero-galaxy",
+          "estimated": true
+        },
+        {
+          "label": "모자의 챙처럼 보이는 곳",
+          "value": "은하를 가로지르는 어두운 줄은 먼지가 모인 띠예요.",
+          "source": "exp-sombrero-galaxy"
+        },
+        {
+          "label": "보는 방향",
+          "value": "은하의 납작한 원반을 거의 옆에서 보고 있어요.",
+          "source": "exp-sombrero-galaxy"
+        },
+        {
+          "label": "은하의 폭",
+          "value": "약 5만 광년",
+          "source": "exp-sombrero-galaxy",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "exp-sombrero-galaxy"
+      ]
+    },
+    {
+      "id": "large-magellanic-cloud",
+      "name": "대마젤란은하",
+      "en": "Large Magellanic Cloud",
+      "aliases": [
+        "대마젤란운",
+        "대마젤란성운",
+        "LMC",
+        "대마젤란 은하"
+      ],
+      "category": "galaxy",
+      "intro": "우리 은하 가까이에 있는 작은 은하예요. 남쪽 하늘에서 보면 희미한 구름처럼 보여요.",
+      "prompt": "대마젤란은하 안의 큰 성운 이름을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 16만 광년",
+          "source": "exp-large-magellanic-cloud",
+          "estimated": true
+        },
+        {
+          "label": "우리 은하와의 관계",
+          "value": "우리 은하에 딸린 작은 위성 은하예요.",
+          "source": "exp-large-magellanic-cloud"
+        },
+        {
+          "label": "안에 있는 성운",
+          "value": "새 별이 태어나는 타란툴라 성운이 있어요.",
+          "source": "exp-large-magellanic-cloud"
+        },
+        {
+          "label": "밤하늘에서 찾는 방향",
+          "value": "황새치자리와 테이블산자리 쪽이에요.",
+          "source": "exp-large-magellanic-cloud",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "exp-large-magellanic-cloud",
+        "exp-large-magellanic-cloud-image"
+      ]
+    },
+    {
+      "id": "eagle-nebula",
+      "name": "독수리 성운",
+      "en": "Eagle Nebula",
+      "aliases": [
+        "독수리성운",
+        "메시에 16",
+        "M16",
+        "IC 4703",
+        "창조의 기둥"
+      ],
+      "category": "nebula",
+      "intro": "새 별이 태어나는 커다란 구름이에요. 그 속에는 가스와 먼지가 높이 솟은 기둥이 있어요.",
+      "prompt": "사진에서 손가락처럼 위로 솟은 기둥을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 7,000광년",
+          "source": "exp-eagle-nebula",
+          "estimated": true
+        },
+        {
+          "label": "기둥의 이름",
+          "value": "이 성운 속의 가스와 먼지 기둥을 ‘창조의 기둥’이라고 불러요.",
+          "source": "exp-eagle-nebula"
+        },
+        {
+          "label": "기둥의 높이",
+          "value": "기둥의 높이는 약 4~5광년이에요.",
+          "source": "exp-eagle-nebula",
+          "estimated": true
+        },
+        {
+          "label": "밤하늘에서 찾는 방향",
+          "value": "뱀자리 쪽이에요.",
+          "source": "exp-eagle-nebula",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "exp-eagle-nebula",
+        "exp-eagle-nebula-image"
+      ]
+    },
+    {
+      "id": "ring-nebula",
+      "name": "고리성운",
+      "en": "Ring Nebula",
+      "aliases": [
+        "고리 성운",
+        "가락지성운",
+        "메시에 57",
+        "M57",
+        "NGC 6720"
+      ],
+      "category": "nebula",
+      "intro": "가스가 큼직한 반지처럼 빛나는 성운이에요. 나이 든 별이 바깥쪽 가스를 내보내 만들었어요.",
+      "prompt": "밝은 고리가 빙 둘러싸고 있는 어두운 곳을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 2,500광년",
+          "source": "exp-ring-nebula",
+          "estimated": true
+        },
+        {
+          "label": "고리를 만드는 물질",
+          "value": "별이 내보낸 가스가 둘레에서 고리처럼 보여요.",
+          "source": "exp-ring-nebula"
+        },
+        {
+          "label": "성운의 종류",
+          "value": "이런 가스 구름을 행성상 성운이라고 불러요.",
+          "source": "exp-ring-nebula"
+        },
+        {
+          "label": "고리에 모인 작은 덩어리",
+          "value": "사진에서 약 2만 개의 빽빽한 가스 덩어리가 보여요.",
+          "source": "exp-ring-nebula",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "exp-ring-nebula"
+      ]
+    },
+    {
+      "id": "omega-centauri",
+      "name": "오메가 센타우리",
+      "en": "Omega Centauri",
+      "aliases": [
+        "오메가 센타우리 성단",
+        "켄타우루스자리 오메가 성단",
+        "NGC 5139",
+        "Caldwell 80"
+      ],
+      "category": "cluster",
+      "intro": "수많은 별이 둥근 공처럼 모여 있어요. 가운데에는 별이 특히 빽빽해요.",
+      "prompt": "사진에서 가장 많은 별이 모여 밝게 보이는 곳은 어디일까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 1만 7,700광년",
+          "source": "exp-omega-centauri",
+          "estimated": true
+        },
+        {
+          "label": "성단의 종류",
+          "value": "별이 공처럼 모인 구상성단이에요.",
+          "source": "exp-omega-centauri"
+        },
+        {
+          "label": "별의 수",
+          "value": "약 1,000만 개",
+          "source": "exp-omega-centauri",
+          "estimated": true
+        },
+        {
+          "label": "처음에 보인 모습",
+          "value": "옛날에는 이 많은 별이 하나의 별처럼 보였어요.",
+          "source": "exp-omega-centauri",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "exp-omega-centauri"
+      ]
+    },
+    {
+      "id": "sirius-a",
+      "name": "시리우스 A",
+      "en": "Sirius A",
+      "aliases": [
+        "시리우스",
+        "천랑성",
+        "Sirius",
+        "Dog Star",
+        "Alpha Canis Majoris"
+      ],
+      "category": "star",
+      "intro": "밤하늘에서 지구에 가장 밝게 보이는 별이에요. 희미한 시리우스 B와 서로의 둘레를 돌아요.",
+      "prompt": "사진에서 큰 빛이 나는 시리우스 A를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서의 거리",
+          "value": "약 8.6광년",
+          "source": "exp-sirius-a",
+          "estimated": true
+        },
+        {
+          "label": "곁에 있는 작은 별",
+          "value": "시리우스 B라는 백색왜성이 있어요.",
+          "source": "exp-sirius-a"
+        },
+        {
+          "label": "서로 한 바퀴 도는 시간",
+          "value": "약 50년",
+          "source": "exp-sirius-a",
+          "estimated": true
+        },
+        {
+          "label": "사진에서 보이는 십자",
+          "value": "시리우스 A를 찍을 때 망원경 안에서 생긴 모양이에요.",
+          "source": "exp-sirius-a",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "exp-sirius-a"
+      ]
+    },
+    {
+      "id": "polaris",
+      "name": "북극성",
+      "en": "Polaris",
+      "aliases": [
+        "폴라리스",
+        "North Star",
+        "Alpha Ursae Minoris",
+        "α UMi"
+      ],
+      "category": "star",
+      "intro": "북쪽을 알려 주는 별이에요. 다른 별들이 밤새 움직여 보일 때 거의 같은 자리에 있어요.",
+      "prompt": "별들이 북극성 둘레를 빙글빙글 도는 것처럼 보이는 모습을 떠올려 볼까요?",
+      "facts": [
+        {
+          "label": "가리키는 방향",
+          "value": "북반구에서 이 별이 보이는 쪽은 거의 정북쪽이에요.",
+          "source": "exp-polaris"
+        },
+        {
+          "label": "밤하늘에서 찾는 방법",
+          "value": "북두칠성의 국자 그릇 바깥쪽 두 별을 이어 길게 따라가면 북극성 근처에 닿아요.",
+          "source": "exp-polaris"
+        },
+        {
+          "label": "북극성 곁의 별들",
+          "value": "허블로 살펴보니 별 세 개가 한 무리를 이루고 있었어요.",
+          "source": "exp-polaris-image"
+        }
+      ],
+      "sources": [
+        "exp-polaris",
+        "exp-polaris-image"
+      ]
+    },
+    {
+      "id": "tarantula-nebula",
+      "name": "타란툴라 성운",
+      "en": "Tarantula Nebula",
+      "aliases": [
+        "타란툴라성운",
+        "독거미성운",
+        "30 Doradus",
+        "NGC 2070"
+      ],
+      "category": "nebula",
+      "intro": "대마젤란은하 안에서 새 별이 태어나는 큰 구름이에요. 구름 속에서는 아주 많은 어린 별이 반짝여요.",
+      "prompt": "사진 가운데 구름이 움푹 들어간 곳에 모인 어린 별들을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "들어 있는 은하",
+          "value": "대마젤란은하에 있어요.",
+          "source": "exp-tarantula-nebula"
+        },
+        {
+          "label": "은하까지의 거리",
+          "value": "지구에서 약 16만 광년",
+          "source": "exp-tarantula-nebula",
+          "estimated": true
+        },
+        {
+          "label": "먼지 속을 보는 방법",
+          "value": "웹 망원경이 적외선으로 먼지에 가려져 있던 어린 별을 찾았어요.",
+          "source": "exp-tarantula-nebula-image"
+        },
+        {
+          "label": "웹 사진에 담긴 영역",
+          "value": "사진에 담긴 영역은 약 340광년 너비예요.",
+          "source": "exp-tarantula-nebula-image",
+          "detail": true,
+          "estimated": true
+        }
+      ],
+      "sources": [
+        "exp-tarantula-nebula",
+        "exp-tarantula-nebula-image"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "sirius-a",
+      "to": "sirius-b",
+      "forward": "시리우스 A와 서로의 둘레를 도는 작은 별이에요.",
+      "reverse": "시리우스 B와 서로의 둘레를 도는 밝은 별이에요."
+    },
+    {
+      "from": "milky-way",
+      "to": "large-magellanic-cloud",
+      "forward": "우리 은하에 딸린 작은 은하예요.",
+      "reverse": "대마젤란은하가 위성 은하로 딸려 있는 큰 은하예요."
+    },
+    {
+      "from": "large-magellanic-cloud",
+      "to": "tarantula-nebula",
+      "forward": "이 은하 안에서 어린 별이 태어나는 구름이에요.",
+      "reverse": "타란툴라 성운을 품은 은하예요."
+    }
+  ],
+  "sources": {
+    "exp-whirlpool-galaxy": {
+      "name": "NASA 허블 · 메시에 51 소용돌이은하",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/"
+    },
+    "exp-whirlpool-galaxy-image": {
+      "name": "ESA · 소용돌이은하 관측 이미지",
+      "url": "https://esawebb.org/images/potm2308b/"
+    },
+    "exp-sombrero-galaxy": {
+      "name": "ESA 허블 · 솜브레로은하의 모습",
+      "url": "https://esahubble.org/images/opo0328a/"
+    },
+    "exp-large-magellanic-cloud": {
+      "name": "NASA 허블 · 대마젤란은하와 타란툴라 성운",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-studies-the-tarantula-nebulas-outskirts/"
+    },
+    "exp-large-magellanic-cloud-image": {
+      "name": "ESO · 대마젤란은하 관측 이미지",
+      "url": "https://www.eso.org/public/images/eso1021d/"
+    },
+    "exp-eagle-nebula": {
+      "name": "NASA 허블 · 독수리 성운과 창조의 기둥",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/"
+    },
+    "exp-eagle-nebula-image": {
+      "name": "ESA · 독수리 성운 관측 이미지",
+      "url": "https://esahubble.org/images/heic1501a/"
+    },
+    "exp-ring-nebula": {
+      "name": "ESA 웹 · 적외선으로 본 고리성운",
+      "url": "https://esawebb.org/images/weic2320b/"
+    },
+    "exp-omega-centauri": {
+      "name": "ESA 허블 · 오메가 센타우리 성단",
+      "url": "https://esahubble.org/images/heic2409a/"
+    },
+    "exp-sirius-a": {
+      "name": "ESA 허블 · 시리우스 A와 시리우스 B",
+      "url": "https://esahubble.org/images/heic0516a/"
+    },
+    "exp-polaris": {
+      "name": "NASA · 북극성과 북쪽 찾기",
+      "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/"
+    },
+    "exp-polaris-image": {
+      "name": "ESA · 북극성 관측 이미지",
+      "url": "https://esahubble.org/images/opo0602a/"
+    },
+    "exp-tarantula-nebula": {
+      "name": "NASA 허블 · 대마젤란은하의 타란툴라 성운",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-captures-a-tarantula/"
+    },
+    "exp-tarantula-nebula-image": {
+      "name": "ESA · 타란툴라 성운 관측 이미지",
+      "url": "https://esawebb.org/images/weic2212a/"
+    }
+  }
+}
