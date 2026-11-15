@@ -1,0 +1,194 @@
+{
+  "objects": [
+    {
+      "id": "apollo-11",
+      "name": "아폴로 11호 임무",
+      "en": "Apollo 11",
+      "aliases": [
+        "아폴로 11",
+        "Apollo 11 mission"
+      ],
+      "category": "space-mission",
+      "intro": "사람이 처음 달에 내려간 탐사예요. 우주비행사들이 달 위를 걷고 돌을 가져왔어요.",
+      "prompt": "사진 속 우주비행사 앞에 찍힌 발자국을 찾아봐요.",
+      "facts": [
+        {
+          "label": "달에 내린 날",
+          "value": "1969년 7월 20일 (미국 기준)",
+          "source": "nasa-apollo-11-mission"
+        },
+        {
+          "label": "달 위를 걸은 사람",
+          "value": "닐 암스트롱과 버즈 올드린",
+          "source": "nasa-apollo-11-mission"
+        },
+        {
+          "label": "지구로 돌아온 날",
+          "value": "1969년 7월 24일",
+          "source": "nasa-apollo-11-mission",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-apollo-11-mission"
+      ]
+    },
+    {
+      "id": "artemis",
+      "name": "아르테미스 계획",
+      "en": "Artemis Program",
+      "aliases": [
+        "아르테미스",
+        "아르테미스 프로그램",
+        "Artemis"
+      ],
+      "category": "space-mission",
+      "intro": "사람이 다시 달에 가서 탐사하는 계획이에요. 달에서 배운 것으로 언젠가 화성에 갈 준비도 해요.",
+      "prompt": "오리온이 찍은 사진에서 지구와 달을 찾아봐요.",
+      "facts": [
+        {
+          "label": "탐사 목표",
+          "value": "달을 탐사하고 화성 탐사를 준비해요.",
+          "source": "nasa-artemis-program"
+        },
+        {
+          "label": "첫 시험 비행",
+          "value": "2022년 11월, 아르테미스 1호는 사람 없이 출발했어요.",
+          "source": "nasa-artemis-program"
+        },
+        {
+          "label": "두 번째 비행",
+          "value": "2026년 4월, 아르테미스 2호 우주비행사들이 달 주위를 돌아왔어요.",
+          "source": "nasa-artemis-program",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-artemis-program"
+      ]
+    },
+    {
+      "id": "mars-2020",
+      "name": "화성 2020 임무",
+      "en": "Mars 2020",
+      "aliases": [
+        "마스 2020",
+        "Mars 2020 mission"
+      ],
+      "category": "space-mission",
+      "intro": "바퀴 달린 로봇 퍼서비어런스를 화성에 보낸 탐사예요. 아주 오래전에 생물이 살았던 흔적을 찾아요.",
+      "prompt": "우주선 그림에서 바퀴 달린 로봇을 찾아봐요.",
+      "facts": [
+        {
+          "label": "화성에 내린 날",
+          "value": "2021년 2월 18일",
+          "source": "nasa-mars-2020-mission"
+        },
+        {
+          "label": "내린 곳",
+          "value": "화성의 예제로 충돌구",
+          "source": "nasa-mars-2020-mission"
+        },
+        {
+          "label": "돌을 모으는 이유",
+          "value": "훗날 다른 탐사가 돌을 지구로 가져오면 더 자세히 살펴볼 수 있어요.",
+          "source": "nasa-mars-2020-mission",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-mars-2020-mission"
+      ]
+    },
+    {
+      "id": "voyager-program",
+      "name": "보이저 계획",
+      "en": "Voyager Program",
+      "aliases": [
+        "보이저 프로그램",
+        "보이저 탐사 계획",
+        "Voyager"
+      ],
+      "category": "space-mission",
+      "intro": "두 탐사선이 멀리 있는 큰 행성들을 찾아갔어요. 지금은 별과 별 사이 공간을 탐사해요.",
+      "prompt": "보이저 1호를 싣고 떠나는 로켓 아래에서 밝은 불꽃을 찾아봐요.",
+      "facts": [
+        {
+          "label": "출발한 해",
+          "value": "1977년",
+          "source": "nasa-voyager-program"
+        },
+        {
+          "label": "함께 살펴본 행성",
+          "value": "목성과 토성",
+          "source": "nasa-voyager-program"
+        },
+        {
+          "label": "보이저 2호가 더 지나간 행성",
+          "value": "천왕성과 해왕성",
+          "source": "nasa-voyager-program",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-voyager-program"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "apollo-11",
+      "to": "moon",
+      "forward": "사람이 처음 내려간 곳",
+      "reverse": "이곳에 처음 사람이 내려간 임무"
+    },
+    {
+      "from": "artemis",
+      "to": "moon",
+      "forward": "다시 탐사하는 곳",
+      "reverse": "이곳을 다시 탐사하는 계획"
+    },
+    {
+      "from": "mars-2020",
+      "to": "mars",
+      "forward": "로봇을 보낸 곳",
+      "reverse": "이곳에 로봇을 보낸 임무"
+    },
+    {
+      "from": "mars-2020",
+      "to": "perseverance",
+      "forward": "임무를 수행하는 화성 로봇",
+      "reverse": "나를 화성에 보낸 임무"
+    },
+    {
+      "from": "voyager-program",
+      "to": "voyager-1",
+      "forward": "계획에 참여한 탐사선",
+      "reverse": "내가 참여한 탐사 계획"
+    },
+    {
+      "from": "voyager-program",
+      "to": "voyager-2",
+      "forward": "계획에 참여한 탐사선",
+      "reverse": "내가 참여한 탐사 계획"
+    }
+  ],
+  "sources": {
+    "nasa-apollo-11-mission": {
+      "name": "NASA · Apollo 11",
+      "url": "https://www.nasa.gov/mission/apollo-11/"
+    },
+    "nasa-artemis-program": {
+      "name": "NASA · Artemis Program",
+      "url": "https://www.nasa.gov/humans-in-space/artemis/"
+    },
+    "nasa-mars-2020-mission": {
+      "name": "NASA Science · Mars 2020",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+    },
+    "nasa-voyager-program": {
+      "name": "NASA Science · Voyager Mission Overview",
+      "url": "https://science.nasa.gov/mission/voyager/mission-overview/"
+    }
+  }
+}

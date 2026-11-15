@@ -128,6 +128,10 @@ h1, h2, h3 { line-height: 1.23; letter-spacing: -.055em; }
 .schematic[data-category='nebula'] .schematic-body { width: 58%; aspect-ratio: 1.7; background: radial-gradient(ellipse at 38% 64%, #d18a86 3%, #9b6174 22%, transparent 56%), radial-gradient(ellipse at 67% 43%, #a99ce1, #545c9f 29%, transparent 70%); rotate: -17deg; box-shadow: none; }
 .schematic[data-category='galaxy'] .schematic-body { width: 51%; aspect-ratio: 2.35; background: radial-gradient(ellipse, #fff4cf, #b1a1d0 22%, #606897 41%, transparent 68%); rotate: -22deg; box-shadow: none; }
 .schematic[data-category='cluster'] .schematic-body { width: .32rem; background: #fff0c2; box-shadow: -.8rem -1.3rem #dedcff, .95rem .9rem #ffdc9e, 1.6rem -.83rem #e0e8fd, -1.5rem -.1rem #a4b2d9, -.95rem .72rem #c2cdf3, .58rem -1.5rem #faf1ca, .25rem 1.7rem #bcb8f1, 1.7rem .55rem #e8d3ff; }
+.schematic:is([data-category='artificial-satellite'], [data-category='spacecraft']) .schematic-body { width: 13%; border-radius: .2rem; background: #c5d4e1; box-shadow: none; rotate: -20deg; }
+.schematic:is([data-category='artificial-satellite'], [data-category='spacecraft']) .schematic-body::before { content: ''; position: absolute; z-index: -1; inset: 25% -140%; background: repeating-linear-gradient(90deg, #4f76b4 0 18%, #304a76 18% 20%); border: 1px solid #a5b8d5; }
+.schematic[data-category='space-mission'] .schematic-body { width: 14%; border-radius: 0; background: #f4c384; box-shadow: none; clip-path: polygon(0 0, 100% 0, 72% 26%, 100% 52%, 14% 52%, 14% 100%, 0 100%); }
+.schematic[data-category='constellation'] .schematic-body { width: .32rem; background: #fff0c2; box-shadow: -1.45rem -.7rem #e4edff, 1.1rem -1.25rem #e4edff, 1.75rem .6rem #fff0c2, -.85rem 1.2rem #e4edff; }
 .visual-caption { position: absolute; inset: auto 0 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: .1rem .7rem; min-height: 1.6rem; padding: .25rem .58rem; color: #f5ebdb; background: #070b13e8; font-size: .7rem; line-height: 1.4; }
 .visual-type { font-weight: 750; }
 .visual-credit { font-family: Geist, Arial, sans-serif; overflow-wrap: anywhere; }

@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_VERSION = '9420d4f75e2b7dcb';
+const CACHE_VERSION = '3df5e1fefeb81cd7';
 const scope = new URL(self.registration.scope);
 const prefix = `space-atlas:${scope.pathname}:`;
 const cacheName = `${prefix}${CACHE_VERSION}`;

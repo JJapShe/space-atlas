@@ -1,0 +1,284 @@
+{
+  "objects": [
+    {
+      "id": "voyager-1",
+      "name": "보이저 1호",
+      "en": "Voyager 1",
+      "aliases": [
+        "보이저 1",
+        "Voyager I"
+      ],
+      "category": "spacecraft",
+      "intro": "보이저 1호는 목성과 토성 가까이로 날아갔어요. 지금은 별과 별 사이의 공간을 지나고 있어요.",
+      "prompt": "그림에서 큰 접시처럼 생긴 안테나를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서 출발한 해",
+          "value": "1977년",
+          "source": "nasa-craft-voyager-1"
+        },
+        {
+          "label": "가까이서 본 행성",
+          "value": "목성과 토성",
+          "source": "nasa-craft-voyager-1"
+        },
+        {
+          "label": "별 사이 공간에 들어간 해",
+          "value": "2012년",
+          "source": "nasa-craft-voyager-1",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-craft-voyager-1"
+      ]
+    },
+    {
+      "id": "voyager-2",
+      "name": "보이저 2호",
+      "en": "Voyager 2",
+      "aliases": [
+        "보이저 2",
+        "Voyager II"
+      ],
+      "category": "spacecraft",
+      "intro": "보이저 2호는 큰 행성 네 곳을 가까이서 봤어요. 천왕성과 해왕성까지 간 유일한 탐사선이에요.",
+      "prompt": "탐사선 그림에서 몸 밖으로 길게 뻗은 부분을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "지구에서 출발한 해",
+          "value": "1977년",
+          "source": "nasa-craft-voyager-2"
+        },
+        {
+          "label": "가까이서 본 행성",
+          "value": "목성·토성·천왕성·해왕성",
+          "source": "nasa-craft-voyager-2"
+        }
+      ],
+      "sources": [
+        "nasa-craft-voyager-2"
+      ]
+    },
+    {
+      "id": "new-horizons",
+      "name": "뉴호라이즌스",
+      "en": "New Horizons",
+      "aliases": [
+        "뉴 허라이즌스",
+        "뉴 호라이즌스"
+      ],
+      "category": "spacecraft",
+      "intro": "뉴호라이즌스는 명왕성을 처음으로 가까이서 본 탐사선이에요. 더 멀리 날아가 아로코트도 살펴봤어요.",
+      "prompt": "그림에서 명왕성을 향해 날아가는 탐사선을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "명왕성 가까이를 지난 해",
+          "value": "2015년",
+          "source": "nasa-craft-new-horizons"
+        },
+        {
+          "label": "아로코트 가까이를 지난 해",
+          "value": "2019년",
+          "source": "nasa-craft-new-horizons"
+        }
+      ],
+      "sources": [
+        "nasa-craft-new-horizons"
+      ]
+    },
+    {
+      "id": "cassini",
+      "name": "카시니",
+      "en": "Cassini",
+      "aliases": [
+        "카시니 탐사선",
+        "Cassini Orbiter"
+      ],
+      "category": "spacecraft",
+      "intro": "카시니는 처음으로 토성 둘레를 돌았어요. 토성의 고리와 토성을 도는 달들을 가까이서 봤어요.",
+      "prompt": "그림에서 카시니의 둥근 접시 모양 안테나를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "토성 둘레를 돌기 시작한 해",
+          "value": "2004년",
+          "source": "nasa-craft-cassini"
+        },
+        {
+          "label": "가까이서 본 것",
+          "value": "토성의 고리와 위성들",
+          "source": "nasa-craft-cassini"
+        }
+      ],
+      "sources": [
+        "nasa-craft-cassini"
+      ]
+    },
+    {
+      "id": "juno",
+      "name": "주노",
+      "en": "Juno",
+      "aliases": [
+        "주노 탐사선",
+        "Juno spacecraft"
+      ],
+      "category": "spacecraft",
+      "intro": "주노는 목성 둘레를 돌며 구름 아래를 살펴봐요. 목성의 북쪽과 남쪽을 지나가며 폭풍도 관찰했어요.",
+      "prompt": "그림에서 주노의 몸 밖으로 뻗은 판을 세어 볼까요?",
+      "facts": [
+        {
+          "label": "목성 둘레를 돌기 시작한 해",
+          "value": "2016년",
+          "source": "nasa-craft-juno"
+        },
+        {
+          "label": "관찰하는 곳",
+          "value": "목성의 구름과 그 아래",
+          "source": "nasa-craft-juno"
+        }
+      ],
+      "sources": [
+        "nasa-craft-juno"
+      ]
+    },
+    {
+      "id": "perseverance",
+      "name": "퍼서비어런스",
+      "en": "Perseverance",
+      "aliases": [
+        "퍼서비어런스 로버",
+        "Perseverance Rover"
+      ],
+      "category": "spacecraft",
+      "intro": "퍼서비어런스는 바퀴로 화성을 돌아다니는 로봇이에요. 아주 오래전 화성에 생명이 살았는지 단서를 찾아요.",
+      "prompt": "화성에 서 있는 로봇의 바퀴를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "화성에 내린 해",
+          "value": "2021년",
+          "source": "nasa-craft-perseverance"
+        },
+        {
+          "label": "하는 일",
+          "value": "오래전 생명의 흔적이 있는지 알아보기",
+          "source": "nasa-craft-perseverance"
+        }
+      ],
+      "sources": [
+        "nasa-craft-perseverance"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "voyager-1",
+      "to": "jupiter",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "voyager-1",
+      "to": "saturn",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "jupiter",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "saturn",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "uranus",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "voyager-2",
+      "to": "neptune",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "new-horizons",
+      "to": "pluto",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "new-horizons",
+      "to": "charon",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "new-horizons",
+      "to": "arrokoth",
+      "forward": "이 탐사선이 가까이로 날아갔어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "cassini",
+      "to": "saturn",
+      "forward": "이 탐사선이 가까이서 살펴봤어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "cassini",
+      "to": "titan",
+      "forward": "이 탐사선이 가까이서 살펴봤어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "cassini",
+      "to": "enceladus",
+      "forward": "이 탐사선이 가까이서 살펴봤어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "juno",
+      "to": "jupiter",
+      "forward": "이 탐사선이 가까이서 살펴봤어요",
+      "reverse": "여기를 가까이서 본 탐사선이에요"
+    },
+    {
+      "from": "perseverance",
+      "to": "mars",
+      "forward": "이 로봇이 돌아다니는 곳이에요",
+      "reverse": "여기를 돌아다니는 로봇이에요"
+    }
+  ],
+  "sources": {
+    "nasa-craft-voyager-1": {
+      "name": "NASA · 보이저 1호",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    "nasa-craft-voyager-2": {
+      "name": "NASA · 보이저 2호",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-2/"
+    },
+    "nasa-craft-new-horizons": {
+      "name": "NASA · 뉴호라이즌스",
+      "url": "https://science.nasa.gov/mission/new-horizons/"
+    },
+    "nasa-craft-cassini": {
+      "name": "NASA · 카시니",
+      "url": "https://science.nasa.gov/mission/cassini/"
+    },
+    "nasa-craft-juno": {
+      "name": "NASA · 주노",
+      "url": "https://science.nasa.gov/mission/juno/"
+    },
+    "nasa-craft-perseverance": {
+      "name": "NASA · 퍼서비어런스",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+    }
+  }
+}

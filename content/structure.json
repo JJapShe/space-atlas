@@ -224,6 +224,50 @@
         "nasa-galaxy-types",
         "kasi-solar-overview"
       ]
+    },
+    {
+      "id": "artificial-satellite",
+      "name": "인공위성",
+      "aliases": ["인공 위성", "artificial satellite"],
+      "summary": "사람이 만든 기계가 우주에서 지구나 다른 천체 주위를 돌면 인공위성이에요. 하늘에서 지구를 바라보거나 신호를 주고받아요.",
+      "traits": [
+        "지구를 찍어서 구름이나 바다의 모습을 살펴보는 인공위성이 있어요.",
+        "망원경을 달아서 멀리 있는 별과 은하를 관측하는 인공위성도 있어요."
+      ],
+      "sources": ["nasa-artificial-satellite"]
+    },
+    {
+      "id": "spacecraft",
+      "name": "우주선과 탐사선",
+      "aliases": ["우주선", "탐사선", "우주 탐사선", "spacecraft", "space probe"],
+      "summary": "우주를 다니거나 다른 천체를 살펴보도록 만든 기계예요. 우주인이 타기도 하고, 사람이 타지 않고 먼 곳을 탐험하기도 해요.",
+      "traits": [
+        "탐사선은 카메라와 관측 장비로 먼 곳의 모습을 살펴봐요.",
+        "지구의 큰 안테나로 사진과 자료를 보내요."
+      ],
+      "sources": ["nasa-space-communications"]
+    },
+    {
+      "id": "space-mission",
+      "name": "우주 탐사 임무",
+      "aliases": ["우주 탐사", "우주 임무", "탐사 계획", "space mission"],
+      "summary": "사람들이 힘을 모아 우주에서 어떤 일을 해내는 활동이에요. 탐사선이나 우주 비행사가 어떤 일을 했는지 살펴봐요.",
+      "traits": [
+        "다른 행성을 촬영하거나 달을 직접 찾아가는 임무가 있어요.",
+        "보이저 임무에는 보이저 1호와 2호, 탐사선 두 대가 함께했어요."
+      ],
+      "sources": ["nasa-voyager-mission", "nasa-space-communications"]
+    },
+    {
+      "id": "constellation",
+      "name": "별자리",
+      "aliases": ["별자리 지도", "constellation"],
+      "summary": "하늘을 지도처럼 나눈 구역이에요. 밝은 별들을 이어 모양을 찾으면 밤하늘에서 방향을 잡기 쉬워요.",
+      "traits": [
+        "공식 별자리 88개가 온 하늘을 나눠요.",
+        "한 별자리의 별이라도 지구에서 각각 다른 거리에 있을 수 있어요."
+      ],
+      "sources": ["iau-constellations-overview"]
     }
   ],
   "regions": [
@@ -412,6 +456,22 @@
     }
   ],
   "sources": {
+    "nasa-artificial-satellite": {
+      "name": "NASA · 인공위성이란?",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-satellite-grades-k-4/"
+    },
+    "nasa-space-communications": {
+      "name": "NASA · 우주 임무와 지구 사이의 통신",
+      "url": "https://www.nasa.gov/communicating-with-missions/"
+    },
+    "nasa-voyager-mission": {
+      "name": "NASA · 보이저 탐사 임무",
+      "url": "https://science.nasa.gov/mission/voyager/"
+    },
+    "iau-constellations-overview": {
+      "name": "국제천문연맹 · 공식 별자리의 이름과 구역",
+      "url": "https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx?hkey=bb9dc841-0618-41b5-ac70-149741062141"
+    },
     "nasa-planets": {
       "name": "NASA · 태양계의 행성",
       "url": "https://science.nasa.gov/solar-system/planets/"

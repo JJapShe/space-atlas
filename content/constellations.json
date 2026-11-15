@@ -1,0 +1,294 @@
+{
+  "objects": [
+    {
+      "id": "orion-constellation",
+      "name": "오리온자리",
+      "en": "Orion",
+      "aliases": [
+        "오리온",
+        "오리온 허리띠"
+      ],
+      "category": "constellation",
+      "intro": "밝은 별 세 개가 줄지어 있어요. 옛사람들은 이 줄을 사냥꾼의 허리띠로 봤어요.",
+      "prompt": "별자리 지도에서 나란한 별 세 개를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "가운데 별 세 개",
+          "value": "나란히 모여 보이는 별 세 개를 오리온의 허리띠라고 불러요.",
+          "source": "kasi-orion-constellation"
+        },
+        {
+          "label": "눈에 띄는 두 별",
+          "value": "붉게 보이는 베텔게우스와 푸른빛이 도는 리겔이 있어요.",
+          "source": "nasa-orion-constellation"
+        },
+        {
+          "label": "허리띠 아래",
+          "value": "오리온 성운이 있는 방향이에요.",
+          "source": "nasa-orion-constellation",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "kasi-orion-constellation",
+        "nasa-orion-constellation",
+        "orion-constellation-chart",
+        "iau-constellation-charts"
+      ]
+    },
+    {
+      "id": "ursa-major",
+      "name": "큰곰자리",
+      "en": "Ursa Major",
+      "aliases": [
+        "큰곰",
+        "북두칠성",
+        "Big Dipper",
+        "Great Bear"
+      ],
+      "category": "constellation",
+      "intro": "큰곰자리에는 국자처럼 보이는 별 일곱 개가 있어요. 그 별들을 북두칠성이라고 불러요.",
+      "prompt": "지도에서 국자의 그릇과 긴 손잡이를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "국자 모양",
+          "value": "북두칠성은 큰곰자리의 일부분이에요.",
+          "source": "iau-constellation-charts"
+        },
+        {
+          "label": "보이는 쪽",
+          "value": "북쪽 하늘에서 볼 수 있어요.",
+          "source": "kasi-north-constellations"
+        },
+        {
+          "label": "손잡이에서 만나는 별",
+          "value": "북두칠성 손잡이의 끝에서 두 번째 별은 미자르예요.",
+          "source": "nasa-big-dipper-stars",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "kasi-north-constellations",
+        "nasa-big-dipper-stars",
+        "ursa-major-chart",
+        "iau-constellation-charts"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "카시오페이아자리",
+      "en": "Cassiopeia",
+      "aliases": [
+        "카시오페이아",
+        "카시오페아자리",
+        "W 별자리"
+      ],
+      "category": "constellation",
+      "intro": "북쪽 하늘에서 별 다섯 개가 지그재그로 보여요. 이어 보면 글자 W를 닮았어요.",
+      "prompt": "지도의 지그재그를 따라 별을 하나씩 세어 볼까요?",
+      "facts": [
+        {
+          "label": "지그재그 모양",
+          "value": "밝은 별 다섯 개로 W 모양을 찾을 수 있어요.",
+          "source": "nasa-cassiopeia-w"
+        },
+        {
+          "label": "북쪽 하늘의 길잡이",
+          "value": "카시오페이아자리를 보고 북극성이 있는 쪽을 찾을 수 있어요.",
+          "source": "kasi-north-constellations"
+        }
+      ],
+      "sources": [
+        "nasa-cassiopeia-w",
+        "kasi-north-constellations",
+        "cassiopeia-chart",
+        "iau-constellation-charts"
+      ]
+    },
+    {
+      "id": "scorpius",
+      "name": "전갈자리",
+      "en": "Scorpius",
+      "aliases": [
+        "전갈",
+        "Scorpion",
+        "Scorpio"
+      ],
+      "category": "constellation",
+      "intro": "별을 이어 보면 꼬리가 굽은 전갈을 닮았어요. 몸통에는 밝고 붉은 별 안타레스가 있어요.",
+      "prompt": "별자리 지도에서 꼬리가 끝나는 곳을 찾아볼까요?",
+      "facts": [
+        {
+          "label": "몸통의 붉은 별",
+          "value": "전갈의 몸통 쪽에 붉은 안타레스가 보여요.",
+          "source": "kasi-scorpius"
+        },
+        {
+          "label": "꼬리에 보이는 별 무리",
+          "value": "꼬리 근처 하늘에는 M6와 M7이라는 별 무리도 보여요.",
+          "source": "nasa-scorpius-map",
+          "detail": true
+        },
+        {
+          "label": "한국에서 찾기 좋은 때",
+          "value": "전갈자리는 여름철 별자리예요.",
+          "source": "kasi-scorpius"
+        }
+      ],
+      "sources": [
+        "kasi-scorpius",
+        "nasa-scorpius-map",
+        "scorpius-chart",
+        "iau-constellation-charts"
+      ]
+    },
+    {
+      "id": "cygnus",
+      "name": "백조자리",
+      "en": "Cygnus",
+      "aliases": [
+        "백조",
+        "북십자",
+        "Northern Cross",
+        "Swan"
+      ],
+      "category": "constellation",
+      "intro": "별을 이어 보면 날개를 편 백조 같아요. 꼬리 쪽의 데네브는 여름 밤하늘에서 밝게 보여요.",
+      "prompt": "지도에서 백조의 두 날개를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "꼬리와 부리",
+          "value": "데네브는 백조의 꼬리 쪽, 알비레오는 부리 쪽에 있어요.",
+          "source": "nasa-cygnus-deneb"
+        },
+        {
+          "label": "여름의 큰 삼각형",
+          "value": "데네브는 밤하늘의 여름철 대삼각형을 이루는 별 셋 중 하나예요.",
+          "source": "nasa-cygnus-deneb"
+        },
+        {
+          "label": "부리 쪽을 망원경으로 보면",
+          "value": "알비레오는 망원경으로 보면 색이 다른 별 두 개로 나뉘어 보여요.",
+          "source": "kasi-cygnus",
+          "detail": true
+        }
+      ],
+      "sources": [
+        "nasa-cygnus-deneb",
+        "kasi-cygnus",
+        "cygnus-chart",
+        "iau-constellation-charts"
+      ]
+    },
+    {
+      "id": "andromeda-constellation",
+      "name": "안드로메다자리",
+      "en": "Andromeda",
+      "aliases": [
+        "Andromeda constellation",
+        "안드로메다 별자리"
+      ],
+      "category": "constellation",
+      "intro": "북쪽 하늘에 있는 별자리예요. 이쪽 하늘을 보면 아주 멀리 있는 안드로메다은하도 찾을 수 있어요.",
+      "prompt": "별자리 지도에서 은하를 가리키는 ‘M31’ 표시를 찾아볼까요?",
+      "facts": [
+        {
+          "label": "별자리에서 찾는 은하",
+          "value": "M31은 안드로메다은하를 나타내는 이름이에요.",
+          "source": "nasa-andromeda-constellation"
+        },
+        {
+          "label": "밝은 별 두 개",
+          "value": "알페라츠와 미라크는 안드로메다자리 쪽에서 볼 수 있어요.",
+          "source": "kasi-andromeda-constellation"
+        },
+        {
+          "label": "한국에서 찾기 좋은 때",
+          "value": "안드로메다자리는 가을철 별자리예요.",
+          "source": "kasi-andromeda-constellation"
+        }
+      ],
+      "sources": [
+        "nasa-andromeda-constellation",
+        "kasi-andromeda-constellation",
+        "andromeda-constellation-chart",
+        "iau-constellation-charts"
+      ]
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "iau-constellation-charts": {
+      "name": "국제천문연맹 · 공식 별자리와 별자리 지도",
+      "url": "https://www.iau.org/IAU/Astronomy-FAQs/Constellations.aspx"
+    },
+    "orion-constellation-chart": {
+      "name": "IAU·Sky & Telescope · 오리온자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Orion_IAU.svg"
+    },
+    "kasi-orion-constellation": {
+      "name": "한국천문연구원 · 오리온자리",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5355"
+    },
+    "nasa-orion-constellation": {
+      "name": "NASA 허블 · 오리온자리와 오리온 성운",
+      "url": "https://science.nasa.gov/asset/hubble/orion-constellation/"
+    },
+    "ursa-major-chart": {
+      "name": "IAU·Sky & Telescope · 큰곰자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Ursa_Major_IAU.svg"
+    },
+    "kasi-north-constellations": {
+      "name": "한국천문연구원 · 북쪽 하늘의 별자리",
+      "url": "https://astro.kasi.re.kr/kor/post/northernConstellation/71356"
+    },
+    "nasa-big-dipper-stars": {
+      "name": "NASA APOD · 북두칠성의 별들",
+      "url": "https://science.nasa.gov/image-article/apod-2006-march-17-the-big-dipper-cluster/"
+    },
+    "cassiopeia-chart": {
+      "name": "IAU·Sky & Telescope · 카시오페이아자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Cassiopeia_IAU.svg"
+    },
+    "nasa-cassiopeia-w": {
+      "name": "NASA APOD · 카시오페이아의 W",
+      "url": "https://science.nasa.gov/image-article/apod-2016-march-18-the-w-in-cassiopeia/"
+    },
+    "scorpius-chart": {
+      "name": "IAU·Sky & Telescope · 전갈자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Scorpius_IAU.svg"
+    },
+    "kasi-scorpius": {
+      "name": "한국천문연구원 · 전갈자리",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5363"
+    },
+    "nasa-scorpius-map": {
+      "name": "NASA · 전갈자리와 M6·M7 별 지도",
+      "url": "https://science.nasa.gov/image-detail/skychart-scorpiusm6m7-july-2024/"
+    },
+    "cygnus-chart": {
+      "name": "IAU·Sky & Telescope · 백조자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Cygnus_IAU.svg"
+    },
+    "nasa-cygnus-deneb": {
+      "name": "NASA 밤하늘 네트워크 · 백조자리 데네브",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-deneb/"
+    },
+    "kasi-cygnus": {
+      "name": "한국천문연구원 · 백조자리",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5342"
+    },
+    "andromeda-constellation-chart": {
+      "name": "IAU·Sky & Telescope · 안드로메다자리 지도",
+      "url": "https://commons.wikimedia.org/wiki/File:Andromeda_IAU.svg"
+    },
+    "nasa-andromeda-constellation": {
+      "name": "NASA 허블 · 안드로메다자리와 은하 M31",
+      "url": "https://science.nasa.gov/asset/hubble/andromeda-constellation/"
+    },
+    "kasi-andromeda-constellation": {
+      "name": "한국천문연구원 · 안드로메다자리",
+      "url": "https://astro.kasi.re.kr/learning/pageView/5352"
+    }
+  }
+}
